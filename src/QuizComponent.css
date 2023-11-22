@@ -1,0 +1,20 @@
+/* QuizComponent.css */
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.incorrect {
+  background-color: red;
+  color: white;
+}
+
+/* Add these styles to your CSS file */
+li.selected {
+  background-color: red; /* Set the background color for selected options */
+}
+
+li.correct {
+  background-color: green; /* Set the background color for correct answers */
+}

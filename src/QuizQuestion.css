@@ -1,0 +1,15 @@
+/* QuizQuestion.css */
+
+.selected {
+  background-color: #3498db; /* Selected option background color */
+  color: #ffffff; /* Selected option text color */
+  font-weight: bold; /* Optionally make the text bold for the selected option */
+}
+
+.correct {
+  background-color: #2ecc71; /* Correct option background color (green) */
+}
+
+.incorrect {
+  background-color: #e74c3c; /* Incorrect option background color (red) */
+}
