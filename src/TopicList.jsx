@@ -1,7 +1,8 @@
 // TopicList.js
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom'
-import './TopicList.css' // Make sure to import your CSS file
+import './css/TopicList.css' // Make sure to import your CSS file
+//import './Styles.css'
 
 const TopicList = ({ topics }) => {
   const history = useHistory()
@@ -30,7 +31,9 @@ const TopicList = ({ topics }) => {
 
   return (
     <div>
-      <h2>Choose a Topic:</h2>
+      <button className="topic-heading-button">PSC QUIZ</button>
+      <br />
+      <button className="topic-heading-button">Choose a Topic</button>
       <ul>
         {topics.map((topic) => (
           <li key={topic.id}>

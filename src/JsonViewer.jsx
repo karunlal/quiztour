@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import Quiz from './Quiz'
 import fetchData from './DataService'
+//import './Styles.css'
+import './css/JsonViewer.css'
 
 const JsonViewer = ({ topics }) => {
   const { topicId, subtopicId } = useParams()
@@ -44,7 +46,6 @@ const JsonViewer = ({ topics }) => {
       {selectedSubtopic && (
         <div>
           <h3>Subtopic: {selectedSubtopic.name}</h3>
-          <h4>JSON Data from {selectedSubtopic.jsonUrl}</h4>
           {jsonData ? (
             <div>
               <Quiz jsonData={jsonData} />

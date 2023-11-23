@@ -1,0 +1,225 @@
+/* styles.css */
+
+/* Common styles for the main container and responsive container wrapper */
+.json-viewer-container,
+.quiz-responsive-container,
+.quiz-container,
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px; /* Add padding for spacing inside the container */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  /* Add any specific styles for smaller screens here */
+  /* You can adjust font sizes, margins, paddings, etc. */
+  .topic-heading-button {
+    font-size: 18px; /* Decrease font size for smaller screens */
+  }
+
+  .topic-button {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+
+  .subtopic-button {
+    font-size: 12px; /* Decrease font size for smaller screens */
+  }
+}
+
+/* Styles for the topic heading button */
+.topic-heading-button {
+  background-color: #5b34db; /* Blue color */
+  color: #fff; /* White text color */
+  padding: 12px 20px; /* Increase padding for a larger heading */
+  margin: 8px; /* Add more margin for better spacing */
+  cursor: pointer; /* Show pointer cursor on hover */
+  border: 2px solid #5b34db; /* Add a subtle border */
+  border-radius: 6px; /* Add rounded corners */
+  font-size: 24px; /* Adjust the font size for a larger heading */
+  font-weight: bold; /* Set font weight to bold for emphasis */
+  text-transform: uppercase; /* Convert text to uppercase for a heading feel */
+}
+
+/* Hover effect for the topic heading button */
+.topic-heading-button:hover {
+  background-color: #3f229c; /* Darker shade on hover */
+  border-color: #3f229c; /* Darker border on hover */
+  color: #fff; /* White text color on hover */
+}
+
+/* Hover effect for buttons */
+.topic-button:hover,
+.subtopic-button:hover {
+  opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+}
+
+/* QuizComponent.css */
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.incorrect {
+  background-color: red;
+  color: white;
+}
+
+/* Add these styles to your CSS file */
+li.selected {
+  background-color: red; /* Set the background color for selected options */
+}
+
+li.correct {
+  background-color: green; /* Set the background color for correct answers */
+}
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.quiz-content {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: relative;
+}
+
+/* Responsive Styles */
+@media only screen and (min-width: 600px) {
+  .quiz-content {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .quiz-content {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .quiz-content {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .quiz-content {
+    width: 50%;
+  }
+}
+
+.quiz-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.next-question-button,
+.submit-button,
+.show-details-button {
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.next-question-button {
+  background-color: #4f4caf; /* Green color for "Next Question" button */
+}
+
+.next-question-button:disabled {
+  background-color: #dddddd;
+  cursor: not-allowed;
+}
+
+.submit-button {
+  background-color: #3498db; /* Blue color for "Submit Quiz" button */
+}
+
+.show-details-button.available {
+  background-color: red; /* Red color for "Show Details" button */
+}
+
+/* QuizQuestion.css */
+.quiz-question {
+  margin-bottom: 20px;
+}
+
+.question-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.question-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.options-list {
+  list-style: none;
+  padding: 0;
+}
+
+.option-text {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.option-text.selected {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+.option-text.correct {
+  background-color: #2ecc71;
+}
+
+.option-text.incorrect {
+  background-color: #e74c3c;
+}
+
+/* TopicList.css */
+
+/* Your existing styles */
+
+/* Responsive container wrapper */
+.container {
+  width: 100%;
+  max-width: 960px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container */
+  padding: 16px; /* Add some padding inside the container */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .topic-heading-button {
+    font-size: 18px; /* Decrease font size for smaller screens */
+  }
+
+  .topic-button {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+
+  .subtopic-button {
+    font-size: 12px; /* Decrease font size for smaller screens */
+  }
+}

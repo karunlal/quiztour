@@ -28,3 +28,10 @@
 .loading-message {
   color: #999; /* Even lighter text color */
 }
+
+h2 {
+  font-style: italic;
+}
+h3 {
+  font-style: italic;
+}

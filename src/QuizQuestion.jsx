@@ -1,6 +1,8 @@
 // QuizQuestion.jsx
 import React, { useEffect, useState } from 'react'
-import './QuizQuestion.css'
+
+import './css/QuizQuestion.css'
+//import './Styles.css'
 import { shuffleArray } from './QuizUtils'
 
 const QuizQuestion = ({ questionData, userAnswer, onAnswerClick }) => {
@@ -19,10 +21,11 @@ const QuizQuestion = ({ questionData, userAnswer, onAnswerClick }) => {
 
   return (
     <div className="quiz-question">
-      <h1 className="question-header">
-        Quiz Question {questionData.index + 1}
+      <h1 className="question-header" style={{ lineHeight: '1.5' }}>
+        {questionData.index + 1}) {questionData.question}{' '}
+        {/* Display question number */}
       </h1>
-      <p className="question-text">{questionData.question}</p>
+      <p className="question-text" style={{ lineHeight: '1.5' }}></p>
       <ul className="options-list">
         {shuffledOptions.map((option, optionIndex) => (
           <li

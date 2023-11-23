@@ -6,22 +6,25 @@ import JsonViewer from './JsonViewer'
 import TopicList from './TopicList'
 import topics from './Topics'
 import Quiz from './Quiz'
+import Button from 'react-bootstrap/Button'
+import './Styles.css'
 
 const App = () => {
   return (
-    <Router>
-      <div className="App">
-        <h1>Quiz App</h1>
-        <Switch>
-          <Route path="/topics/:topicId/:subtopicId">
-            <JsonViewer topics={topics} />
-          </Route>
-          <Route path="/">
-            <TopicList topics={topics} />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+    <div>
+      <Router>
+        <>
+          <Switch>
+            <Route path="/topics/:topicId/:subtopicId">
+              <JsonViewer topics={topics} />
+            </Route>
+            <Route path="/">
+              <TopicList topics={topics} />
+            </Route>
+          </Switch>
+        </>
+      </Router>
+    </div>
   )
 }
 
