@@ -1,0 +1,30 @@
+/* JsonViewer.css */
+
+/* Style for the main container */
+.json-viewer-container {
+  max-width: 800px; /* Set a maximum width for better readability */
+  margin: auto; /* Center the container on the page */
+}
+
+/* Style for the topic heading */
+.topic-heading {
+  color: #333; /* Dark text color */
+  margin-bottom: 16px; /* Add some space between the heading and content */
+}
+
+/* Style for the subtopic heading */
+.subtopic-heading {
+  color: #555; /* Slightly darker text color */
+  margin-bottom: 8px; /* Add some space between the heading and content */
+}
+
+/* Style for the JSON data heading */
+.json-data-heading {
+  color: #777; /* Lighter text color */
+  margin-bottom: 8px; /* Add some space between the heading and content */
+}
+
+/* Style for the loading message */
+.loading-message {
+  color: #999; /* Even lighter text color */
+}

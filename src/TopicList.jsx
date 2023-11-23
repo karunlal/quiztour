@@ -1,6 +1,7 @@
 // TopicList.js
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom'
+import './TopicList.css' // Make sure to import your CSS file
 
 const TopicList = ({ topics }) => {
   const history = useHistory()
@@ -33,7 +34,10 @@ const TopicList = ({ topics }) => {
       <ul>
         {topics.map((topic) => (
           <li key={topic.id}>
-            <button onClick={() => handleTopicClick(topic)}>
+            <button
+              className="topic-button"
+              onClick={() => handleTopicClick(topic)}
+            >
               <strong>{topic.name}</strong>
             </button>
             {isTopicExpanded(topic) && (
@@ -41,6 +45,7 @@ const TopicList = ({ topics }) => {
                 {topic.subtopics.map((subtopic) => (
                   <li key={subtopic.id}>
                     <button
+                      className="subtopic-button"
                       onClick={() => handleSubtopicClick(subtopic, topic)}
                     >
                       {subtopic.name}

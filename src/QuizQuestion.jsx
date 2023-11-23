@@ -8,7 +8,6 @@ const QuizQuestion = ({ questionData, userAnswer, onAnswerClick }) => {
 
   useEffect(() => {
     // Shuffle options when questionData changes
-    console.log('Shuffling options...')
     setShuffledOptions(shuffleArray(questionData.options))
   }, [questionData])
 
@@ -19,13 +18,15 @@ const QuizQuestion = ({ questionData, userAnswer, onAnswerClick }) => {
   }
 
   return (
-    <div>
-      <h1>Quiz Question {questionData.index + 1}</h1>
-      <p>{questionData.question}</p>
-      <ul>
+    <div className="quiz-question">
+      <h1 className="question-header">
+        Quiz Question {questionData.index + 1}
+      </h1>
+      <p className="question-text">{questionData.question}</p>
+      <ul className="options-list">
         {shuffledOptions.map((option, optionIndex) => (
           <li
-            key={`${questionData.index}-${optionIndex}`} // Ensure a stable key
+            key={`${questionData.index}-${option}`} // Ensure a stable key
             onClick={() => handleOptionClick(option)}
             className={`
               ${userAnswer === option ? 'selected' : ''}
@@ -49,7 +50,7 @@ const QuizQuestion = ({ questionData, userAnswer, onAnswerClick }) => {
             `}
             style={{ cursor: 'pointer' }}
           >
-            {option}
+            <span className="option-text">{option}</span>
           </li>
         ))}
       </ul>

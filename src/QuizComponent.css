@@ -18,3 +18,81 @@ li.selected {
 li.correct {
   background-color: green; /* Set the background color for correct answers */
 }
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.quiz-content {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: relative;
+}
+
+/* Responsive Styles */
+@media only screen and (min-width: 600px) {
+  .quiz-content {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .quiz-content {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .quiz-content {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .quiz-content {
+    width: 50%;
+  }
+}
+
+.quiz-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.next-question-button,
+.submit-button,
+.show-details-button {
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.next-question-button {
+  background-color: #4f4caf; /* Green color for "Next Question" button */
+}
+
+.next-question-button:disabled {
+  background-color: #dddddd;
+  cursor: not-allowed;
+}
+
+.submit-button {
+  background-color: #3498db; /* Blue color for "Submit Quiz" button */
+}
+
+.show-details-button.available {
+  background-color: red; /* Red color for "Show Details" button */
+}

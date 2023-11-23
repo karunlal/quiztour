@@ -1,5 +1,6 @@
 // App.js
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import JsonViewer from './JsonViewer'
 import TopicList from './TopicList'

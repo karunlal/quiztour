@@ -1,0 +1,29 @@
+/* TopicList.css */
+
+/* Style for the main topic button */
+.topic-button {
+  background-color: #3498db; /* Blue color */
+  color: #fff; /* White text color */
+  padding: 8px 16px; /* Add padding for better appearance */
+  margin: 4px; /* Add margin between buttons */
+  cursor: pointer; /* Show pointer cursor on hover */
+  border: none; /* Remove button border */
+  border-radius: 4px; /* Add rounded corners */
+}
+
+/* Style for the subtopic button */
+.subtopic-button {
+  background-color: #2ecc71; /* Green color */
+  color: #fff; /* White text color */
+  padding: 8px 12px; /* Add padding for better appearance */
+  margin: 4px; /* Add margin between buttons */
+  cursor: pointer; /* Show pointer cursor on hover */
+  border: none; /* Remove button border */
+  border-radius: 4px; /* Add rounded corners */
+}
+
+/* Hover effect for buttons */
+.topic-button:hover,
+.subtopic-button:hover {
+  opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+}
