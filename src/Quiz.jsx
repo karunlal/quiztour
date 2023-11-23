@@ -1,9 +1,9 @@
 // Quiz.js
 import React, { useState, useEffect } from 'react'
 import QuizQuestion from './QuizQuestion'
-import QuizResult from './QuizResult' // Import the new QuizResult component
+
 import { useHistory } from 'react-router-dom'
-import './Styles.css'
+import './css/QuizComponent.css'
 
 const Quiz = ({ jsonData }) => {
   const [userAnswers, setUserAnswers] = useState({})
@@ -62,6 +62,19 @@ const Quiz = ({ jsonData }) => {
     setShowFeedback(true)
   }
 
+  const handleFinalSubmit = () => {
+    // Show an alert box with options
+    const result = window.confirm('Click OK for RETRY cancel for HOMEPAGE')
+
+    if (result) {
+      // Reload the page
+      window.location.reload()
+    } else {
+      // Navigate to the home page
+      history.push('/')
+    }
+  }
+
   return (
     <div>
       <div className="quiz-container">
@@ -100,14 +113,32 @@ const Quiz = ({ jsonData }) => {
               >
                 Show Details
               </button>
+              {currentQuestionIndex === jsonData.data.length - 1 && (
+                <button
+                  onClick={handleFinalSubmit}
+                  className="final-submit-button"
+                  disabled={showFeedback}
+                  style={{
+                    fontStyle: 'italic',
+                    color: 'black',
+                    backgroundColor: 'yellow',
+                    borderRadius: '20px', // Adjust the value for roundness
+                    padding: '10px', // Adjust the padding as needed
+                  }}
+                >
+                  Submit
+                </button>
+              )}
+
               <button
                 onClick={handleNextQuestion}
                 className="next-question-button"
-                disabled={showFeedback}
+                disabled={
+                  currentQuestionIndex === jsonData.data.length - 1 ||
+                  showFeedback
+                }
               >
-                {currentQuestionIndex === jsonData.data.length - 1
-                  ? 'Submit'
-                  : 'Next Question'}
+                Next Question
               </button>
             </div>
           )}
