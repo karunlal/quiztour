@@ -47,6 +47,12 @@ const topics = [
         jsonUrl:
           'https://script.google.com/macros/s/AKfycbwmuzJslOmd81ZaO6sy35nl0fqNrTpvcT5g3FSB97z-EevqULQkz5Chuymke4D2aiAlDQ/exec',
       },
+            {
+        id: 'ARTICLES',
+        name: 'ARTICLES',
+        jsonUrl:
+          'https://script.google.com/macros/s/AKfycbx7WnJRkdpZudXoMYeCQeOXB1dO-1CpCjfTF7wm0otGrYnOdfFXmjLCK5Z7bycIDXtmuA/exec',
+      },
 
       // Add more subtopics as needed
     ],
