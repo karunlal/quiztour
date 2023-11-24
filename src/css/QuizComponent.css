@@ -96,3 +96,36 @@ li.correct {
 .show-details-button.available {
   background-color: red; /* Red color for "Show Details" button */
 }
+
+/* Add this to your CSS file */
+
+.confirmation-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.confirmation-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.confirmation-box button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.confirmation-box button:hover {
+  background-color: #ddd;
+}

@@ -1,7 +1,7 @@
 // Quiz.js
 import React, { useState, useEffect } from 'react'
 import QuizQuestion from './QuizQuestion'
-
+//import QuizResult from './QuizResult' // Assuming you have a QuizResult component
 import { useHistory } from 'react-router-dom'
 import './css/QuizComponent.css'
 
@@ -12,6 +12,7 @@ const Quiz = ({ jsonData }) => {
   const [detailsVisible, setDetailsVisible] = useState(false)
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
   const [lastAnsweredQuestion, setLastAnsweredQuestion] = useState(null)
+  const [showConfirmationBox, setShowConfirmationBox] = useState(false)
   const history = useHistory()
 
   useEffect(() => {
@@ -21,6 +22,7 @@ const Quiz = ({ jsonData }) => {
     setDetails('')
     setDetailsVisible(false)
     setLastAnsweredQuestion(null)
+    setShowConfirmationBox(false)
   }, [jsonData])
 
   const handleAnswerClick = (selectedAnswer) => {
@@ -63,16 +65,20 @@ const Quiz = ({ jsonData }) => {
   }
 
   const handleFinalSubmit = () => {
-    // Show an alert box with options
-    const result = window.confirm('Click OK for RETRY cancel for HOMEPAGE')
+    // Show the confirmation box
+    setShowConfirmationBox(true)
+  }
 
-    if (result) {
-      // Reload the page
-      window.location.reload()
-    } else {
-      // Navigate to the home page
-      history.push('/')
-    }
+  const handleConfirmSubmission = () => {
+    // Reload the page
+    window.location.reload()
+  }
+
+  const handleCancelSubmission = () => {
+    // Hide the confirmation box
+    setShowConfirmationBox(false)
+    // Navigate to the home page
+    history.push('/')
   }
 
   return (
@@ -120,20 +126,31 @@ const Quiz = ({ jsonData }) => {
                 Show Details
               </button>
               {currentQuestionIndex === jsonData.data.length - 1 && (
-                <button
-                  onClick={handleFinalSubmit}
-                  className="final-submit-button"
-                  disabled={showFeedback}
-                  style={{
-                    fontStyle: 'italic',
-                    color: 'black',
-                    backgroundColor: 'yellow',
-                    borderRadius: '20px', // Adjust the value for roundness
-                    padding: '10px', // Adjust the padding as needed
-                  }}
-                >
-                  Submit
-                </button>
+                <div>
+                  <button
+                    onClick={handleFinalSubmit}
+                    className="final-submit-button"
+                    disabled={showFeedback}
+                    style={{
+                      fontStyle: 'italic',
+                      color: 'black',
+                      backgroundColor: 'yellow',
+                      borderRadius: '20px', // Adjust the value for roundness
+                      padding: '10px', // Adjust the padding as needed
+                    }}
+                  >
+                    Submit
+                  </button>
+                  {showConfirmationBox && (
+                    <div className="confirmation-overlay">
+                      <div className="confirmation-box">
+                        <p>Are you sure you want to submit?</p>
+                        <button onClick={handleConfirmSubmission}>OK</button>
+                        <button onClick={handleCancelSubmission}>Cancel</button>
+                      </div>
+                    </div>
+                  )}
+                </div>
               )}
 
               <button
