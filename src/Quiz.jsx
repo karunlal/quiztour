@@ -1,36 +1,66 @@
-// Quiz.js
 import React, { useState, useEffect } from 'react'
 import QuizQuestion from './QuizQuestion'
-//import QuizResult from './QuizResult' // Assuming you have a QuizResult component
 import { useHistory } from 'react-router-dom'
 import './css/QuizComponent.css'
 
 const Quiz = ({ jsonData }) => {
   const [userAnswers, setUserAnswers] = useState({})
+  const [correctAnswers, setCorrectAnswers] = useState(0)
+  const [wrongAnswers, setWrongAnswers] = useState(0)
+  const [unattendedQuestions, setUnattendedQuestions] = useState(0)
   const [showFeedback, setShowFeedback] = useState(false)
   const [details, setDetails] = useState('')
   const [detailsVisible, setDetailsVisible] = useState(false)
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
-  const [lastAnsweredQuestion, setLastAnsweredQuestion] = useState(null)
   const [showConfirmationBox, setShowConfirmationBox] = useState(false)
+  const [accuracyPercentage, setAccuracyPercentage] = useState(0)
   const history = useHistory()
 
   useEffect(() => {
-    setCurrentQuestionIndex(0)
-    setShowFeedback(false)
-    setUserAnswers({})
-    setDetails('')
-    setDetailsVisible(false)
-    setLastAnsweredQuestion(null)
-    setShowConfirmationBox(false)
+    if (jsonData && jsonData.data) {
+      setUnattendedQuestions(jsonData.data.length)
+      setCorrectAnswers(0)
+      setWrongAnswers(0)
+      setUserAnswers({})
+      setShowFeedback(false)
+      setDetails('')
+      setDetailsVisible(false)
+      setCurrentQuestionIndex(0)
+      setShowConfirmationBox(false)
+      setAccuracyPercentage(0)
+    }
   }, [jsonData])
+
+  const updateResults = () => {
+    let correct = 0
+    let wrong = 0
+    let unattended = 0
+
+    for (let i = 0; i < jsonData.data.length; i++) {
+      if (userAnswers[i] === jsonData.data[i].answer) {
+        correct++
+      } else if (userAnswers[i] !== undefined) {
+        wrong++
+      } else {
+        unattended++
+      }
+    }
+
+    const totalQuestions = jsonData.data.length
+    const accuracy = (correct / totalQuestions) * 100
+    setCorrectAnswers(correct)
+    setWrongAnswers(wrong)
+    setUnattendedQuestions(unattended)
+    setAccuracyPercentage(accuracy.toFixed(2))
+  }
+
+  useEffect(updateResults, [userAnswers, jsonData])
 
   const handleAnswerClick = (selectedAnswer) => {
     setUserAnswers((prevAnswers) => ({
       ...prevAnswers,
       [currentQuestionIndex]: selectedAnswer,
     }))
-    setLastAnsweredQuestion(currentQuestionIndex)
   }
 
   const handleNextQuestion = () => {
@@ -42,10 +72,7 @@ const Quiz = ({ jsonData }) => {
   }
 
   const handlePrevQuestion = () => {
-    const prevIndex =
-      lastAnsweredQuestion !== null ? lastAnsweredQuestion - 1 : 0
-
-    if (prevIndex >= 0 && prevIndex < jsonData.data.length) {
+    if (currentQuestionIndex > 0) {
       setCurrentQuestionIndex((prevIndex) => prevIndex - 1)
       setShowFeedback(false)
     }
@@ -61,36 +88,41 @@ const Quiz = ({ jsonData }) => {
   }
 
   const handleSubmit = () => {
-    setShowFeedback(true)
-  }
-
-  const handleFinalSubmit = () => {
-    // Show the confirmation box
     setShowConfirmationBox(true)
   }
 
   const handleConfirmSubmission = () => {
-    // Reload the page
     window.location.reload()
   }
 
   const handleCancelSubmission = () => {
-    // Hide the confirmation box
     setShowConfirmationBox(false)
-    // Navigate to the home page
     history.push('/')
+  }
+
+  const handleCloseConfirmationBox = () => {
+    setShowConfirmationBox(false)
   }
 
   return (
     <div>
       <div className="quiz-container">
         <div className="quiz-content">
-          {jsonData && currentQuestionIndex < jsonData.data.length ? (
+          {jsonData &&
+          jsonData.data &&
+          currentQuestionIndex < jsonData.data.length ? (
             <div>
-              {/* Display question number/total number of questions */}
               <p>
-                Question {currentQuestionIndex + 1}/{jsonData.data.length}
+                Question {currentQuestionIndex + 1}/{jsonData.data.length} -{' '}
+                <span style={{ color: 'blue' }}>
+                  {unattendedQuestions} Unattended,{' '}
+                </span>
+                <span style={{ color: 'green' }}>
+                  {correctAnswers} Correct,{' '}
+                </span>
+                <span style={{ color: 'red' }}>{wrongAnswers} Wrong</span>
               </p>
+
               <QuizQuestion
                 questionData={{
                   ...jsonData.data[currentQuestionIndex],
@@ -102,69 +134,69 @@ const Quiz = ({ jsonData }) => {
               />
             </div>
           ) : showFeedback ? (
-            <QuizResult userAnswers={userAnswers} jsonData={jsonData} />
+            <div>
+              <p>Quiz Feedback or Result</p>
+            </div>
           ) : (
             <p>Loading...</p>
           )}
-          {jsonData && currentQuestionIndex < jsonData.data.length && (
-            <div className="quiz-navigation">
-              <button
-                onClick={handlePrevQuestion}
-                className="next-question-button"
-                disabled={currentQuestionIndex === 0 || showFeedback}
-              >
-                Previous Question
-              </button>
-              <button
-                onClick={handleShowDetails}
-                className={
-                  jsonData.data[currentQuestionIndex].moreDetails
-                    ? 'show-details-button available'
-                    : 'show-details-button'
-                }
-              >
-                Show Details
-              </button>
-              {currentQuestionIndex === jsonData.data.length - 1 && (
-                <div>
-                  <button
-                    onClick={handleFinalSubmit}
-                    className="final-submit-button"
-                    disabled={showFeedback}
-                    style={{
-                      fontStyle: 'italic',
-                      color: 'black',
-                      backgroundColor: 'yellow',
-                      borderRadius: '20px', // Adjust the value for roundness
-                      padding: '10px', // Adjust the padding as needed
-                    }}
-                  >
-                    Submit
-                  </button>
-                  {showConfirmationBox && (
-                    <div className="confirmation-overlay">
-                      <div className="confirmation-box">
-                        <p>Are you sure you want to submit?</p>
-                        <button onClick={handleConfirmSubmission}>OK</button>
-                        <button onClick={handleCancelSubmission}>Cancel</button>
-                      </div>
-                    </div>
+          {jsonData &&
+            jsonData.data &&
+            currentQuestionIndex < jsonData.data.length && (
+              <div className="quiz-navigation">
+                <button
+                  onClick={() => {
+                    handlePrevQuestion()
+                    updateResults()
+                  }}
+                  className="next-question-button"
+                  disabled={currentQuestionIndex === 0 || showFeedback}
+                >
+                  Previous Question
+                </button>
+                <button
+                  onClick={handleShowDetails}
+                  className={
+                    jsonData.data[currentQuestionIndex].moreDetails
+                      ? 'show-details-button available'
+                      : 'show-details-button'
+                  }
+                >
+                  Show Details
+                </button>
+                {currentQuestionIndex === jsonData.data.length - 1 &&
+                  !showFeedback && (
+                    <>
+                      <button
+                        onClick={() => {
+                          handleSubmit()
+                          updateResults()
+                        }}
+                        className="submit-button"
+                      >
+                        Submit
+                      </button>
+                    </>
                   )}
-                </div>
-              )}
 
-              <button
-                onClick={handleNextQuestion}
-                className="next-question-button"
-                disabled={
-                  currentQuestionIndex === jsonData.data.length - 1 ||
-                  showFeedback
-                }
-              >
-                Next Question
-              </button>
-            </div>
-          )}
+                {!showFeedback &&
+                  currentQuestionIndex !== jsonData.data.length - 1 && (
+                    <button
+                      onClick={() => {
+                        handleNextQuestion()
+                        updateResults()
+                      }}
+                      className="next-question-button"
+                      disabled={
+                        currentQuestionIndex === jsonData.data.length - 1 ||
+                        showFeedback
+                      }
+                    >
+                      Next Question
+                    </button>
+                  )}
+              </div>
+            )}
         </div>
         {detailsVisible && (
           <div className="details-container" style={{ width: '30%' }}>
@@ -191,6 +223,19 @@ const Quiz = ({ jsonData }) => {
               </pre>
             </div>
           </div>
+        )}
+        {showConfirmationBox && (
+          <>
+            <div className="overlay" onClick={handleCloseConfirmationBox} />
+            <div className="confirmation-box">
+              <p>Are you sure you want to submit the quiz?</p>
+              <p>Total Marks: {correctAnswers}</p>
+              <p>Percentage: {accuracyPercentage}%</p>
+              <button onClick={handleConfirmSubmission}>Repeat Quiz</button>
+              <button onClick={handleCancelSubmission}>Back to Home</button>
+              <button onClick={handleCloseConfirmationBox}>Close</button>
+            </div>
+          </>
         )}
       </div>
     </div>
