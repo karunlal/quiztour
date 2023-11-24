@@ -199,7 +199,7 @@ const Quiz = ({ jsonData }) => {
             )}
         </div>
         {detailsVisible && (
-          <div className="details-container" style={{ width: '30%' }}>
+          <div className="details-container" style={{ width: '50%' }}>
             <button
               className="close-details-button"
               onClick={handleCloseDetails}
