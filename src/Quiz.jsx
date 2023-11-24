@@ -80,15 +80,21 @@ const Quiz = ({ jsonData }) => {
       <div className="quiz-container">
         <div className="quiz-content">
           {jsonData && currentQuestionIndex < jsonData.data.length ? (
-            <QuizQuestion
-              questionData={{
-                ...jsonData.data[currentQuestionIndex],
-                index: currentQuestionIndex,
-                options: jsonData.data[currentQuestionIndex].arr,
-              }}
-              userAnswer={userAnswers[currentQuestionIndex]}
-              onAnswerClick={handleAnswerClick}
-            />
+            <div>
+              {/* Display question number/total number of questions */}
+              <p>
+                Question {currentQuestionIndex + 1}/{jsonData.data.length}
+              </p>
+              <QuizQuestion
+                questionData={{
+                  ...jsonData.data[currentQuestionIndex],
+                  index: currentQuestionIndex,
+                  options: jsonData.data[currentQuestionIndex].arr,
+                }}
+                userAnswer={userAnswers[currentQuestionIndex]}
+                onAnswerClick={handleAnswerClick}
+              />
+            </div>
           ) : showFeedback ? (
             <QuizResult userAnswers={userAnswers} jsonData={jsonData} />
           ) : (
