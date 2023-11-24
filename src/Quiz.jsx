@@ -228,9 +228,30 @@ const Quiz = ({ jsonData }) => {
           <>
             <div className="overlay" onClick={handleCloseConfirmationBox} />
             <div className="confirmation-box">
-              <p>Are you sure you want to submit the quiz?</p>
-              <p>Total Marks: {correctAnswers}</p>
-              <p>Percentage: {accuracyPercentage}%</p>
+              <p
+                style={{
+                  fontWeight: 'bold',
+                  fontSize: '1.2rem',
+                  color: 'red',
+                }}
+              >
+                Summary of Quiz:
+              </p>
+
+              <p>Total Questions: {jsonData.data.length}</p>
+              <p>Correct Answers: {correctAnswers}</p>
+              <p>Wrong Answers: {wrongAnswers}</p>
+              <p>Unattended Questions: {unattendedQuestions}</p>
+              <p>Total Marks: {correctAnswers - wrongAnswers * 0.33}</p>
+              <p>
+                Percentage:{' '}
+                {(
+                  ((correctAnswers - wrongAnswers * 0.33) /
+                    jsonData.data.length) *
+                  100
+                ).toFixed(2)}
+                %
+              </p>
               <button onClick={handleConfirmSubmission}>Repeat Quiz</button>
               <button onClick={handleCancelSubmission}>Back to Home</button>
               <button onClick={handleCloseConfirmationBox}>Close</button>
