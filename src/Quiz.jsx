@@ -115,12 +115,12 @@ const Quiz = ({ jsonData }) => {
               <p>
                 Question {currentQuestionIndex + 1}/{jsonData.data.length} -{' '}
                 <span style={{ color: 'blue' }}>
-                  {unattendedQuestions} Unattended,{' '}
+                  Unattended-{unattendedQuestions} ,{' '}
                 </span>
                 <span style={{ color: 'green' }}>
-                  {correctAnswers} Correct,{' '}
+                  Correct-{correctAnswers},{' '}
                 </span>
-                <span style={{ color: 'red' }}>{wrongAnswers} Wrong</span>
+                <span style={{ color: 'red' }}>Wrong-{wrongAnswers} </span>
               </p>
 
               <QuizQuestion
