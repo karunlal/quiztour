@@ -1,8 +1,8 @@
-// DatabaseLink.jsx
+// DatabaseLink.js
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 
-const DatabaseLink = () => {
+const DatabaseLink = ({ disabled }) => {
   const handleButtonClick = () => {
     window.location.href =
       'https://docs.google.com/spreadsheets/d/19FFwGpfQV8iaYJPQITLUhBVyoF0_UBg4uZUVGQtbgBA/edit#gid=0';
@@ -17,7 +17,7 @@ const DatabaseLink = () => {
         zIndex: '1000',
       }}
     >
-      <Button variant="danger" onClick={handleButtonClick}>
+      <Button variant="danger" onClick={handleButtonClick} disabled={disabled}>
         Go to Database
       </Button>
     </div>

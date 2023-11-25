@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom'
 import './css/TopicList.css' // Make sure to import your CSS file
 //import './Styles.css'
+import DatabaseLink from './DatabaseLink';
 
 const TopicList = ({ topics }) => {
   const history = useHistory()
@@ -40,8 +41,9 @@ const TopicList = ({ topics }) => {
     <div>
       <button className="topic-heading-button">PSC QUIZ</button>
       <br />
-      <button className="topic-heading-button">Choose a Topic</button>
+      <button className="topic-heading-button">Choose a Topic<DatabaseLink /></button>
       <ul>
+       {/* Include the DatabaseLink component */}
         {topics.map((topic) => (
           <li key={topic.id}>
             <button

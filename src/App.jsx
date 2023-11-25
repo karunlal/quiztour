@@ -6,7 +6,7 @@ import JsonViewer from './JsonViewer';
 import TopicList from './TopicList';
 import fetchData from './DataService';
 import Quiz from './Quiz';
-import DatabaseLink from './DatabaseLink'; // Import DatabaseLink component
+//import DatabaseLink from './DatabaseLink'; // Import DatabaseLink component
 import './Styles.css';
 
 const App = () => {
@@ -39,7 +39,7 @@ const App = () => {
               <TopicList topics={topics} />
             </Route>
           </Switch>
-          <DatabaseLink /> {/* Include the DatabaseLink component */}
+       
         </>
       </Router>
     </div>
