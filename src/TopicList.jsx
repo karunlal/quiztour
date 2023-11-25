@@ -25,8 +25,15 @@ const TopicList = ({ topics }) => {
 
   const handleSubtopicClick = (subtopic, topic) => {
     console.log('Clicked on subtopic:', subtopic.name)
-    // Use React Router to navigate to the subtopic URL
-    history.push(`/topics/${topic.id}/${encodeURIComponent(subtopic.id)}`)
+
+    // Check if the JSON URL is available for the subtopic
+    if (subtopic.jsonUrl) {
+      // Use React Router to navigate to the subtopic URL
+      history.push(`/topics/${topic.id}/${encodeURIComponent(subtopic.id)}`)
+    } else {
+      // Handle the case where JSON URL is not available (you can hide the button or show a message)
+      console.warn('JSON URL not available for subtopic:', subtopic.name)
+    }
   }
 
   return (
@@ -47,12 +54,19 @@ const TopicList = ({ topics }) => {
               <ul>
                 {topic.subtopics.map((subtopic) => (
                   <li key={subtopic.id}>
-                    <button
-                      className="subtopic-button"
-                      onClick={() => handleSubtopicClick(subtopic, topic)}
-                    >
-                      {subtopic.name}
-                    </button>
+                    {subtopic.jsonUrl ? ( // Check if JSON URL is available
+                      <button
+                        className="subtopic-button"
+                        onClick={() => handleSubtopicClick(subtopic, topic)}
+                      >
+                        {subtopic.name}
+                      </button>
+                    ) : (
+                      // You can choose to hide the button or display a message
+                      <span className="subtopic-unavailable">
+                        {subtopic.name} (JSON URL not available)
+                      </span>
+                    )}
                   </li>
                 ))}
               </ul>
