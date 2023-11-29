@@ -64,10 +64,12 @@ const Quiz = ({ jsonData }) => {
   }
 
   const handleNextQuestion = () => {
+    setDetailsVisible(false)
     if (currentQuestionIndex < jsonData.data.length - 1) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1)
     } else {
       setShowFeedback(true)
+setDetailsVisible(false)
     }
   }
 
@@ -75,6 +77,7 @@ const Quiz = ({ jsonData }) => {
     if (currentQuestionIndex > 0) {
       setCurrentQuestionIndex((prevIndex) => prevIndex - 1)
       setShowFeedback(false)
+      setDetailsVisible(false)
     }
   }
 
