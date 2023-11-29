@@ -1,12 +1,15 @@
 // DatabaseLink.js
-import React from 'react';
-import Button from 'react-bootstrap/Button';
+import React from 'react'
+import Button from 'react-bootstrap/Button'
 
 const DatabaseLink = ({ disabled }) => {
   const handleButtonClick = () => {
-    window.location.href =
-      'https://docs.google.com/spreadsheets/d/19FFwGpfQV8iaYJPQITLUhBVyoF0_UBg4uZUVGQtbgBA/edit#gid=0';
-  };
+    // Open the link in a new tab
+    window.open(
+      'https://docs.google.com/spreadsheets/d/19FFwGpfQV8iaYJPQITLUhBVyoF0_UBg4uZUVGQtbgBA/edit#gid=0',
+      '_blank'
+    )
+  }
 
   return (
     <div
@@ -21,7 +24,7 @@ const DatabaseLink = ({ disabled }) => {
         Go to Database
       </Button>
     </div>
-  );
-};
+  )
+}
 
-export default DatabaseLink;
+export default DatabaseLink
