@@ -1,43 +1,52 @@
 // JsonViewer.js
-import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
-import Quiz from './Quiz'
-import fetchData from './DataService'
-//import './Styles.css'
-import './css/JsonViewer.css'
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import Quiz from './Quiz';
+import fetchData from './DataService';
+// import './Styles.css';
+import './css/JsonViewer.css';
 
 const JsonViewer = ({ topics }) => {
-  const { topicId, subtopicId } = useParams()
+  const { topicId, subtopicId } = useParams();
 
-  const selectedTopic = topics.find((topic) => topic.id === topicId)
+  const selectedTopic = topics.find((topic) => topic.id === topicId);
   const selectedSubtopic = selectedTopic?.subtopics.find(
     (subtopic) => subtopic.id === subtopicId
-  )
+  );
 
-  const [jsonData, setJsonData] = useState(null)
+  const [jsonData, setJsonData] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchDataForSubtopic = async () => {
       try {
-        console.log('Fetching data for subtopic:', selectedSubtopic)
+        console.log('Fetching data for subtopic:', selectedSubtopic);
         if (selectedSubtopic) {
-          const data = await fetchData(selectedSubtopic.jsonUrl)
-          console.log('Fetched data:', data)
-          setJsonData(data)
+          const data = await fetchData(selectedSubtopic.jsonUrl);
+          console.log('Fetched data:', data);
+          setJsonData(data);
         }
       } catch (error) {
-        console.error('Error fetching data:', error)
-        setJsonData(null)
-      }
-    }
+        console.error('Error fetching data:', error);
+        setJsonData(null);
 
-    fetchDataForSubtopic()
-  }, [selectedSubtopic])
+        if (error instanceof Response) {
+          // Handle HTTP errors (e.g., 404 Not Found)
+          setError(`HTTP Error: ${error.status} - ${error.statusText}`);
+        } else {
+          // Handle other types of errors
+          setError(`An error occurred while fetching data: ${error.message}`);
+        }
+      }
+    };
+
+    fetchDataForSubtopic();
+  }, [selectedSubtopic]);
 
   useEffect(() => {
-    console.log('Render - selectedSubtopic:', selectedSubtopic)
-    console.log('Render - jsonData:', jsonData)
-  }, [selectedSubtopic, jsonData])
+    console.log('Render - selectedSubtopic:', selectedSubtopic);
+    console.log('Render - jsonData:', jsonData);
+  }, [selectedSubtopic, jsonData]);
 
   return (
     <div>
@@ -51,12 +60,12 @@ const JsonViewer = ({ topics }) => {
               <Quiz jsonData={jsonData} />
             </div>
           ) : (
-            <p>Loading data...</p>
+            <p>{error ? `Error: ${error}` : 'Loading data...'}</p>
           )}
         </div>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default JsonViewer
+export default JsonViewer;
