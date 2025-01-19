@@ -14,6 +14,7 @@ const Quiz = ({ jsonData }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [showConfirmationBox, setShowConfirmationBox] = useState(false);
   const [accuracyPercentage, setAccuracyPercentage] = useState(0);
+  const [jumpQuestionNumber, setJumpQuestionNumber] = useState('');
   const history = useHistory();
 
   useEffect(() => {
@@ -97,6 +98,18 @@ const Quiz = ({ jsonData }) => {
     }
   };
 
+  const handleJumpToQuestion = () => {
+    const questionNumber = parseInt(jumpQuestionNumber, 10);
+    if (questionNumber > 0 && questionNumber <= jsonData.data.length) {
+      setCurrentQuestionIndex(questionNumber - 1);
+      setDetailsVisible(false);
+      setShowFeedback(false);
+    } else {
+      alert('Invalid question number.');
+    }
+    setJumpQuestionNumber(''); // Clear the input field
+  };
+
   const handleShowDetails = () => {
     setDetails(jsonData.data[currentQuestionIndex].moreDetails || '');
     setDetailsVisible(true);
@@ -167,10 +180,7 @@ const Quiz = ({ jsonData }) => {
             currentQuestionIndex < jsonData.data.length && (
               <div className="quiz-navigation">
                 <button
-                  onClick={() => {
-                    handlePrevQuestion();
-                    updateResults();
-                  }}
+                  onClick={handlePrevQuestion}
                   className="next-question-button"
                   disabled={currentQuestionIndex === 0 || showFeedback}
                 >
@@ -186,39 +196,27 @@ const Quiz = ({ jsonData }) => {
                 >
                   Show Details
                 </button>
-                {currentQuestionIndex === jsonData.data.length - 1 &&
-                  !showFeedback && (
-                    <>
-                      <button
-                        onClick={() => {
-                          handleSubmit();
-                          updateResults();
-                        }}
-                        className="submit-button"
-                      >
-                        Submit
-                      </button>
-                    </>
-                  )}
-
-                {!showFeedback &&
-                  currentQuestionIndex !== jsonData.data.length - 1 && (
-                    <button
-                      onClick={() => {
-                        handleNextQuestion();
-                        updateResults();
-                      }}
-                      className="next-question-button"
-                      disabled={
-                        currentQuestionIndex === jsonData.data.length - 1 ||
-                        showFeedback
-                      }
-                    >
-                      Next Question
-                    </button>
-                  )}
+                <button
+                  onClick={handleNextQuestion}
+                  className="next-question-button"
+                  disabled={
+                    currentQuestionIndex === jsonData.data.length - 1 ||
+                    showFeedback
+                  }
+                >
+                  Next Question
+                </button>
               </div>
             )}
+          <div className="jump-to-question">
+            <input
+              type="number"
+              placeholder="Jump to question #"
+              value={jumpQuestionNumber}
+              onChange={(e) => setJumpQuestionNumber(e.target.value)}
+            />
+            <button onClick={handleJumpToQuestion}>Go</button>
+          </div>
         </div>
         {detailsVisible && (
           <div className="details-container" style={{ width: '75%' }}>
@@ -226,11 +224,7 @@ const Quiz = ({ jsonData }) => {
               className="close-details-button"
               onClick={handleCloseDetails}
             >
-              <span
-                style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'red' }}
-              >
-                ✕
-              </span>
+              ✕
             </button>
             <div style={{ width: '100%' }}>
               <h2 style={{ fontSize: '1.5rem' }}>Details</h2>
@@ -250,30 +244,10 @@ const Quiz = ({ jsonData }) => {
           <>
             <div className="overlay" onClick={handleCloseConfirmationBox} />
             <div className="confirmation-box">
-              <p
-                style={{
-                  fontWeight: 'bold',
-                  fontSize: '1.2rem',
-                  color: 'red',
-                }}
-              >
-                Summary of Quiz:
-              </p>
-
               <p>Total Questions: {jsonData.data.length}</p>
               <p>Correct Answers: {correctAnswers}</p>
               <p>Wrong Answers: {wrongAnswers}</p>
               <p>Unattended Questions: {unattendedQuestions}</p>
-              <p>Total Marks: {correctAnswers - wrongAnswers * 0.33}</p>
-              <p>
-                Percentage:{' '}
-                {(
-                  ((correctAnswers - wrongAnswers * 0.33) /
-                    jsonData.data.length) *
-                  100
-                ).toFixed(2)}
-                %
-              </p>
               <button onClick={handleConfirmSubmission}>Repeat Quiz</button>
               <button onClick={handleCancelSubmission}>Back to Home</button>
               <button onClick={handleCloseConfirmationBox}>Close</button>
