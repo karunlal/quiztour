@@ -2,39 +2,58 @@ import React, { useEffect, useState } from "react";
 import "./css/QuizQuestion.css";
 
 const QuizQuestion = React.memo(({ questionData, userAnswer, onAnswerClick }) => {
-  // Use stable state for options instead of shuffling on every render
   const [options, setOptions] = useState([]);
   
-  // Only shuffle options when the question changes, not on every render
   useEffect(() => {
     if (questionData?.options) {
-      // Create a new array to shuffle instead of mutating the original
       const newOptions = [...questionData.options];
-      // Simple Fisher-Yates shuffle
       for (let i = newOptions.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [newOptions[i], newOptions[j]] = [newOptions[j], newOptions[i]];
       }
       setOptions(newOptions);
     }
-  }, [questionData?.options]); // Only depend on options changing
+  }, [questionData?.options]);
 
-  const handleOptionClick = (option) => {
-    if (!userAnswer) {
-      onAnswerClick(option);
-    }
+  // Format the question text to maintain line breaks
+  const formatQuestionText = (text) => {
+    if (!text) return '';
+    
+    // Split the question number and content
+    const match = text.match(/^(\d+\))(.*)/);
+    if (!match) return text;
+
+    const [, number, content] = match;
+    
+    // Format the content to preserve natural line breaks
+    // Break at question marks, specific keywords, or long sentences
+    const formattedContent = content
+      .replace(/\?/g, '?\n')
+      .replace(/(Following|Which|What|Where|When|How|Why)(\s+[A-Z])/g, '$1\n$2')
+      .replace(/(\d\))/g, '\n$1')
+      .trim();
+
+    return (
+      <div className="question-text">
+        <span className="question-number">{number}</span>
+        {formattedContent.split('\n').map((line, index) => (
+          <div key={index} className="question-line">
+            {line.trim()}
+          </div>
+        ))}
+      </div>
+    );
   };
 
-  // Guard clause for when questionData is not yet loaded
   if (!questionData) {
     return <div>Loading question...</div>;
   }
 
   return (
     <div className="quiz-question">
-      <h2 className="question-header">
-        {questionData.index + 1}) {questionData.question}
-      </h2>
+      <div className="question-header">
+        {formatQuestionText(questionData.question)}
+      </div>
       
       <ul className="options-list">
         {options.map((option) => {
@@ -46,16 +65,12 @@ const QuizQuestion = React.memo(({ questionData, userAnswer, onAnswerClick }) =>
           return (
             <li
               key={option}
-              onClick={() => handleOptionClick(option)}
+              onClick={() => !userAnswer && handleOptionClick(option)}
               className={`option
                 ${isSelected ? 'selected' : ''}
                 ${showCorrect ? 'correct' : ''}
                 ${showIncorrect ? 'incorrect' : ''}
               `}
-              style={{ 
-                cursor: userAnswer ? 'default' : 'pointer',
-                pointerEvents: userAnswer ? 'none' : 'auto'
-              }}
             >
               <span className="option-text">{option}</span>
             </li>
