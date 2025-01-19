@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import QuizQuestion from './QuizQuestion';
-import './QuizComponent.css';
+import './Style.css'; // Import the global styles
 
 const Quiz = ({ jsonData }) => {
   const [userAnswers, setUserAnswers] = useState({});
@@ -61,15 +60,20 @@ const Quiz = ({ jsonData }) => {
   };
 
   const renderQuestion = () => (
-    <QuizQuestion
-      questionData={{
-        ...jsonData.data[currentQuestionIndex],
-        index: currentQuestionIndex,
-        options: jsonData.data[currentQuestionIndex].arr,
-      }}
-      userAnswer={userAnswers[currentQuestionIndex]}
-      onAnswerClick={handleAnswerClick}
-    />
+    <div className="quiz-question">
+      <h2 className="question-header">{jsonData.data[currentQuestionIndex].question}</h2>
+      <ul className="options-list">
+        {jsonData.data[currentQuestionIndex].arr.map((option, index) => (
+          <li
+            key={index}
+            className={`option-text ${userAnswers[currentQuestionIndex] === option ? 'selected' : ''}`}
+            onClick={() => handleAnswerClick(option)}
+          >
+            {option}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 
   const renderFeedback = () => (
@@ -95,7 +99,7 @@ const Quiz = ({ jsonData }) => {
   }
 
   return (
-    <div>
+    <div className="quiz-container">
       {currentQuestionIndex < jsonData.data.length
         ? renderQuestion()
         : showFeedback
@@ -103,7 +107,7 @@ const Quiz = ({ jsonData }) => {
         : <p>Loading...</p>}
 
       {currentQuestionIndex < jsonData.data.length && (
-        <div>
+        <div className="quiz-navigation">
           <button
             onClick={handlePrevQuestion}
             disabled={currentQuestionIndex === 0}
