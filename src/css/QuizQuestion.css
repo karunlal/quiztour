@@ -1,40 +1,60 @@
-/* QuizQuestion.css */
 .quiz-question {
-  margin-bottom: 20px;
+  margin: 20px;
+  font-family: system-ui, -apple-system, sans-serif;
 }
 
 .question-header {
-  font-size: 24px;
-  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .question-text {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.question-number {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.question-line {
+  margin: 8px 0;
 }
 
 .options-list {
   list-style: none;
   padding: 0;
+  margin-top: 20px;
+}
+
+.option {
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.option:hover {
+  background-color: #f5f5f5;
+}
+
+.option.selected {
+  background-color: #e0e0e0;
+}
+
+.option.correct {
+  background-color: #4caf50;
+  color: white;
+}
+
+.option.incorrect {
+  background-color: #f44336;
+  color: white;
 }
 
 .option-text {
-  display: inline-block;
-  padding: 10px;
-  margin: 5px;
-  border: 1px solid #ccc;
-  cursor: pointer;
-}
-
-.option-text.selected {
-  background-color: #3498db;
-  color: #ffffff;
-}
-
-.option-text.correct {
-  background-color: #2ecc71;
-}
-
-.option-text.incorrect {
-  background-color: #e74c3c;
+  display: block;
+  padding: 0 10px;
 }
