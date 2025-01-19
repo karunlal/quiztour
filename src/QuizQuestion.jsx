@@ -1,63 +1,63 @@
-import React from "react";
-import "./css/QuizQuestion.css";
+import React, { useEffect, useState } from 'react'
+import './css/QuizQuestion.css'
+import { shuffleArray } from './QuizUtils'
 
-const QuizQuestion = React.memo(({ questionData, userAnswer, onAnswerClick }) => {
-  if (!questionData) {
-    return <div>Loading question...</div>;
-  }
+const QuizQuestion = React.memo(
+  ({ questionData, userAnswer, onAnswerClick }) => {
+    const [shuffledOptions, setShuffledOptions] = useState([])
 
-  // Split the question into title and options parts
-  const formatQuestion = (questionText) => {
-    const lines = questionText.split(/(?=\d\))/);
-    return lines.map((line, index) => (
-      <div key={index} className="question-line">
-        {line.trim()}
-      </div>
-    ));
-  };
+    useEffect(() => {
+      // Shuffle options when questionData.options changes
+      setShuffledOptions(shuffleArray(questionData.options))
+    }, [questionData.options])
 
-  // Convert comma-separated string to array of numbers
-  const parseOptions = (optionString) => {
-    if (!optionString) return [];
-    return optionString.split(',').map(num => parseInt(num.trim()));
-  };
-
-  const handleOptionClick = (option) => {
-    if (!userAnswer) {
-      onAnswerClick(option);
+    const handleOptionClick = (option) => {
+      if (!userAnswer) {
+        onAnswerClick(option)
+      }
     }
-  };
 
-  return (
-    <div className="quiz-question">
-      <div className="question-container">
-        {formatQuestion(questionData.question)}
-      </div>
-      
-      <div className="options-container">
-        {parseOptions(questionData.currentOptions).map((option) => {
-          const isSelected = userAnswer === option;
-          const isCorrect = option === questionData.answer;
-          const showCorrect = userAnswer && isCorrect;
-          const showIncorrect = userAnswer && isSelected && !isCorrect;
-          
-          return (
-            <div
-              key={option}
+    return (
+      <div className="quiz-question">
+        <h1 className="question-header" style={{ lineHeight: '1.5' }}>
+          {questionData.index + 1}) {questionData.question}{' '}
+          {/* Display question number */}
+        </h1>
+        <p className="question-text" style={{ lineHeight: '1.5' }}></p>
+        <ul className="options-list">
+          {shuffledOptions.map((option, optionIndex) => (
+            <li
+              key={`${questionData.index}-${option}`} // Ensure a stable key
               onClick={() => handleOptionClick(option)}
-              className={`option
-                ${isSelected ? 'selected' : ''}
-                ${showCorrect ? 'correct' : ''}
-                ${showIncorrect ? 'incorrect' : ''}
-              `}
+              className={`
+              ${userAnswer === option ? 'selected' : ''}
+              ${
+                userAnswer === option && userAnswer === questionData.answer
+                  ? 'correct'
+                  : ''
+              }
+              ${
+                userAnswer !== questionData.answer &&
+                questionData.answer === option &&
+                userAnswer
+                  ? 'correct'
+                  : ''
+              }
+              ${
+                userAnswer !== questionData.answer && userAnswer === option
+                  ? 'incorrect'
+                  : ''
+              }
+            `}
+              style={{ cursor: 'pointer' }}
             >
-              {option}
-            </div>
-          );
-        })}
+              <span className="option-text">{option}</span>
+            </li>
+          ))}
+        </ul>
       </div>
-    </div>
-  );
-});
+    )
+  }
+)
 
-export default QuizQuestion;
+export default QuizQuestion
