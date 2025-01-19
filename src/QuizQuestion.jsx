@@ -1,75 +1,63 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react'
+import './css/QuizQuestion.css'
+import { shuffleArray } from './QuizUtils'
 
-const shuffleArray = (array) => {
-  if (!Array.isArray(array)) return [];
-  const newArray = [...array];
-  for (let i = newArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-  }
-  return newArray;
-};
+const QuizQuestion = React.memo(
+  ({ questionData, userAnswer, onAnswerClick }) => {
+    const [shuffledOptions, setShuffledOptions] = useState([])
 
-const QuizQuestion = React.memo(({ 
-  questionData = { 
-    index: 0,
-    question: '',
-    options: [],
-    answer: ''
-  }, 
-  userAnswer = null, 
-  onAnswerClick = () => {} 
-}) => {
-  const [shuffledOptions, setShuffledOptions] = useState([]);
+    useEffect(() => {
+      // Shuffle options when questionData.options changes
+      setShuffledOptions(shuffleArray(questionData.options))
+    }, [questionData.options])
 
-  useEffect(() => {
-    if (questionData?.options) {
-      setShuffledOptions(shuffleArray(questionData.options));
+    const handleOptionClick = (option) => {
+      if (!userAnswer) {
+        onAnswerClick(option)
+      }
     }
-  }, [questionData?.options]);
 
-  const handleOptionClick = (option) => {
-    if (!userAnswer && onAnswerClick) {
-      onAnswerClick(option);
-    }
-  };
-
-  if (!questionData) {
-    return null;
-  }
-
-  return (
-    <div className="flex flex-col w-full max-w-2xl mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-6 leading-normal">
-        {(questionData.index + 1)}) {questionData.question}
-      </h1>
-      
-      <ul className="space-y-4 w-full">
-        {shuffledOptions.map((option) => {
-          const isSelected = userAnswer === option;
-          const isCorrect = questionData.answer === option;
-          const showCorrect = userAnswer && isCorrect;
-          const showIncorrect = userAnswer === option && !isCorrect;
-          
-          return (
+    return (
+      <div className="quiz-question">
+        <h1 className="question-header" style={{ lineHeight: '1.5' }}>
+          {questionData.index + 1}) {questionData.question}{' '}
+          {/* Display question number */}
+        </h1>
+        <p className="question-text" style={{ lineHeight: '1.5' }}></p>
+        <ul className="options-list">
+          {shuffledOptions.map((option, optionIndex) => (
             <li
-              key={`${questionData.index}-${option}`}
+              key={`${questionData.index}-${option}`} // Ensure a stable key
               onClick={() => handleOptionClick(option)}
               className={`
-                p-4 rounded-lg border transition-all cursor-pointer
-                ${!userAnswer ? 'hover:bg-gray-50 border-gray-200' : ''}
-                ${isSelected ? 'border-blue-500' : 'border-gray-200'}
-                ${showCorrect ? 'bg-green-100 border-green-500 text-green-800' : ''}
-                ${showIncorrect ? 'bg-red-100 border-red-500 text-red-800' : ''}
-              `}
+              ${userAnswer === option ? 'selected' : ''}
+              ${
+                userAnswer === option && userAnswer === questionData.answer
+                  ? 'correct'
+                  : ''
+              }
+              ${
+                userAnswer !== questionData.answer &&
+                questionData.answer === option &&
+                userAnswer
+                  ? 'correct'
+                  : ''
+              }
+              ${
+                userAnswer !== questionData.answer && userAnswer === option
+                  ? 'incorrect'
+                  : ''
+              }
+            `}
+              style={{ cursor: 'pointer' }}
             >
-              <span className="block text-lg">{option}</span>
+              <span className="option-text">{option}</span>
             </li>
-          );
-        })}
-      </ul>
-    </div>
-  );
-});
+          ))}
+        </ul>
+      </div>
+    )
+  }
+)
 
-export default QuizQuestion;
+export default QuizQuestion
