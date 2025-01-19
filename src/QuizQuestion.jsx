@@ -6,7 +6,7 @@ const QuizQuestion = React.memo(
   ({ questionData, userAnswer, onAnswerClick }) => {
     const [shuffledOptions, setShuffledOptions] = useState([])
 
-    useEffect(() => {
+    useEffect(() =>  {
       // Shuffle options when questionData.options changes
       setShuffledOptions(shuffleArray(questionData.options))
     }, [questionData.options])
