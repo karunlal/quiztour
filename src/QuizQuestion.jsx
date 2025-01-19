@@ -36,11 +36,9 @@ const QuizQuestion = React.memo(
         <ul className="options-list">
           {shuffledOptions.map((option, optionIndex) => (
             <li
-             key={`${questionData.index}-${option}`} // Ensure a stable key
+              key={`${questionData.index}-${option}`} // Corrected template literal for key
               onClick={() => handleOptionClick(option)}
-              className={${
-                userAnswer === option ? "selected" : ""
-              } ${
+              className={`${userAnswer === option ? "selected" : ""} ${
                 userAnswer === option && userAnswer === questionData.answer
                   ? "correct"
                   : ""
@@ -54,7 +52,7 @@ const QuizQuestion = React.memo(
                 userAnswer !== questionData.answer && userAnswer === option
                   ? "incorrect"
                   : ""
-              }}
+              }`}
               style={{ cursor: "pointer" }}
             >
               <span className="option-text">{option}</span>
