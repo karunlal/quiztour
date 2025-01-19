@@ -36,7 +36,7 @@ const QuizQuestion = React.memo(
         <ul className="options-list">
           {shuffledOptions.map((option, optionIndex) => (
             <li
-              key={${questionData.index}-${option}} // Ensure a stable key
+             key={`${questionData.index}-${option}`} // Ensure a stable key
               onClick={() => handleOptionClick(option)}
               className={${
                 userAnswer === option ? "selected" : ""
