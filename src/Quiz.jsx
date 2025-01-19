@@ -63,7 +63,22 @@ const Quiz = ({ jsonData }) => {
         handleNextQuestion();
       } else if (event.key === 'ArrowLeft' && currentQuestionIndex > 0) {
         handlePrevQuestion();
+      } else if (event.key === 'Tab') {
+        event.preventDefault();
+        focusNextElement();
       }
+    };
+
+    const focusNextElement = () => {
+      const focusableElements = document.querySelectorAll(
+        'button, input, [tabindex]:not([tabindex="-1"])'
+      );
+      const currentIndex = Array.from(focusableElements).findIndex(
+        (element) => element === document.activeElement
+      );
+      const nextElement =
+        focusableElements[(currentIndex + 1) % focusableElements.length];
+      nextElement?.focus();
     };
 
     window.addEventListener('keydown', handleKeyDown);
@@ -214,8 +229,11 @@ const Quiz = ({ jsonData }) => {
               placeholder="Jump to question #"
               value={jumpQuestionNumber}
               onChange={(e) => setJumpQuestionNumber(e.target.value)}
+              tabIndex="0"
             />
-            <button onClick={handleJumpToQuestion}>Go</button>
+            <button onClick={handleJumpToQuestion} tabIndex="0">
+              Go
+            </button>
           </div>
         </div>
         {detailsVisible && (
