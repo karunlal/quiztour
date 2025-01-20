@@ -1,5 +1,12 @@
 /* TopicList.css */
 
+/* Add a container for the topic heading and database link button */
+.topic-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Style for the main topic button */
 .topic-button {
   background-color: #3498db; /* Blue color */
