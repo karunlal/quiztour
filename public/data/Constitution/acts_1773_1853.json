@@ -1,1 +1,260 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "What was the primary reason for the introduction of the Regulating Act of 1773?",
+      "answer": "To regulate the East India Company's administration and curb corruption",
+      "moreDetails": "",
+      "arr": [
+        "To establish British colonies in India",
+        "To regulate the East India Company's administration and curb corruption",
+        "To introduce democratic governance in India",
+        "To abolish private trade in India"
+      ]
+    },
+    {
+      "question": "Who was appointed as the first Governor-General of Bengal under the Regulating Act of 1773?",
+      "answer": "Warren Hastings",
+      "moreDetails": "",
+      "arr": [
+        "Lord Cornwallis",
+        "William Bentinck",
+        "Warren Hastings",
+        "Robert Clive"
+      ]
+    },
+    {
+      "question": "How many members were in the council formed to assist the Governor-General of Bengal?",
+      "answer": "Four",
+      "moreDetails": "",
+      "arr": ["Three", "Four", "Five", "Six"]
+    },
+    {
+      "question": "What was established in 1774 as part of the judicial reforms under the Regulating Act?",
+      "answer": "Supreme Court of Judicature at Calcutta",
+      "moreDetails": "",
+      "arr": [
+        "High Court of India",
+        "Supreme Court of Judicature at Calcutta",
+        "Federal Court of India",
+        "District Courts in Bengal"
+      ]
+    },
+    {
+      "question": "Which presidencies were made subordinate to the Governor-General of Bengal for matters of war and diplomacy?",
+      "answer": "Bombay and Madras",
+      "moreDetails": "",
+      "arr": [
+        "Bombay and Madras",
+        "Delhi and Punjab",
+        "Madras and Calcutta",
+        "Bihar and Orissa"
+      ]
+    },
+    {
+      "question": "What was a major criticism of the Regulating Act of 1773?",
+      "answer": "It failed to address jurisdiction conflicts effectively",
+      "moreDetails": "",
+      "arr": [
+        "It abolished private trade completely",
+        "It failed to address jurisdiction conflicts effectively",
+        "It made the East India Company more powerful",
+        "It introduced new taxes on Indian rulers"
+      ]
+    },
+    {
+      "question": "Which amendment was introduced in 1781 to address the shortcomings of the Regulating Act?",
+      "answer": "Act of Settlement",
+      "moreDetails": "",
+      "arr": [
+        "Charter Act of 1833",
+        "Act of Settlement",
+        "Indian Councils Act",
+        "Pitt’s India Act"
+      ]
+    },
+    {
+      "question": "What governance structure was introduced by Pitt’s India Act of 1784?",
+      "answer": "Dual system of governance",
+      "moreDetails": "",
+      "arr": [
+        "Monarchy",
+        "Dual system of governance",
+        "Decentralized governance",
+        "Provincial autonomy"
+      ]
+    },
+    {
+      "question": "What was the role of the Court of Directors under Pitt’s India Act?",
+      "answer": "Management of commercial affairs",
+      "moreDetails": "",
+      "arr": [
+        "Oversight of political and administrative affairs",
+        "Management of commercial affairs",
+        "Legislative functions",
+        "Judicial authority"
+      ]
+    },
+    {
+      "question": "What was the main purpose of creating the Board of Control under Pitt's India Act?",
+      "answer": "To oversee political and administrative affairs of the East India Company",
+      "moreDetails": "",
+      "arr": [
+        "To manage military operations in India",
+        "To oversee political and administrative affairs of the East India Company",
+        "To increase revenue collection in India",
+        "To regulate trade with China"
+      ]
+    },
+    {
+      "question": "What was the duration of the Charter Act of 1793 before its review?",
+      "answer": "20 years",
+      "moreDetails": "",
+      "arr": ["10 years", "15 years", "20 years", "25 years"]
+    },
+    {
+      "question": "What trade did the Charter Act of 1793 indirectly facilitate?",
+      "answer": "Opium trade with China",
+      "moreDetails": "",
+      "arr": [
+        "Salt trade",
+        "Opium trade with China",
+        "Tea trade with Europe",
+        "Cotton trade with Africa"
+      ]
+    },
+    {
+      "question": "What significant change did the Charter Act of 1813 bring about in the East India Company's trade?",
+      "answer": "Abolished its trade monopoly, except for tea and trade with China",
+      "moreDetails": "",
+      "arr": [
+        "Abolished its trade monopoly, except for tea and trade with China",
+        "Introduced a new trade monopoly",
+        "Allowed unlimited private trade",
+        "Made the Company a purely administrative body"
+      ]
+    },
+    {
+      "question": "Which provision was made for education under the Charter Act of 1813?",
+      "answer": "Allocation of one lakh rupees for education in India",
+      "moreDetails": "",
+      "arr": [
+        "Introduction of English as a medium of instruction",
+        "Allocation of one lakh rupees for education in India",
+        "Establishment of universities",
+        "Appointment of Christian missionaries"
+      ]
+    },
+    {
+      "question": "Which of the following was allowed under the Charter Act of 1813?",
+      "answer": "Christian missionaries to propagate religion",
+      "moreDetails": "",
+      "arr": [
+        "Complete freedom for Indian trade",
+        "Christian missionaries to propagate religion",
+        "The abolition of zamindari taxes",
+        "Establishment of a national assembly"
+      ]
+    },
+    {
+      "question": "What term explicitly recognized British rule in India under the Charter Act of 1813?",
+      "answer": "British Territories",
+      "moreDetails": "",
+      "arr": [
+        "Indian Territories",
+        "British Territories",
+        "Company's Holdings",
+        "Colonial Territories"
+      ]
+    },
+    {
+      "question": "Who was appointed as the Governor-General of India under the Charter Act of 1833?",
+      "answer": "William Bentinck",
+      "moreDetails": "",
+      "arr": [
+        "Warren Hastings",
+        "Lord Cornwallis",
+        "William Bentinck",
+        "Robert Clive"
+      ]
+    },
+    {
+      "question": "What was the significant administrative change made under the Charter Act of 1833?",
+      "answer": "Centralization of British power in India",
+      "moreDetails": "",
+      "arr": [
+        "Separation of legislative and executive functions",
+        "Centralization of British power in India",
+        "Abolishment of the Supreme Court",
+        "Introduction of proportional representation"
+      ]
+    },
+    {
+      "question": "Which presidencies lost their legislative powers under the Charter Act of 1833?",
+      "answer": "Madras and Bombay",
+      "moreDetails": "",
+      "arr": [
+        "Bengal and Bombay",
+        "Madras and Bombay",
+        "Bombay and Agra",
+        "Madras and Calcutta"
+      ]
+    },
+    {
+      "question": "What major step was taken for civil services under the Charter Act of 1833?",
+      "answer": "Introduction of open competition for recruitment",
+      "moreDetails": "",
+      "arr": [
+        "Introduction of open competition for recruitment",
+        "Abolition of civil service examinations",
+        "Reservation for Europeans only",
+        "Equal representation of Indians"
+      ]
+    },
+    {
+      "question": "What was a significant feature introduced by the Charter Act of 1853 in civil services?",
+      "answer": "Open competition for civil services",
+      "moreDetails": "",
+      "arr": [
+        "Reserved seats for Indians",
+        "Open competition for civil services",
+        "Preference for British candidates",
+        "Elimination of civil service examinations"
+      ]
+    },
+    {
+      "question": "Which council was established under the Charter Act of 1853?",
+      "answer": "Indian (Central) Legislative Council",
+      "moreDetails": "",
+      "arr": [
+        "Supreme Legislative Council",
+        "Indian (Central) Legislative Council",
+        "Federal Council",
+        "Judicial Council"
+      ]
+    },
+    {
+      "question": "What was the primary recommendation of the Macaulay Committee in 1854?",
+      "answer": "Introduction of open competition for civil services",
+      "moreDetails": "",
+      "arr": [
+        "Establishment of the Governor-General's Council",
+        "Separation of legislative and executive powers",
+        "Introduction of open competition for civil services",
+        "Expansion of the East India Company's trade monopoly"
+      ]
+    },
+    {
+      "question": "What unique feature did the Indian (Central) Legislative Council introduced by the Charter Act of 1853 have?",
+      "answer": "It allowed Indians to participate as members",
+      "moreDetails": "",
+      "arr": [
+        "It allowed Indians to participate as members",
+        "It gave full autonomy to Indian presidencies",
+        "It replaced the British Parliament",
+        "It handled only judicial matters"
+      ]
+    }
+  ]
+}
 
