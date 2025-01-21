@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom'
-import './css/TopicList.css' // Ensure to import your CSS file
+import './css/TopicList.css'
 import DatabaseLink from './DatabaseLink'
 
 const TopicList = ({ topics }) => {
@@ -8,29 +8,19 @@ const TopicList = ({ topics }) => {
   const [expandedTopics, setExpandedTopics] = useState([])
 
   const handleTopicClick = (topic) => {
-    console.log('Clicked on topic:', topic.name)
     if (isTopicExpanded(topic)) {
-      setExpandedTopics(
-        expandedTopics.filter((expandedTopic) => expandedTopic !== topic.id)
-      )
+      setExpandedTopics(expandedTopics.filter((id) => id !== topic.id))
     } else {
       setExpandedTopics([...expandedTopics, topic.id])
     }
   }
 
-  const isTopicExpanded = (topic) => {
-    return expandedTopics.includes(topic.id)
-  }
+  const isTopicExpanded = (topic) => expandedTopics.includes(topic.id)
 
   const handleSubtopicClick = (subtopic, topic) => {
-    console.log('Clicked on subtopic:', subtopic.name)
-
-    // Check if the JSON URL is available for the subtopic
     if (subtopic.jsonUrl) {
-      // Use React Router to navigate to the subtopic URL
       history.push(`/topics/${topic.id}/${encodeURIComponent(subtopic.id)}`)
     } else {
-      // Handle the case where JSON URL is not available (you can hide the button or show a message)
       console.warn('JSON URL not available for subtopic:', subtopic.name)
     }
   }
@@ -38,13 +28,11 @@ const TopicList = ({ topics }) => {
   return (
     <div>
       <button className="topic-heading-button">PSC QUIZ</button>
-      <br />
       <div className="topic-heading-container">
         <button className="topic-heading-button">Choose a Topic</button>
         <DatabaseLink />
       </div>
       <ul>
-        {/* Include the DatabaseLink component */}
         {topics.map((topic) => (
           <li key={topic.id}>
             <button
@@ -57,7 +45,7 @@ const TopicList = ({ topics }) => {
               <ul>
                 {topic.subtopics.map((subtopic) => (
                   <li key={subtopic.id}>
-                    {subtopic.jsonUrl ? ( // Check if JSON URL is available
+                    {subtopic.jsonUrl ? (
                       <button
                         className="subtopic-button"
                         onClick={() => handleSubtopicClick(subtopic, topic)}
@@ -65,9 +53,8 @@ const TopicList = ({ topics }) => {
                         {subtopic.name}
                       </button>
                     ) : (
-                      // You can choose to hide the button or display a message
                       <span className="subtopic-unavailable">
-                        {subtopic.name} (JSON URL not available)
+                        {subtopic.name} (No Data Available)
                       </span>
                     )}
                   </li>
