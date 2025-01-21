@@ -1,158 +1,161 @@
-import React, { useState, useEffect } from 'react';
-import QuizQuestion from './QuizQuestion';
-import { useHistory } from 'react-router-dom';
-import './css/QuizComponent.css';
+import React, { useState, useEffect } from 'react'
+import QuizQuestion from './QuizQuestion'
+import { useHistory } from 'react-router-dom'
+import './css/QuizComponent.css'
 
 const Quiz = ({ jsonData }) => {
-  const [userAnswers, setUserAnswers] = useState({});
-  const [correctAnswers, setCorrectAnswers] = useState(0);
-  const [wrongAnswers, setWrongAnswers] = useState(0);
-  const [unattendedQuestions, setUnattendedQuestions] = useState(0);
-  const [showFeedback, setShowFeedback] = useState(false);
-  const [details, setDetails] = useState('');
-  const [detailsVisible, setDetailsVisible] = useState(false);
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [showConfirmationBox, setShowConfirmationBox] = useState(false);
-  const [accuracyPercentage, setAccuracyPercentage] = useState(0);
-  const [jumpQuestionNumber, setJumpQuestionNumber] = useState('');
-  const history = useHistory();
+  const [userAnswers, setUserAnswers] = useState({})
+  const [correctAnswers, setCorrectAnswers] = useState(0)
+  const [wrongAnswers, setWrongAnswers] = useState(0)
+  const [unattendedQuestions, setUnattendedQuestions] = useState(0)
+  const [showFeedback, setShowFeedback] = useState(false)
+  const [details, setDetails] = useState('')
+  const [detailsVisible, setDetailsVisible] = useState(false)
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
+  const [showConfirmationBox, setShowConfirmationBox] = useState(false)
+  const [accuracyPercentage, setAccuracyPercentage] = useState(0)
+  const [jumpQuestionNumber, setJumpQuestionNumber] = useState('')
+  const history = useHistory()
 
   useEffect(() => {
     if (jsonData && jsonData.data) {
-      setUnattendedQuestions(jsonData.data.length);
-      setCorrectAnswers(0);
-      setWrongAnswers(0);
-      setUserAnswers({});
-      setShowFeedback(false);
-      setDetails('');
-      setDetailsVisible(false);
-      setCurrentQuestionIndex(0);
-      setShowConfirmationBox(false);
-      setAccuracyPercentage(0);
+      setUnattendedQuestions(jsonData.data.length)
+      setCorrectAnswers(0)
+      setWrongAnswers(0)
+      setUserAnswers({})
+      setShowFeedback(false)
+      setDetails('')
+      setDetailsVisible(false)
+      setCurrentQuestionIndex(0)
+      setShowConfirmationBox(false)
+      setAccuracyPercentage(0)
     }
-  }, [jsonData]);
+  }, [jsonData])
 
   const updateResults = () => {
-    let correct = 0;
-    let wrong = 0;
-    let unattended = 0;
+    let correct = 0
+    let wrong = 0
+    let unattended = 0
 
     for (let i = 0; i < jsonData.data.length; i++) {
       if (userAnswers[i] === jsonData.data[i].answer) {
-        correct++;
+        correct++
       } else if (userAnswers[i] !== undefined) {
-        wrong++;
+        wrong++
       } else {
-        unattended++;
+        unattended++
       }
     }
 
-    const totalQuestions = jsonData.data.length;
-    const accuracy = (correct / totalQuestions) * 100;
-    setCorrectAnswers(correct);
-    setWrongAnswers(wrong);
-    setUnattendedQuestions(unattended);
-    setAccuracyPercentage(accuracy.toFixed(2));
-  };
+    const totalQuestions = jsonData.data.length
+    const accuracy = (correct / totalQuestions) * 100
+    setCorrectAnswers(correct)
+    setWrongAnswers(wrong)
+    setUnattendedQuestions(unattended)
+    setAccuracyPercentage(accuracy.toFixed(2))
+  }
 
-  useEffect(updateResults, [userAnswers, jsonData]);
+  useEffect(updateResults, [userAnswers, jsonData])
 
   useEffect(() => {
     const handleKeyDown = (event) => {
-      if (event.key === 'ArrowRight' && currentQuestionIndex < jsonData.data.length - 1) {
-        handleNextQuestion();
+      if (
+        event.key === 'ArrowRight' &&
+        currentQuestionIndex < jsonData.data.length - 1
+      ) {
+        handleNextQuestion()
       } else if (event.key === 'ArrowLeft' && currentQuestionIndex > 0) {
-        handlePrevQuestion();
+        handlePrevQuestion()
       } else if (event.key === 'Tab') {
-        event.preventDefault();
-        focusNextElement();
+        event.preventDefault()
+        focusNextElement()
       }
-    };
+    }
 
     const focusNextElement = () => {
       const focusableElements = document.querySelectorAll(
         'button, input, [tabindex]:not([tabindex="-1"])'
-      );
+      )
       const currentIndex = Array.from(focusableElements).findIndex(
         (element) => element === document.activeElement
-      );
+      )
       const nextElement =
-        focusableElements[(currentIndex + 1) % focusableElements.length];
-      nextElement?.focus();
-    };
+        focusableElements[(currentIndex + 1) % focusableElements.length]
+      nextElement?.focus()
+    }
 
-    window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener('keydown', handleKeyDown)
 
     return () => {
-      window.removeEventListener('keydown', handleKeyDown);
-    };
-  }, [currentQuestionIndex, jsonData]);
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [currentQuestionIndex, jsonData])
 
   const handleAnswerClick = (selectedAnswer) => {
     setUserAnswers((prevAnswers) => ({
       ...prevAnswers,
       [currentQuestionIndex]: selectedAnswer,
-    }));
-  };
+    }))
+  }
 
   const handleNextQuestion = () => {
-    setDetailsVisible(false);
+    setDetailsVisible(false)
     if (currentQuestionIndex < jsonData.data.length - 1) {
-      setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
+      setCurrentQuestionIndex((prevIndex) => prevIndex + 1)
     } else {
-      setShowFeedback(true);
-      setDetailsVisible(false);
+      setShowFeedback(true)
+      setDetailsVisible(false)
     }
-  };
+  }
 
   const handlePrevQuestion = () => {
     if (currentQuestionIndex > 0) {
-      setCurrentQuestionIndex((prevIndex) => prevIndex - 1);
-      setShowFeedback(false);
-      setDetailsVisible(false);
+      setCurrentQuestionIndex((prevIndex) => prevIndex - 1)
+      setShowFeedback(false)
+      setDetailsVisible(false)
     }
-  };
+  }
 
   const handleJumpToQuestion = () => {
-    const questionNumber = parseInt(jumpQuestionNumber, 10);
+    const questionNumber = parseInt(jumpQuestionNumber, 10)
     if (questionNumber > 0 && questionNumber <= jsonData.data.length) {
-      setCurrentQuestionIndex(questionNumber - 1);
-      setDetailsVisible(false);
-      setShowFeedback(false);
+      setCurrentQuestionIndex(questionNumber - 1)
+      setDetailsVisible(false)
+      setShowFeedback(false)
     } else {
-      alert('Invalid question number.');
+      alert('Invalid question number.')
     }
-    setJumpQuestionNumber(''); // Clear the input field
-  };
+    setJumpQuestionNumber('') // Clear the input field
+  }
 
   const handleShowDetails = () => {
-    setDetails(jsonData.data[currentQuestionIndex].moreDetails || '');
-    setDetailsVisible(true);
-  };
+    setDetails(jsonData.data[currentQuestionIndex].moreDetails || '')
+    setDetailsVisible(true)
+  }
 
   const handleCloseDetails = () => {
-    setDetailsVisible(false);
-  };
+    setDetailsVisible(false)
+  }
 
   const handleSubmit = () => {
-    setShowConfirmationBox(true);
-  };
+    setShowConfirmationBox(true)
+  }
 
   const handleConfirmSubmission = () => {
-    setUserAnswers({});
-    setCurrentQuestionIndex(0);
-    setShowFeedback(false);
-    setShowConfirmationBox(false);
-  };
+    setUserAnswers({})
+    setCurrentQuestionIndex(0)
+    setShowFeedback(false)
+    setShowConfirmationBox(false)
+  }
 
   const handleCancelSubmission = () => {
-    setShowConfirmationBox(false);
-    history.push('/');
-  };
+    setShowConfirmationBox(false)
+    history.push('/')
+  }
 
   const handleCloseConfirmationBox = () => {
-    setShowConfirmationBox(false);
-  };
+    setShowConfirmationBox(false)
+  }
 
   return (
     <div>
@@ -274,7 +277,7 @@ const Quiz = ({ jsonData }) => {
         )}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Quiz;
+export default Quiz
