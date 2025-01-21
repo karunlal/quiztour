@@ -3,6 +3,7 @@
 .quiz-responsive-container,
 .quiz-container,
 .container {
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
