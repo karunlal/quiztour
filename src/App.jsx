@@ -3,26 +3,15 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import JsonViewer from './JsonViewer'
 import TopicList from './TopicList'
-import fetchData from './DataService' // Ensure this is the correct import
-import Quiz from './Quiz'
+import TopicsData from './Topics.json' // Importing the JSON file
 import './Styles.css'
 
 const App = () => {
   const [topics, setTopics] = useState([])
 
   useEffect(() => {
-    const fetchDataFromLink = async () => {
-      try {
-        const data = await fetchData(
-          'https://script.google.com/macros/s/AKfycbwzYNshjkKBCuP0EMtx8ao0-j7_IUeopyiqBlz-w5pgBKGSCfiN9riaBvpLn5M1wDo/exec'
-        )
-        setTopics(data)
-      } catch (error) {
-        console.error('Error fetching data:', error)
-      }
-    }
-
-    fetchDataFromLink()
+    // Using the locally imported JSON data
+    setTopics(TopicsData)
   }, [])
 
   return (
