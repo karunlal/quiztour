@@ -3,19 +3,18 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import JsonViewer from './JsonViewer'
 import TopicList from './TopicList'
-import TopicsData from './Topics.json' // Importing the JSON file
+import TopicsData from './Topics.json' // Importing local JSON file
 import './Styles.css'
 
 const App = () => {
   const [topics, setTopics] = useState([])
 
   useEffect(() => {
-    // Using the locally imported JSON data
-    setTopics(TopicsData)
+    setTopics(TopicsData) // Load JSON data into state
   }, [])
 
   return (
-    <div>
+    <div className="container">
       <Router>
         <>
           <Switch>
