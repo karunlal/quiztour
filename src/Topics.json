@@ -167,5 +167,36 @@
         "jsonUrl": "data/Malayalam/pariyayapadhangal.json"
       }
     ]
+  },
+  {
+    "id": "Centuries",
+    "name": "Centuries",
+    "subtopics": [
+      {
+        "id": "17_century",
+        "name": "17 Century",
+        "jsonUrl": "data/Centuries/17_century.json"
+      },
+      {
+        "id": "18_century",
+        "name": "18 Century",
+        "jsonUrl": "data/Centuries/18_century.json"
+      },
+      {
+        "id": "19_century",
+        "name": "19 Century",
+        "jsonUrl": "data/Centuries/19_century.json"
+      },
+      {
+        "id": "20_century",
+        "name": "20 Century",
+        "jsonUrl": "data/Centuries/20_century.json"
+      },
+      {
+        "id": "21_century",
+        "name": "21 Century",
+        "jsonUrl": "data/Centuries/21_century.json"
+      }
+    ]
   }
 ]
