@@ -146,5 +146,26 @@
         "jsonUrl": "data/Constitution/constitution_assembly.json"
       }
     ]
+  },
+  {
+    "id": "malayalam",
+    "name": "Malayalam",
+    "subtopics": [
+      {
+        "id": "ottapadham",
+        "name": "ഒറ്റപ്പദം",
+        "jsonUrl": "data/Malayalam/ottapadham.json"
+      },
+      {
+        "id": "padashudhi",
+        "name": "പദശുദ്ധി",
+        "jsonUrl": "data/Malayalam/padashudhi.json"
+      },
+      {
+        "id": "pariyayapadhangal",
+        "name": "പര്യായപദങ്ങൾ",
+        "jsonUrl": "data/Malayalam/pariyayapadhangal.json"
+      }
+    ]
   }
 ]
