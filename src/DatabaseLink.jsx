@@ -6,7 +6,7 @@ const DatabaseLink = ({ disabled }) => {
   const handleButtonClick = () => {
     // Open the link in a new tab
     window.open(
-      'https://docs.google.com/spreadsheets/d/19FFwGpfQV8iaYJPQITLUhBVyoF0_UBg4uZUVGQtbgBA/edit#gid=0',
+      'https://docs.google.com/spreadsheets/d/1Q8BGj9ig2xUxUoK7cayI8ZPUp5EkCe4iG80Mwxrzb1U/edit?gid=0#gid=0',
       '_blank'
     )
   }
