@@ -1,0 +1,83 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "He is the —— boy in the class.",
+      "answer": "most brilliant",
+      "moreDetails": "",
+      "arr": ["most brilliant", "brilliant", "more brilliant", "much brilliant"]
+    },
+    {
+      "question": "This is an —— story.",
+      "answer": "interesting",
+      "moreDetails": "",
+      "arr": ["interesting", "more interesting", "short", "shorter"]
+    },
+    {
+      "question": "Arun is —— than his friend.",
+      "answer": "cleverer",
+      "moreDetails": "",
+      "arr": ["cleverer", "cleverest", "clever", "more clever"]
+    },
+    {
+      "question": "I am senior —— his brother.",
+      "answer": "to ",
+      "moreDetails": "* Don't use ‘than’ with following words in comparative degree. Use only ‘to’.\r\nPrefer, refer, elder, senior, junior, major, minor, anterior, inferior etc.",
+      "arr": ["to ", "than", "from", "by"]
+    },
+    {
+      "question": "I prefer coffee —— tea.",
+      "answer": "to ",
+      "moreDetails": "",
+      "arr": ["to ", "than", "from", "with"]
+    },
+    {
+      "question": "My grandmother is the —— member in my family.",
+      "answer": "oldest",
+      "moreDetails": "",
+      "arr": ["oldest", "older", "elder", "eldest"]
+    },
+    {
+      "question": "Of his two sons, Hari is the ——.",
+      "answer": "elder",
+      "moreDetails": "* of + two + the + comparative",
+      "arr": ["elder", "older", "eldest", "oldest"]
+    },
+    {
+      "question": "King Solomon was —— than honest.",
+      "answer": "more wise",
+      "moreDetails": "",
+      "arr": ["more wise", "wise", "wiser", "more wiser"]
+    },
+    {
+      "question": "Pick the adjective form of ‘trouble’.",
+      "answer": "troublesome",
+      "moreDetails": "",
+      "arr": ["troublesome", "troubled", "troubling", "troubles"]
+    },
+    {
+      "question": "‘Pleasant’ is the adjective form of ——.",
+      "answer": "please",
+      "moreDetails": "",
+      "arr": ["please", "pleasure", "pleasing", "pleasantiy"]
+    },
+    {
+      "question": "Pick the adverb form from below group.",
+      "answer": "cleverly",
+      "moreDetails": "",
+      "arr": ["cleverly", "manly", "sickly", "movable"]
+    },
+    {
+      "question": "No sooner had she heard the sad news ——.",
+      "answer": "than",
+      "moreDetails": "",
+      "arr": ["than", "when", "then", "before"]
+    },
+    {
+      "question": "—— he studied well, he couldn’ pass the exam.",
+      "answer": "even through",
+      "moreDetails": "",
+      "arr": ["even through", "as if", "however", "since"]
+    }
+  ]
+}

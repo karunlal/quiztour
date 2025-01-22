@@ -1,0 +1,100 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "Bread and butter —— my favourite breakfast.",
+      "answer": "is",
+      "moreDetails": "",
+      "arr": ["is", "are", "were", "have"]
+    },
+    {
+      "question": "100 rupees —— not a large sum.",
+      "answer": "is",
+      "moreDetails": "(time, Amount, height, weight, distance -> singular)",
+      "arr": ["is", "are", "has", "do"]
+    },
+    {
+      "question": "The police —— controlling the traffic.",
+      "answer": "are",
+      "moreDetails": "(Police, people, cattle, sheep, folk, crowd -> plural)",
+      "arr": ["are", "was", "have", "does"]
+    },
+    {
+      "question": "A herd of cattle —— grazing in the field.",
+      "answer": "was",
+      "moreDetails": "(if the word herd, group, gang, etc comes with above nouns, a singular verb follows it.)",
+      "arr": ["was", "were", "are", "has"]
+    },
+    {
+      "question": "I with my friends —— playing cricket.",
+      "answer": "am",
+      "moreDetails": "",
+      "arr": ["am", "are", "have", "were"]
+    },
+    {
+      "question": "The teachers along with the principal —— attending the seminar.",
+      "answer": "are",
+      "moreDetails": "(with, together with, along with, as well as, as much as, in addition to, rather\r\nthan, in the company of, besides, like, unlike, accompanied, by -> any of these\r\nwords come in a sentence, the verb follows the first subject.",
+      "arr": ["are", "is", "does", "have"]
+    },
+    {
+      "question": "Neither ministers nor the chief minister —— there.",
+      "answer": "was",
+      "moreDetails": "",
+      "arr": ["was", "are", "is", "has"]
+    },
+    {
+      "question": "Not only the teacher but the students —— also present in the class.",
+      "answer": "are",
+      "moreDetails": "(neither - nor, either - or, not only but also, both, and -> any of these\r\nco relatives comes in sentence verb follows the second subject.",
+      "arr": ["are", "was", "is", "has"]
+    },
+    {
+      "question": "My grand father and guardian —— come.",
+      "answer": "has",
+      "moreDetails": "",
+      "arr": ["has", "are", "were", "is"]
+    },
+    {
+      "question": "The secretary and cashier —— arrested.",
+      "answer": "was",
+      "moreDetails": "(An article (a, an, the) or a possessive noun (my, our, your, their, his, her, its\r\ncomes with both nouns use plural verb. It is comes with both nouns use\r\nplural verb. If it comes with a single noun use singular verb).",
+      "arr": ["was", "are", "has", "does"]
+    },
+    {
+      "question": "My spectacles —— missing.",
+      "answer": "are",
+      "moreDetails": "",
+      "arr": ["are", "is", "was", "have"]
+    },
+    {
+      "question": "This scissors —— blunt.",
+      "answer": "were",
+      "moreDetails": "(Spectacles, Scissors, Pliers, binocular, pants, shoes, socks, chappals etc\r\nfollows plural verb)",
+      "arr": ["were", "was", "has", "have"]
+    },
+    {
+      "question": "A pair of pants —— for my son.",
+      "answer": "has been through",
+      "moreDetails": "(If the words a pair of, comes with above nouns use singular verb only).",
+      "arr": [
+        "has been through",
+        "have bought",
+        "have been bought",
+        "have been buy"
+      ]
+    },
+    {
+      "question": "One of my —— coming.",
+      "answer": "friends  is",
+      "moreDetails": "(One of the number of -> subject plural, verb singular)",
+      "arr": ["friends  is", "friend are", "friend is", "friends are"]
+    },
+    {
+      "question": "More than one —— playing outside.",
+      "answer": "boy is",
+      "moreDetails": "(More than one, many a -> use singular subject and verb after these\r\nphrases).",
+      "arr": ["boy is", "boy are", "boy is", "boye are"]
+    }
+  ]
+}

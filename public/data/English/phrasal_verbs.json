@@ -1,0 +1,329 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "Rejected",
+      "answer": "Turn down",
+      "moreDetails": "",
+      "arr": ["Turn down", "Turn against", "Turn off", "Turn on"]
+    },
+    {
+      "question": "Become hostile",
+      "answer": "Turn against",
+      "moreDetails": "",
+      "arr": ["Turn against", "Turn down", "Turn on", "Turn off"]
+    },
+    {
+      "question": "Stop functioning",
+      "answer": "Turn off",
+      "moreDetails": "",
+      "arr": ["Turn off", "Turn against", "Turn down", "Turn on"]
+    },
+    {
+      "question": "Start functioning",
+      "answer": "Turn on",
+      "moreDetails": "",
+      "arr": ["Turn on", "Turn down", "Turn off", "Turn against"]
+    },
+    {
+      "question": "Be present",
+      "answer": "Turn out",
+      "moreDetails": "",
+      "arr": ["Turn out", "Turn over", "Turn up", "Turn on"]
+    },
+    {
+      "question": "Hand over",
+      "answer": "Turn over",
+      "moreDetails": "",
+      "arr": ["Turn over", "Turn out", "Turn on", "Turn out"]
+    },
+    {
+      "question": "Arrive",
+      "answer": "Turn up",
+      "moreDetails": "",
+      "arr": ["Turn up", "Turn out", "Turn over", "Turn out"]
+    },
+    {
+      "question": "Search",
+      "answer": "look up",
+      "moreDetails": "",
+      "arr": ["look up", "look for", "look forward", "look ahead"]
+    },
+    {
+      "question": "To seek",
+      "answer": "look for",
+      "moreDetails": "",
+      "arr": ["look for", "look up", "look ahead", "look forward"]
+    },
+    {
+      "question": "To expect",
+      "answer": "look forward",
+      "moreDetails": "",
+      "arr": ["look forward", "look ahead", "look for", "look up"]
+    },
+    {
+      "question": "Think of the future",
+      "answer": "look ahead",
+      "moreDetails": "",
+      "arr": ["look ahead", "look ahead", "look for", "look up"]
+    },
+    {
+      "question": "Take care of",
+      "answer": "look after",
+      "moreDetails": "",
+      "arr": ["look after", "look in", "look into", "look down on"]
+    },
+    {
+      "question": "To pay a brief visit",
+      "answer": "look in",
+      "moreDetails": "",
+      "arr": ["look in", "look after", "look down on", "look into"]
+    },
+    {
+      "question": "Investigate",
+      "answer": "look into",
+      "moreDetails": "",
+      "arr": ["look into", "look in", "look after", "look down on"]
+    },
+    {
+      "question": "Despise",
+      "answer": "look down on",
+      "moreDetails": "",
+      "arr": ["look down on", "look over", "look after", "look into"]
+    },
+    {
+      "question": "examine",
+      "answer": "look over",
+      "moreDetails": "",
+      "arr": ["look over", "look down on", "look into", "look after"]
+    },
+    {
+      "question": "Recollect",
+      "answer": "Call up",
+      "moreDetails": "",
+      "arr": ["Call up", "Call for", "Call by", "Call in"]
+    },
+    {
+      "question": "Demand/ require",
+      "answer": "Call for",
+      "moreDetails": "",
+      "arr": ["Call for", "Call up", "Call in", "Call by"]
+    },
+    {
+      "question": "to pay a brief visit",
+      "answer": "Call by",
+      "moreDetails": "",
+      "arr": ["Call by", "Call for", "Call up", "Call in"]
+    },
+    {
+      "question": "invite",
+      "answer": "Call in",
+      "moreDetails": "",
+      "arr": ["Call in", "Call by", "Call for", "Call up"]
+    },
+    {
+      "question": "visit a person",
+      "answer": "Call on",
+      "moreDetails": "",
+      "arr": ["Call on", "Call at", "call off", "call away"]
+    },
+    {
+      "question": "visit a place",
+      "answer": "Call at",
+      "moreDetails": "",
+      "arr": ["Call at", "Call on", "call away", "call off"]
+    },
+    {
+      "question": "cancel",
+      "answer": "call off",
+      "moreDetails": "",
+      "arr": ["call off", "call away", "Call on", "Call at"]
+    },
+    {
+      "question": "divert",
+      "answer": "call away",
+      "moreDetails": "",
+      "arr": ["call away", "call out", "call off", "Call on"]
+    },
+    {
+      "question": "shout for help/ attention",
+      "answer": "call out",
+      "moreDetails": "",
+      "arr": ["call out", "call off", "Call on", "call away"]
+    },
+    {
+      "question": "arise",
+      "answer": "Put up",
+      "moreDetails": "",
+      "arr": ["Put up", "put up with", "put on", "put off"]
+    },
+    {
+      "question": "tolerate",
+      "answer": "put up with",
+      "moreDetails": "",
+      "arr": ["put up with", "Put up", "put off", "put on"]
+    },
+    {
+      "question": "wear",
+      "answer": "put on",
+      "moreDetails": "",
+      "arr": ["put on", "put up with", "Put up", "put off"]
+    },
+    {
+      "question": "post pone",
+      "answer": "put off",
+      "moreDetails": "",
+      "arr": ["put off", "put on", "put up with", "Put up"]
+    },
+    {
+      "question": "extinguish",
+      "answer": "put out",
+      "moreDetails": "",
+      "arr": ["put out", "put down", "put forward", "put across "]
+    },
+    {
+      "question": "communicate",
+      "answer": "put across ",
+      "moreDetails": "",
+      "arr": ["put across ", "put forward", "put out", "put down"]
+    },
+    {
+      "question": "save amount of money",
+      "answer": "put by",
+      "moreDetails": "",
+      "arr": ["put by", "put aside", "put an end to", "put down"]
+    },
+    {
+      "question": "save something for future",
+      "answer": "put aside",
+      "moreDetails": "",
+      "arr": ["put aside", "put an end to", "put by", "put across "]
+    },
+    {
+      "question": "stop/ abolish",
+      "answer": "put an end to",
+      "moreDetails": "",
+      "arr": ["put an end to", "put aside", "put across ", "put by"]
+    },
+    {
+      "question": "I waited for hours, by my friend did not ——.",
+      "answer": "turn up",
+      "moreDetails": "",
+      "arr": ["turn up", "turn around", "turn about", "turn out"]
+    },
+    {
+      "question": "The authority turn down the proposal.",
+      "answer": "rejected",
+      "moreDetails": "",
+      "arr": ["rejected", "Processed", "stopped", "continued"]
+    },
+    {
+      "question": "The opposition parties —— the offer from the government\r\nside for a judicial enquiry.",
+      "answer": "turn down",
+      "moreDetails": "",
+      "arr": ["turn down", "turn up", "turn off", "turn away"]
+    },
+    {
+      "question": "Sydney carton proposed to Lucio but she —— the offer of\r\nmarriage.",
+      "answer": "turn down",
+      "moreDetails": "",
+      "arr": ["turn down", "turn off", "turn on", "turn out"]
+    },
+    {
+      "question": "I looked —— at the number in the telephone directory.",
+      "answer": "up",
+      "moreDetails": "",
+      "arr": ["up", "for", "in", "into"]
+    },
+    {
+      "question": "My parents told me that I would have to —— them when\r\nthey become old.",
+      "answer": "look after",
+      "moreDetails": "",
+      "arr": ["look after", "look for", "look at", "look imto"]
+    },
+    {
+      "question": "What are you looking ——.",
+      "answer": "for ",
+      "moreDetails": "",
+      "arr": ["for ", "about", "on", "in"]
+    },
+    {
+      "question": "Look me —— when you are in India next year.",
+      "answer": "in",
+      "moreDetails": "",
+      "arr": ["in", "down", "up", "over"]
+    },
+    {
+      "question": "Raju's father is in America. He is —— his father is arrived\nnext year.",
+      "answer": "look forward",
+      "moreDetails": "",
+      "arr": ["look forward", "look upon", "look out", "look ahead"]
+    },
+    {
+      "question": "Many people —— the poor.",
+      "answer": "look down on",
+      "moreDetails": "",
+      "arr": ["look down on", "look ahead", "look forward", "look up"]
+    },
+    {
+      "question": "The meeting has been —— due to Harthal.",
+      "answer": "call off ",
+      "moreDetails": "",
+      "arr": ["call off ", "call at", "call on", "call in"]
+    },
+    {
+      "question": "I cannot —— that incident.",
+      "answer": "call up",
+      "moreDetails": "",
+      "arr": ["call up", "call for", "call in", "call on"]
+    },
+    {
+      "question": "The opposition party —— a strike.",
+      "answer": "call for",
+      "moreDetails": "",
+      "arr": ["call for", "call on", "call at", "call off"]
+    },
+    {
+      "question": "He was on leave when I —— his office.",
+      "answer": "call at",
+      "moreDetails": "",
+      "arr": ["call at", "call in", "call on", "call out"]
+    },
+    {
+      "question": "The new M.P —— the Prime minister yesterday.",
+      "answer": "call on",
+      "moreDetails": "",
+      "arr": ["call on", "call at", "call for", "call in"]
+    },
+    {
+      "question": "I took fire fighters four hours to —— the fire.",
+      "answer": "put out",
+      "moreDetails": "",
+      "arr": ["put out", "put in", "put off ", "put on"]
+    },
+    {
+      "question": "The riot was put —— by the police.",
+      "answer": "down",
+      "moreDetails": "",
+      "arr": ["down", "forth", "up", "off"]
+    },
+    {
+      "question": "I am —— half of my salary every month to buy a house.",
+      "answer": "put by",
+      "moreDetails": "",
+      "arr": ["put by", "put on", "put off", "put in"]
+    },
+    {
+      "question": "I can't —— your rudeness.",
+      "answer": "put up with",
+      "moreDetails": "",
+      "arr": ["put up with", "put down ", "put on", "put in"]
+    },
+    {
+      "question": "He plans to —— her new dress on the birthday party.",
+      "answer": "put on",
+      "moreDetails": "",
+      "arr": ["put on", "put out", "put down", "put in"]
+    }
+  ]
+}

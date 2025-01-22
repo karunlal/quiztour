@@ -1,0 +1,457 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "Gun",
+      "answer": "Battery",
+      "moreDetails": "",
+      "arr": ["Battery", "Brace", "Gaggle", "Murder"]
+    },
+    {
+      "question": "pigeon",
+      "answer": "Brace",
+      "moreDetails": "",
+      "arr": ["Brace", "Gaggle", "Murder", "Brood"]
+    },
+    {
+      "question": "Goose ",
+      "answer": "Gaggle",
+      "moreDetails": "",
+      "arr": ["Gaggle", "Murder", "Brood", "Watch"]
+    },
+    {
+      "question": "Crow",
+      "answer": "Murder",
+      "moreDetails": "",
+      "arr": ["Murder", "Brood", "Watch", "Parliament"]
+    },
+    {
+      "question": "Hen",
+      "answer": "Brood",
+      "moreDetails": "",
+      "arr": ["Brood", "Watch", "Parliament", "Company"]
+    },
+    {
+      "question": "Nightingale",
+      "answer": "Watch",
+      "moreDetails": "",
+      "arr": ["Watch", "Parliament", "Company", "pride"]
+    },
+    {
+      "question": "Owl",
+      "answer": "Parliament",
+      "moreDetails": "",
+      "arr": ["Parliament", "Company", "pride", "pride"]
+    },
+    {
+      "question": "Parrot",
+      "answer": "Company",
+      "moreDetails": "",
+      "arr": ["Company", "pride", "pride", "pride"]
+    },
+    {
+      "question": "Lion",
+      "answer": "pride",
+      "moreDetails": "",
+      "arr": ["pride", "pride", "pride", "pride"]
+    },
+    {
+      "question": "Tiger",
+      "answer": "pride",
+      "moreDetails": "",
+      "arr": ["pride", "pride", "pride", "Herd"]
+    },
+    {
+      "question": "Peacock",
+      "answer": "pride",
+      "moreDetails": "",
+      "arr": ["pride", "pride", "Herd", "Herd"]
+    },
+    {
+      "question": "Ostrich",
+      "answer": "pride",
+      "moreDetails": "",
+      "arr": ["pride", "Herd", "Herd", "Herd"]
+    },
+    {
+      "question": "Cattle",
+      "answer": "Herd",
+      "moreDetails": "",
+      "arr": ["Herd", "Herd", "Herd", "Herd"]
+    },
+    {
+      "question": "Elephant",
+      "answer": "Herd",
+      "moreDetails": "",
+      "arr": ["Herd", "Herd", "Herd", "Herd"]
+    },
+    {
+      "question": "Goat",
+      "answer": "Herd",
+      "moreDetails": "",
+      "arr": ["Herd", "Herd", "Herd", "Herd"]
+    },
+    {
+      "question": "Giraffe",
+      "answer": "Herd",
+      "moreDetails": "",
+      "arr": ["Herd", "Herd", "Herd", "Team"]
+    },
+    {
+      "question": "Ass",
+      "answer": "Herd",
+      "moreDetails": "",
+      "arr": ["Herd", "Herd", "Team", "Team"]
+    },
+    {
+      "question": "pig",
+      "answer": "Herd",
+      "moreDetails": "",
+      "arr": ["Herd", "Team", "Team", "Team"]
+    },
+    {
+      "question": "Horse",
+      "answer": "Team",
+      "moreDetails": "",
+      "arr": ["Team", "Team", "Team", "Bunch"]
+    },
+    {
+      "question": "Oxen",
+      "answer": "Team",
+      "moreDetails": "",
+      "arr": ["Team", "Team", "Bunch", "Bunch"]
+    },
+    {
+      "question": "Players",
+      "answer": "Team",
+      "moreDetails": "",
+      "arr": ["Team", "Bunch", "Bunch", "Bunch"]
+    },
+    {
+      "question": "Grapes",
+      "answer": "Bunch",
+      "moreDetails": "",
+      "arr": ["Bunch", "Bunch", "Bunch", "Bunch"]
+    },
+    {
+      "question": "Flowers",
+      "answer": "Bunch",
+      "moreDetails": "",
+      "arr": ["Bunch", "Bunch", "Bunch", "Bench"]
+    },
+    {
+      "question": "Letters",
+      "answer": "Bunch",
+      "moreDetails": "",
+      "arr": ["Bunch", "Bunch", "Bench", "Pack"]
+    },
+    {
+      "question": "Keys",
+      "answer": "Bunch",
+      "moreDetails": "",
+      "arr": ["Bunch", "Bench", "Pack", "Pack"]
+    },
+    {
+      "question": "Judges",
+      "answer": "Bench",
+      "moreDetails": "",
+      "arr": ["Bench", "Pack", "Pack", "Army"]
+    },
+    {
+      "question": "Dog",
+      "answer": "Pack",
+      "moreDetails": "",
+      "arr": ["Pack", "Pack", "Army", "Clutch"]
+    },
+    {
+      "question": "Wolf",
+      "answer": "Pack",
+      "moreDetails": "",
+      "arr": ["Pack", "Army", "Clutch", "Fleet"]
+    },
+    {
+      "question": "Soldier",
+      "answer": "Army",
+      "moreDetails": "",
+      "arr": ["Army", "Clutch", "Fleet", "Flock"]
+    },
+    {
+      "question": "Egg",
+      "answer": "Clutch",
+      "moreDetails": "",
+      "arr": ["Clutch", "Fleet", "Flock", "Troupe"]
+    },
+    {
+      "question": "Ship",
+      "answer": "Fleet",
+      "moreDetails": "",
+      "arr": ["Fleet", "Flock", "Troupe", "Troop"]
+    },
+    {
+      "question": "Sheep ",
+      "answer": "Flock",
+      "moreDetails": "",
+      "arr": ["Flock", "Troupe", "Troop", "Bundle"]
+    },
+    {
+      "question": "Artist",
+      "answer": "Troupe",
+      "moreDetails": "",
+      "arr": ["Troupe", "Troop", "Bundle", "Gang"]
+    },
+    {
+      "question": "Monkey",
+      "answer": "Troop",
+      "moreDetails": "",
+      "arr": ["Troop", "Bundle", "Gang", "Batch"]
+    },
+    {
+      "question": "Stick",
+      "answer": "Bundle",
+      "moreDetails": "",
+      "arr": ["Bundle", "Gang", "Batch", "Bevy"]
+    },
+    {
+      "question": "thieves",
+      "answer": "Gang",
+      "moreDetails": "",
+      "arr": ["Gang", "Batch", "Bevy", "Collection"]
+    },
+    {
+      "question": "Boys",
+      "answer": "Batch",
+      "moreDetails": "",
+      "arr": ["Batch", "Bevy", "Collection", "Gallery"]
+    },
+    {
+      "question": "Women",
+      "answer": "Bevy",
+      "moreDetails": "",
+      "arr": ["Bevy", "Collection", "Gallery", "Set"]
+    },
+    {
+      "question": "Stamp",
+      "answer": "Collection",
+      "moreDetails": "",
+      "arr": ["Collection", "Gallery", "Set", "String"]
+    },
+    {
+      "question": "Picture",
+      "answer": "Gallery",
+      "moreDetails": "",
+      "arr": ["Gallery", "Set", "String", "Bundle"]
+    },
+    {
+      "question": "Tools",
+      "answer": "Set",
+      "moreDetails": "",
+      "arr": ["Set", "String", "Bundle", "Stock"]
+    },
+    {
+      "question": "Camel",
+      "answer": "String",
+      "moreDetails": "",
+      "arr": ["String", "Bundle", "Stock", "Bands"]
+    },
+    {
+      "question": "Clothes",
+      "answer": "Bundle",
+      "moreDetails": "",
+      "arr": ["Bundle", "Stock", "Bands", "Class"]
+    },
+    {
+      "question": "Goods",
+      "answer": "Stock",
+      "moreDetails": "",
+      "arr": ["Stock", "Bands", "Class", "Suite"]
+    },
+    {
+      "question": "Musicians",
+      "answer": "Bands",
+      "moreDetails": "",
+      "arr": ["Bands", "Class", "Suite", "Series"]
+    },
+    {
+      "question": "Students",
+      "answer": "Class",
+      "moreDetails": "",
+      "arr": ["Class", "Suite", "Series", "Shoal"]
+    },
+    {
+      "question": "Furniture",
+      "answer": "Suite",
+      "moreDetails": "",
+      "arr": ["Suite", "Series", "Shoal", "Board"]
+    },
+    {
+      "question": "Events",
+      "answer": "Series",
+      "moreDetails": "",
+      "arr": ["Series", "Shoal", "Board", "Constellation"]
+    },
+    {
+      "question": "Fish",
+      "answer": "Shoal",
+      "moreDetails": "",
+      "arr": ["Shoal", "Board", "Constellation", "Culture"]
+    },
+    {
+      "question": "Directors",
+      "answer": "Board",
+      "moreDetails": "",
+      "arr": ["Board", "Constellation", "Culture", "Charm"]
+    },
+    {
+      "question": "Stars",
+      "answer": "Constellation",
+      "moreDetails": "",
+      "arr": ["Constellation", "Culture", "Charm", "Pit"]
+    },
+    {
+      "question": "Bacteria",
+      "answer": "Culture",
+      "moreDetails": "",
+      "arr": ["Culture", "Charm", "Pit", "Battery"]
+    },
+    {
+      "question": "Birds",
+      "answer": "Charm",
+      "moreDetails": "",
+      "arr": ["Charm", "Pit", "Battery", "Brace"]
+    },
+    {
+      "question": "Snakes",
+      "answer": "Pit",
+      "moreDetails": "",
+      "arr": ["Pit", "Battery", "Brace", "Charm"]
+    },
+    {
+      "question": " I shuffled  the ....... while playing.",
+      "answer": "Deck of cards",
+      "moreDetails": "",
+      "arr": [
+        "Deck of cards",
+        "flock of cards",
+        "pod of cards",
+        "cluster of cards"
+      ]
+    },
+    {
+      "question": "A ..... flies gathered around the electric bulb in the evening.",
+      "answer": "swarm of",
+      "moreDetails": "",
+      "arr": ["swarm of", "pride of", "set of", "team of"]
+    },
+    {
+      "question": "........ of the flowers. pick out the right collective noun.",
+      "answer": "garland",
+      "moreDetails": "",
+      "arr": ["garland", "swarm", "herd", "cluster"]
+    },
+    {
+      "question": "I ran for my life when i saw a.......of stray dogs on the street",
+      "answer": "pack",
+      "moreDetails": "",
+      "arr": ["pack", "group", "pride", "herd"]
+    },
+    {
+      "question": "A........ of monkeys entered from the forest and destroyed the crops",
+      "answer": "tribe",
+      "moreDetails": "",
+      "arr": ["tribe", "herd", "army", "flock "]
+    },
+    {
+      "question": "The tourist spotted a ..... of  lions.",
+      "answer": "pride",
+      "moreDetails": "",
+      "arr": ["pride", "herd", "pack", "flock"]
+    },
+    {
+      "question": "Use the collective noun fish.",
+      "answer": "shoal of fish",
+      "moreDetails": "",
+      "arr": ["shoal of fish", "flock of fish", "herd of fish", "pool of fish"]
+    },
+    {
+      "question": "A...... of cattle is in the meadow.",
+      "answer": "Herd",
+      "moreDetails": "",
+      "arr": ["Herd", "group", "collection", "army"]
+    },
+    {
+      "question": "The crop was attacked by a .......... of locusts.",
+      "answer": "plague",
+      "moreDetails": "",
+      "arr": ["plague", "herd", "troop", "crowed"]
+    },
+    {
+      "question": "A.... of goose was heard a mile away",
+      "answer": "NOT",
+      "moreDetails": "",
+      "arr": ["NOT", "litter", "herd", "google"]
+    },
+    {
+      "question": "A ...... of cattle is passing throught the forest",
+      "answer": "Herd",
+      "moreDetails": "",
+      "arr": ["Herd", "team", "group", "fleet"]
+    },
+    {
+      "question": "A group of Judges is known as ",
+      "answer": "bench",
+      "moreDetails": "",
+      "arr": ["bench", "swarm", "bunch", "bevy"]
+    },
+    {
+      "question": "Collective noun of bats:",
+      "answer": "A colony of bats",
+      "moreDetails": "",
+      "arr": [
+        "A colony of bats",
+        "A bed of bats",
+        "A bundle of bats",
+        "A belt of bat"
+      ]
+    },
+    {
+      "question": "Clollective noun for furniture",
+      "answer": "a suite of furniture",
+      "moreDetails": "",
+      "arr": [
+        "a suite of furniture",
+        "a board of furniture",
+        "a group of furniture ",
+        "a clutch of furniture"
+      ]
+    },
+    {
+      "question": "Pick out the collective noun is the following sentence.(the crowd cheered the cricketer)",
+      "answer": "crowd",
+      "moreDetails": "",
+      "arr": ["crowd", "the crowd", "cricketer", "NOT"]
+    },
+    {
+      "question": "A ..... ............. of poems.",
+      "answer": "collection",
+      "moreDetails": "",
+      "arr": ["collection", "cluster", "chain", "cast"]
+    },
+    {
+      "question": "Collective noun of  beauties:",
+      "answer": "A bevy of beauties",
+      "moreDetails": "",
+      "arr": [
+        "A bevy of beauties",
+        "a box of beauties",
+        "a crowd of beauties",
+        "a chain of beauties"
+      ]
+    },
+    {
+      "question": "A litter of..........",
+      "answer": "puppies",
+      "moreDetails": "",
+      "arr": ["puppies", "cats", "bats", "cows"]
+    }
+  ]
+}

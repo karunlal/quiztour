@@ -1,0 +1,95 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "The toys are on the table, ---------?",
+      "answer": "aren't they?",
+      "moreDetails": "TEST QUESTION TAG",
+      "arr": ["aren't it?", "aren't them?", "aren't there?", "aren't they?"]
+    },
+    {
+      "question": "There is little water in the bottle, ----------?",
+      "answer": "is there?",
+      "moreDetails": "",
+      "arr": ["is it?", "isn't there?", "isn't it?", "is there?"]
+    },
+    {
+      "question": "The child was playing with toys, --------?",
+      "answer": "wasn't it?",
+      "moreDetails": "",
+      "arr": ["wasn't he?", "wasn't she?", "was it?", "wasn't it?"]
+    },
+    {
+      "question": "Everybody was happy, ----------?",
+      "answer": "weren't they?",
+      "moreDetails": "",
+      "arr": ["were they?", "was they?", "wasn't they?", "weren't they?"]
+    },
+    {
+      "question": "No one was ready to go, --------?",
+      "answer": "were they?",
+      "moreDetails": "",
+      "arr": ["was they?", "wasn't they?", "weren't they?", "were they?"]
+    },
+    {
+      "question": "Let me have a look, ----------?",
+      "answer": "will you?",
+      "moreDetails": "",
+      "arr": ["shall I?", "shall we?", "haven't you?", "will you?"]
+    },
+    {
+      "question": "The postman delivers letters, --------------?",
+      "answer": "doesn't he?",
+      "moreDetails": "",
+      "arr": ["don't he?", "didn't he?", "won't he?", "doesn't he?"]
+    },
+    {
+      "question": "Chitra sings song, --------------?",
+      "answer": "doesn't she?",
+      "moreDetails": "",
+      "arr": ["does she?", "don't she?", "can't she?", "doesn't she?"]
+    },
+    {
+      "question": "They fly kites, -------------?",
+      "answer": "don't they?",
+      "moreDetails": "",
+      "arr": ["doesn't they", "do they?", "didn't they?", "don't they?"]
+    },
+    {
+      "question": "Children make noise, ---------------?",
+      "answer": "don't they?",
+      "moreDetails": "",
+      "arr": ["do they?", "do it?", "don't he?", "don't they?"]
+    },
+    {
+      "question": "The police control the traffic, ------------?",
+      "answer": "don't they?",
+      "moreDetails": "",
+      "arr": ["do they?", "do it?", "don't he?", "don't they?"]
+    },
+    {
+      "question": "We wrote exam, -----------?",
+      "answer": "didn't we?",
+      "moreDetails": "",
+      "arr": ["did we?", "did they?", "didn't they?", "didn't we?"]
+    },
+    {
+      "question": "She taught us English, -------------?",
+      "answer": "didn't she?",
+      "moreDetails": "",
+      "arr": ["doesn't she?", "don't she?", "does she?", "didn't she?"]
+    },
+    {
+      "question": "I am a software engineer, -----------?",
+      "answer": "aren't I?",
+      "moreDetails": "",
+      "arr": ["am I?", "amn't I?", "are I?", "aren't I?"]
+    },
+    {
+      "question": "My uncle used to go for a walk every morning, -------?",
+      "answer": "didn't he?",
+      "moreDetails": "",
+      "arr": ["usedn't?", "don't he?", "doesn't he?", "didn't he?"]
+    }
+  ]
+}

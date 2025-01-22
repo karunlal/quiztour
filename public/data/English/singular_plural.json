@@ -1,0 +1,260 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "Curriculum",
+      "answer": "curricula",
+      "moreDetails": "",
+      "arr": ["curricula", "curricula's", "curricules", "carriculsaa"]
+    },
+    {
+      "question": "Bacterium",
+      "answer": "Bacteria",
+      "moreDetails": "",
+      "arr": ["Bacteria", "Bacteria's", "Bacteriaese", "Bacteriaom"]
+    },
+    {
+      "question": "analysis",
+      "answer": "analyses",
+      "moreDetails": "",
+      "arr": ["analyses", "analyses's", "analyseses", "analysessasy"]
+    },
+    {
+      "question": "Phenomenon",
+      "answer": "phenomena",
+      "moreDetails": "",
+      "arr": ["phenomena", "phenomena's", "phenomenasese", "phenomenanoom"]
+    },
+    {
+      "question": "Radius",
+      "answer": "radii",
+      "moreDetails": "",
+      "arr": ["radii", "radiiees", "radiium", "radiisum"]
+    },
+    {
+      "question": "Nucleus",
+      "answer": "nuclei",
+      "moreDetails": "",
+      "arr": ["nuclei", "nucleiees", "nucleium", "nucleisum"]
+    },
+    {
+      "question": "Alga",
+      "answer": "Algae",
+      "moreDetails": "",
+      "arr": ["Algae", "Algaeu", "Algaesum", "Algaesuoo"]
+    },
+    {
+      "question": "Nebula",
+      "answer": "Nebulae",
+      "moreDetails": "",
+      "arr": ["Nebulae", "Nebulaes", "Nebulaevam", "Nebulaella"]
+    },
+    {
+      "question": "Baby",
+      "answer": "babies",
+      "moreDetails": "",
+      "arr": ["babies", "babiessum", "babieseses", "babieseen"]
+    },
+    {
+      "question": "lady",
+      "answer": "ladies",
+      "moreDetails": "",
+      "arr": ["ladies", "ladiesooo", "ladiesum", "womens"]
+    },
+    {
+      "question": "echo",
+      "answer": "echoes",
+      "moreDetails": "",
+      "arr": ["echoes", "echoesoose", "echoesum", "echoeseeses"]
+    },
+    {
+      "question": "hero",
+      "answer": "heroes",
+      "moreDetails": "",
+      "arr": ["heroes", "heroesese", "heroesalam", "heroesd"]
+    },
+    {
+      "question": "Foot",
+      "answer": "feet",
+      "moreDetails": "",
+      "arr": ["feet", "toes", "figures", "pam"]
+    },
+    {
+      "question": "tooth",
+      "answer": "teeth",
+      "moreDetails": "",
+      "arr": ["teeth", "tooth", "tooths", "dental"]
+    },
+    {
+      "question": "calf",
+      "answer": "calves",
+      "moreDetails": "",
+      "arr": ["calves", "calvesese", "calvesoom", "calvesiers"]
+    },
+    {
+      "question": "wife",
+      "answer": "wives",
+      "moreDetails": "",
+      "arr": ["wives", "wivesses", "wivesose", "wivesuoo"]
+    },
+    {
+      "question": "Chief",
+      "answer": "Chiefs",
+      "moreDetails": "",
+      "arr": ["Chiefs", "Chiefes", "Chiefies", "Chiefses"]
+    },
+    {
+      "question": "Gulf",
+      "answer": "Gulfs",
+      "moreDetails": "",
+      "arr": ["Gulfs", "Gulfses", "Gulfsom", "Gulfsum"]
+    },
+    {
+      "question": "proof",
+      "answer": "proofs",
+      "moreDetails": "",
+      "arr": ["proofs", "proofese", "proofsum", "proofum"]
+    },
+    {
+      "question": "Choose the correct plural form of ‘Basis’.",
+      "answer": "bases",
+      "moreDetails": "",
+      "arr": ["bases", "basis", "basic", "NOY"]
+    },
+    {
+      "question": "The singular form of ‘data’ is ——.",
+      "answer": "datum ",
+      "moreDetails": "",
+      "arr": ["datum ", "date", "datas", "datae"]
+    },
+    {
+      "question": "What is the plural of medium.",
+      "answer": "media",
+      "moreDetails": "",
+      "arr": ["media", "medium", "mediums", "mediator"]
+    },
+    {
+      "question": "Write the plural form of the compound word ‘son-in-law’.",
+      "answer": "sons-in-law",
+      "moreDetails": "",
+      "arr": ["sons-in-law", "son-in-laws", "sons-in-laws", "son-in-law"]
+    },
+    {
+      "question": "Find out word in plural form:",
+      "answer": "furniture",
+      "moreDetails": "",
+      "arr": ["furniture", "fungus", "criterion", "goose"]
+    },
+    {
+      "question": "Pick out the plural form of ‘hero’:",
+      "answer": "heroes",
+      "moreDetails": "",
+      "arr": ["heroes", "hero", "heroine", "heross"]
+    },
+    {
+      "question": "The plural form of series is ——.",
+      "answer": "series",
+      "moreDetails": "",
+      "arr": ["series", "serieses", "seriesus", "seriese"]
+    },
+    {
+      "question": "Pick out the singular form from the given words.",
+      "answer": "class",
+      "moreDetails": "",
+      "arr": ["class", "dishes", "batches", "mice"]
+    },
+    {
+      "question": "The plural form of ‘nebula’:",
+      "answer": "nebulai",
+      "moreDetails": "",
+      "arr": ["nebulai", "nebulas", "Nebula", "nebulae"]
+    },
+    {
+      "question": "—— are probably the most unpopular of all our relatives.",
+      "answer": "mothers - in - law",
+      "moreDetails": "",
+      "arr": [
+        "mothers - in - law",
+        "mother - in - laws",
+        "mothers - in - laws",
+        "mother - in - law"
+      ]
+    },
+    {
+      "question": "Give the Plural form of sheep.",
+      "answer": "sheep",
+      "moreDetails": "",
+      "arr": ["sheep", "sheeps", "sheepes", "sheepz"]
+    },
+    {
+      "question": "Which of the following is a correct plural noun.",
+      "answer": "Commanders - in - chief",
+      "moreDetails": "",
+      "arr": [
+        "Commanders - in - chief",
+        "Commander - in - chief",
+        "Notary public",
+        "Woman doctors"
+      ]
+    },
+    {
+      "question": "Plural form of pupa is ——.",
+      "answer": "pupae",
+      "moreDetails": "",
+      "arr": ["pupae", "pupe", "pupea", "pupa"]
+    },
+    {
+      "question": "That is an ox. Those are ——.",
+      "answer": "oxen",
+      "moreDetails": "",
+      "arr": ["oxen", "ox", "oxes", "oxs"]
+    },
+    {
+      "question": "Identify the incorrect singular plural group form the following",
+      "answer": "brother-in-law - brothers-in-law",
+      "moreDetails": "",
+      "arr": [
+        "brother-in-law - brothers-in-law",
+        "woman-servant - women servant",
+        "alumnus - alumni",
+        "passer-by - passers-by"
+      ]
+    },
+    {
+      "question": "Ultrasonic waves —— able to the bats to locate objects.",
+      "answer": "en",
+      "moreDetails": "",
+      "arr": ["en", "in", "un", "dis"]
+    },
+    {
+      "question": "In the formation of word ‘freedom’ —— is used",
+      "answer": "suffix",
+      "moreDetails": "",
+      "arr": ["suffix", "prefix", "participle", "adverb"]
+    },
+    {
+      "question": "‘hood’ in the word childhood is a ——",
+      "answer": "understand",
+      "moreDetails": "",
+      "arr": ["understand", "untidy", "unrest", "unclear"]
+    },
+    {
+      "question": "Find the opposite adding prefix ‘ tidy’",
+      "answer": "untidy",
+      "moreDetails": "",
+      "arr": ["untidy", "intidy", "distidy", "mistidy"]
+    },
+    {
+      "question": "The prefix ‘homo’ means:",
+      "answer": "same",
+      "moreDetails": "",
+      "arr": ["same", "different", "simple", "NOT"]
+    },
+    {
+      "question": "In many countrie it is —— legal to keep a gun in your house.",
+      "answer": "il",
+      "moreDetails": "",
+      "arr": ["il", "un", "dis", "in"]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "To adjust or fit to the condition",
+      "answer": "Adapt",
+      "moreDetails": "",
+      "arr": ["Adapt", "Adopt", "Adept", "Amiable"]
+    },
+    {
+      "question": "To take a child of other parents legally",
+      "answer": "Adopt ",
+      "moreDetails": "",
+      "arr": ["Adopt ", "Adapt", "Adept", "Amiable"]
+    },
+    {
+      "question": "well skilled",
+      "answer": "Adept",
+      "moreDetails": "",
+      "arr": ["Adept", "Adapt", "Adopt", "Amiable"]
+    },
+    {
+      "question": "Lovable",
+      "answer": "Amiable",
+      "moreDetails": "",
+      "arr": ["Amiable", "Adapt", "Adopt", "Amicable"]
+    },
+    {
+      "question": "Friendly",
+      "answer": "Amicable",
+      "moreDetails": "",
+      "arr": ["Amicable", "Adapt", "adopt", "Amiable"]
+    },
+    {
+      "question": "By the side ",
+      "answer": "Beside",
+      "moreDetails": "",
+      "arr": ["Beside", "Besides", "Beneficient", "Benificial"]
+    },
+    {
+      "question": "Additionally",
+      "answer": "Besides",
+      "moreDetails": "",
+      "arr": ["Besides", "Beside", "Benificial", "Beneficient"]
+    },
+    {
+      "question": "Kind",
+      "answer": "Beneficient",
+      "moreDetails": "",
+      "arr": ["Beneficient", "Besides", "Benificial", "Beside"]
+    },
+    {
+      "question": "Useful",
+      "answer": "Benificial",
+      "moreDetails": "",
+      "arr": ["Benificial", "Beneficient", "Besides", "Beside"]
+    },
+    {
+      "question": "Silly",
+      "answer": "Childish",
+      "moreDetails": "",
+      "arr": ["Childish", "child like", "Disease", "decease"]
+    },
+    {
+      "question": "Innocent",
+      "answer": "child like",
+      "moreDetails": "",
+      "arr": ["child like", "decease", "Childish", "Disease"]
+    },
+    {
+      "question": "Sickness",
+      "answer": "Disease",
+      "moreDetails": "",
+      "arr": ["Disease", "Childish", "child like", "decease"]
+    },
+    {
+      "question": "Death",
+      "answer": "decease",
+      "moreDetails": "",
+      "arr": ["decease", "Disease", "Childish", "child like"]
+    },
+    {
+      "question": "To war",
+      "answer": "Martial",
+      "moreDetails": "",
+      "arr": ["Martial", "Marital", "Stationary", "Stationery"]
+    },
+    {
+      "question": "To marriage",
+      "answer": "Marital",
+      "moreDetails": "",
+      "arr": ["Marital", "Martial", "Stationery", "Stationary"]
+    },
+    {
+      "question": "Fixed",
+      "answer": "Stationary",
+      "moreDetails": "",
+      "arr": ["Stationary", "Marital", "Martial", "Stationery"]
+    },
+    {
+      "question": "Materials like pen,ink etc",
+      "answer": "Stationery",
+      "moreDetails": "",
+      "arr": ["Stationery", "Martial", "Marital", "Stationary"]
+    },
+    {
+      "question": "Natural ability",
+      "answer": "Flair",
+      "moreDetails": "",
+      "arr": ["Flair", "Flare", "Compliment", "Complement"]
+    },
+    {
+      "question": "To burn brightly",
+      "answer": "Flare",
+      "moreDetails": "",
+      "arr": ["Flare", "Flair", "Complement", "Compliment"]
+    },
+    {
+      "question": "A remark",
+      "answer": "Compliment",
+      "moreDetails": "",
+      "arr": ["Compliment", "Flare", "Flair", "Complement"]
+    },
+    {
+      "question": "Completely",
+      "answer": "Complement",
+      "moreDetails": "",
+      "arr": ["Complement", "Flair", "Flare", "Compliment"]
+    },
+    {
+      "question": "Calm",
+      "answer": "Quiet",
+      "moreDetails": "",
+      "arr": ["Quiet", "Quite", "Further", "Farther"]
+    },
+    {
+      "question": "Completely",
+      "answer": "Quite",
+      "moreDetails": "",
+      "arr": ["Quite", "Quiet", "Farther", "Further"]
+    },
+    {
+      "question": "Additional",
+      "answer": "Further",
+      "moreDetails": "",
+      "arr": ["Further", "Quite", "Quiet", "Farther"]
+    },
+    {
+      "question": "More distance",
+      "answer": "Farther",
+      "moreDetails": "",
+      "arr": ["Farther", "Further", "Quite", "Quiet"]
+    },
+    {
+      "question": "A personal record",
+      "answer": "Diary",
+      "moreDetails": "",
+      "arr": ["Diary", "Dairy", "Dual", "Duel"]
+    },
+    {
+      "question": "A farm where milk is processed",
+      "answer": "Dairy",
+      "moreDetails": "",
+      "arr": ["Dairy", "Diary", "Duel", "Dual"]
+    },
+    {
+      "question": "Double",
+      "answer": "Dual",
+      "moreDetails": "",
+      "arr": ["Dual", "Duel", "Dairy", "Diary"]
+    },
+    {
+      "question": "A fight between two person",
+      "answer": "Duel",
+      "moreDetails": "",
+      "arr": ["Duel", "Diary", "Dual", "Dairy"]
+    },
+    {
+      "question": "Campaign",
+      "answer": "Canvass",
+      "moreDetails": "",
+      "arr": ["Canvass", "Dual", "Duel", "Canvas"]
+    },
+    {
+      "question": "A cloth used for  drawing and making tents",
+      "answer": "Canvas",
+      "moreDetails": "",
+      "arr": ["Canvas", "Canvass", "Diary", "Duel"]
+    },
+    {
+      "question": "She proved herself very..........at playing chess",
+      "answer": "Adept",
+      "moreDetails": "",
+      "arr": ["Adept", "Adopt", "Adapt", "inept"]
+    },
+    {
+      "question": "Doctors could ------- the problem easily.",
+      "answer": "Identify",
+      "moreDetails": "",
+      "arr": ["Identify", "Identification", "Identicate", "Identificate"]
+    },
+    {
+      "question": "They neglected the teacher's --------------",
+      "answer": "Advice",
+      "moreDetails": "",
+      "arr": ["Advice", "Advise", "Advize", "Advaise"]
+    },
+    {
+      "question": "The superstar plays a ----------- role in the film.",
+      "answer": "Dual",
+      "moreDetails": "",
+      "arr": ["Dual", "Duel", "Duet", "Dubious"]
+    },
+    {
+      "question": "Kerala is blessed with ----------- vegetation",
+      "answer": "Laxuriant",
+      "moreDetails": "",
+      "arr": ["Laxuriant", "Laxurious", "Lustrous", "Industrious"]
+    },
+    {
+      "question": "His words had no ----- on the employees",
+      "answer": "Effect",
+      "moreDetails": "",
+      "arr": ["Effect", "Effective", "Affective", "Affect"]
+    },
+    {
+      "question": "Reena has ---------- for painting.",
+      "answer": "Flair",
+      "moreDetails": "",
+      "arr": ["Flair", "Fair", "Flare", "Fare"]
+    },
+    {
+      "question": "He was ------------ red handed.",
+      "answer": "Caught",
+      "moreDetails": "",
+      "arr": ["Caught", "Quote", "Cot", "NOT"]
+    },
+    {
+      "question": "He gets up early everyday--------- sunday",
+      "answer": "Except",
+      "moreDetails": "",
+      "arr": ["Except", "Exempt", "Accept", "Except"]
+    },
+    {
+      "question": "He is the--------- this estate.",
+      "answer": "Heir",
+      "moreDetails": "",
+      "arr": ["Heir", "Hair", "Hire", "Hare"]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "Antonym of the word 'clear' is--------",
+      "answer": "vague",
+      "moreDetails": "",
+      "arr": ["vague", "vivid", "non clear", "obvious"]
+    },
+    {
+      "question": "The antonym of the word 'sovereign' is----",
+      "answer": "subordinate",
+      "moreDetails": "",
+      "arr": ["subordinate", "monarch", "autocrat", "supreme"]
+    },
+    {
+      "question": "Choose the correct antonym of 'freedom'",
+      "answer": "Restriction",
+      "moreDetails": "",
+      "arr": ["Restriction", "independence", "Liberty", "Choice"]
+    },
+    {
+      "question": "The antonym of 'proper' is----------",
+      "answer": "improper",
+      "moreDetails": "",
+      "arr": ["improper", "disropper", "un proper", "inproper"]
+    },
+    {
+      "question": "Write the antonym of the word 'scarce'.",
+      "answer": "abundant",
+      "moreDetails": "",
+      "arr": ["abundant", "deficient", "scant", "insufficient"]
+    },
+    {
+      "question": "The antonym of 'adversity'is----",
+      "answer": "prosperity",
+      "moreDetails": "",
+      "arr": ["prosperity", "scarcity", "deficiency", "NOT"]
+    },
+    {
+      "question": "Choose the opposite of the word given below.'guest'",
+      "answer": "host",
+      "moreDetails": "",
+      "arr": ["host", "ghost", "friend", "parent"]
+    },
+    {
+      "question": "The antonym of 'Barbarian' is .............",
+      "answer": "civilized",
+      "moreDetails": "",
+      "arr": ["civilized", "uncultured", "foreigner", "fool"]
+    },
+    {
+      "question": "The antonym of 'adapt' is ........",
+      "answer": "misfit",
+      "moreDetails": "",
+      "arr": ["misfit", "hate", "retreat", "native"]
+    },
+    {
+      "question": "Raju is a 'Veteran' in the field .But his brother is only a ........",
+      "answer": "novice",
+      "moreDetails": "",
+      "arr": ["novice", "matter", "virtue", "nexus"]
+    },
+    {
+      "question": "Opposite of the word 'giant' is .............",
+      "answer": "dwarf",
+      "moreDetails": "",
+      "arr": ["dwarf", "small", "short", "big"]
+    },
+    {
+      "question": "Diffident' is the antonym of ",
+      "answer": "confident",
+      "moreDetails": "",
+      "arr": ["confident", "defeat", "clever", "disastrous"]
+    },
+    {
+      "question": "Give the antonym of 'Hereditary'.",
+      "answer": "acquired",
+      "moreDetails": "",
+      "arr": ["acquired", "Ancestral", "bequeathed", "processed"]
+    },
+    {
+      "question": "Opposite  of the word 'infeasible' is:",
+      "answer": "practicable",
+      "moreDetails": "",
+      "arr": ["practicable", "unfeasible", "non easible", "impossible"]
+    },
+    {
+      "question": "Glass is transparent whereas  'Wood' is..........",
+      "answer": "opaque",
+      "moreDetails": "",
+      "arr": ["opaque", "vague", "clear", "NOT"]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "‘Look before you leap’ is an example of________sentence",
+      "answer": "imperative",
+      "moreDetails": "",
+      "arr": ["imperative", "assertive", "Exclamatory", "interrogative"]
+    },
+    {
+      "question": "They are playing out side is a/ an_______ sentence",
+      "answer": "Affirmative",
+      "moreDetails": "(If a sentence starts with subject (I, we, you, they, he, she, it or names of\r\nanything)\r\nis an assertive sentence\r\nimperative - starts with verb)\r\neg: Have a cup of tea\r\ncome here",
+      "arr": ["Affirmative", "Imperative", "interrogative", "exclamatory"]
+    },
+    {
+      "question": "Pick the simple sentence from the following",
+      "answer": "He calls me daily",
+      "moreDetails": "",
+      "arr": [
+        "He calls me daily",
+        "He called me but I couldn’t go",
+        "when he called me I was sleeping",
+        "none of above"
+      ]
+    },
+    {
+      "question": "“Inspite of better treatment the patient died” is a_____ sentence",
+      "answer": "simple",
+      "moreDetails": "",
+      "arr": ["simple", "compound", "complex", "compound complex"]
+    },
+    {
+      "question": "I went market and bought vegetable is a____ sentence",
+      "answer": "compound",
+      "moreDetails": "",
+      "arr": ["compound", "complex", "simple", "compound complex"]
+    },
+    {
+      "question": "As you are already here you can surely do the work",
+      "answer": "complex",
+      "moreDetails": "(How to identify simple, compound, complex sentence)\r\nSimple sentence - Gerund (V1+ing), inspite of, despite, too...to, enough, after\r\n\r\ndue to etc....\r\nCompound - and, but, or, so etc...\r\nComplex - if, when, which, while, as, so that, that etc.\r\neg: He is so strong that he can lift that box alone",
+      "arr": ["complex", "compound", "simple", "compound complex"]
+    },
+    {
+      "question": "“Being tired he fell asleep” convert the sentence into compound",
+      "answer": "He was tired and fell asleep",
+      "moreDetails": "",
+      "arr": [
+        "He was tired and fell asleep",
+        "He is tired and fall asleep",
+        "tiredness makes him asleep",
+        "when he was tired fell asleep"
+      ]
+    },
+    {
+      "question": "Change the following sentence into complex (The Earth is round, we can prove)",
+      "answer": "we can prove that the Earth is round",
+      "moreDetails": "",
+      "arr": [
+        "we can prove that the Earth is round",
+        "The Earth is round so we can prove",
+        "The Earth is round and we prove it",
+        "The Earth is round but we can prove"
+      ]
+    },
+    {
+      "question": "‘He worked hard but failed’ change into simple",
+      "answer": "Inspite of hard work he failed",
+      "moreDetails": "",
+      "arr": [
+        "Inspite of hard work he failed",
+        "He worked hard and failed",
+        "He worked so hard and failed",
+        "All of above"
+      ]
+    },
+    {
+      "question": "Pick the Complex sentence",
+      "answer": "John has a Piano which plays well",
+      "moreDetails": "Primary and modal auxiliaries\r\nprimary auxiliary(11): is, am, are, was, were, do, does, did, has, have, had\r\nModal auxiliary(13): will, would, shall, should, can, could, may, might, must,\r\nought to, used to, need, dare",
+      "arr": [
+        "John has a Piano which plays well",
+        "John plays piano well",
+        "John has a piano and it plays well",
+        "John has a piano but it doesn't play well"
+      ]
+    },
+    {
+      "question": "My father______ go for a walk daily",
+      "answer": "used to",
+      "moreDetails": "",
+      "arr": ["used to", "will", "can", "will"]
+    },
+    {
+      "question": "______You move a bit?",
+      "answer": "would",
+      "moreDetails": "",
+      "arr": ["would", "can", "will", "may"]
+    }
+  ]
+}

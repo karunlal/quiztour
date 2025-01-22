@@ -1,0 +1,474 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "Go to the Dogs' means-------",
+      "answer": "be ruined",
+      "moreDetails": "",
+      "arr": ["be ruined", "run fast", "go for dog", "go after dog"]
+    },
+    {
+      "question": "The idiom'rides the high horse' means------",
+      "answer": "feel proud",
+      "moreDetails": "",
+      "arr": [
+        "feel proud",
+        "keep away from ",
+        "put blame on other",
+        "at the end"
+      ]
+    },
+    {
+      "question": "The idiom ' to drive home ' means--------",
+      "answer": "to emphasize",
+      "moreDetails": "",
+      "arr": [
+        "to emphasize",
+        "to find one's roots",
+        "to return to place of rest",
+        "back to original position"
+      ]
+    },
+    {
+      "question": "Identify the meaning of the idiom from the given sentence. ( HE 'KICKED THE BUCKET')",
+      "answer": "died",
+      "moreDetails": "",
+      "arr": ["died", "forgot", "destroyed", "cheated"]
+    },
+    {
+      "question": "The idiomatic expression ‘head over heels’ means ——.",
+      "answer": "excited",
+      "moreDetails": "",
+      "arr": ["excited", "intelligent", "nonsense", "proud"]
+    },
+    {
+      "question": "What does the idiom ‘to cut corners’ means?",
+      "answer": "To do something badly or cheaply to save money or time",
+      "moreDetails": "",
+      "arr": [
+        "To do something badly or cheaply to save money or time",
+        "To hide something from someone or somewhere",
+        "To say or argue throughly",
+        "D) To save something very expensive"
+      ]
+    },
+    {
+      "question": "Complete the following sentence using the appropriate idiom. (balu passed the exam ------)",
+      "answer": "with flying colours",
+      "moreDetails": "",
+      "arr": [
+        "with flying colours",
+        "by and large",
+        "by fits and starts",
+        "is black and blue"
+      ]
+    },
+    {
+      "question": "Choose the meaning of the given idiom ‘To pick holes’ .",
+      "answer": "to criticize someone",
+      "moreDetails": "",
+      "arr": [
+        "to criticize someone",
+        "to find some reason to quarrel",
+        "to destroy someone",
+        "to eat some part of an item"
+      ]
+    },
+    {
+      "question": "Write the correct meaning of the idiom ‘pros and cons’ .",
+      "answer": "Favourable and unfavourable factors",
+      "moreDetails": "",
+      "arr": [
+        "Favourable and unfavourable factors",
+        "on the whole",
+        "The difficult situation",
+        "good condition"
+      ]
+    },
+    {
+      "question": "Meaning of the idiom 'Hear on the  grape wine'.",
+      "answer": "spread rumours",
+      "moreDetails": "",
+      "arr": [
+        "spread rumours",
+        "over here",
+        "here from distance",
+        "here from a nearby place"
+      ]
+    },
+    {
+      "question": "Meaning of the idiom 'go to the dogs'",
+      "answer": "be ruined",
+      "moreDetails": "",
+      "arr": ["be ruined", "feel proud", "to die", "excited"]
+    },
+    {
+      "question": "Meaning of the idiom 'rides the high horse'",
+      "answer": "feel proud",
+      "moreDetails": "",
+      "arr": ["feel proud", "be ruined", "excited", "to die"]
+    },
+    {
+      "question": "Meaning of the idiom 'Kick the bucket",
+      "answer": "to die",
+      "moreDetails": "",
+      "arr": ["to die", "feel proud", "excited", "be ruined"]
+    },
+    {
+      "question": "Meaning of the idiom 'head over heels'",
+      "answer": "excited",
+      "moreDetails": "",
+      "arr": ["excited", "to die", "be ruined", "feel proud"]
+    },
+    {
+      "question": "Meaning of the idiom 'to cut corners'",
+      "answer": " to do something badly or cheaply to save money or time",
+      "moreDetails": "",
+      "arr": [
+        " to do something badly or cheaply to save money or time",
+        "successfully",
+        "to criticize someone",
+        "favourable and unfavourable factors"
+      ]
+    },
+    {
+      "question": "Meaning of the idiom 'with flying colours'",
+      "answer": "successfully",
+      "moreDetails": "",
+      "arr": [
+        "successfully",
+        " to do something badly or cheaply to save money or time",
+        "feel proud",
+        "here from distance"
+      ]
+    },
+    {
+      "question": "Meaning of the idiom 'To drive home'",
+      "answer": "emphasize",
+      "moreDetails": "",
+      "arr": ["emphasize", "successfully", "feel proud", "excited"]
+    },
+    {
+      "question": "Meaning of the idiom 'Pros and cons'",
+      "answer": "favourable and unfavourable factors",
+      "moreDetails": "",
+      "arr": [
+        "favourable and unfavourable factors",
+        "favourable and unfavourable factors",
+        "favourable and unfavourable factors",
+        "feel proud"
+      ]
+    },
+    {
+      "question": "Meaning of the idiom 'Here on thegrape wine",
+      "answer": "spread rumours",
+      "moreDetails": "",
+      "arr": [
+        "spread rumours",
+        "successfully",
+        "emphasize",
+        "favourable and unfavourable factors"
+      ]
+    },
+    {
+      "question": "What does the underlined idiom mean: so many employee‘got the axe’ as the company was underline financial excise.",
+      "answer": "lost the job",
+      "moreDetails": "",
+      "arr": [
+        "lost the job",
+        "have no idea",
+        " out of one's mind",
+        "angry and overcome"
+      ]
+    },
+    {
+      "question": "The meaning of the idiom is parish pump is ——.",
+      "answer": "local politics",
+      "moreDetails": "",
+      "arr": ["local politics", "charity", "sacred offerings", "state of alarm"]
+    },
+    {
+      "question": "Pick out the nearest in meaning: To fly off the handle.",
+      "answer": "To lose one’ s temper",
+      "moreDetails": "",
+      "arr": [
+        "To lose one’ s temper",
+        "To dislocate",
+        "to take off",
+        "to be airborne"
+      ]
+    },
+    {
+      "question": "Bring out the meaning of the idiom to the following sentence (we shall fight tooth and nail for our right.",
+      "answer": "with all our power",
+      "moreDetails": "",
+      "arr": [
+        "with all our power",
+        "using teeth",
+        "peacefully",
+        "without soldiers"
+      ]
+    },
+    {
+      "question": "A wild goose chase means:",
+      "answer": "something pointless",
+      "moreDetails": "",
+      "arr": [
+        "something pointless",
+        "a useful attempt",
+        "chasing a goose",
+        "killing a goose"
+      ]
+    },
+    {
+      "question": "The idiom swan song means ——.",
+      "answer": "the last public performance of an artist or athlete",
+      "moreDetails": "",
+      "arr": [
+        "the last public performance of an artist or athlete",
+        "musical performance",
+        "song of a swan",
+        "NOT"
+      ]
+    },
+    {
+      "question": "To read between the lines means ——.",
+      "answer": "to understand the hidden meaning of the writer",
+      "moreDetails": "",
+      "arr": [
+        "to understand the hidden meaning of the writer",
+        "to suspect",
+        "to read carefully",
+        "to do useless reading"
+      ]
+    },
+    {
+      "question": "Choose the correct options for the following: crocodile tears",
+      "answer": "fake tears",
+      "moreDetails": "",
+      "arr": [
+        "fake tears",
+        "a competitive sales environment",
+        "false sense of bravery",
+        "absence without permission"
+      ]
+    },
+    {
+      "question": "His most trusted friend proved to be a snake in the grass.\r\nWhat does a snake in the grass means ——.",
+      "answer": "a hidden enemy",
+      "moreDetails": "",
+      "arr": [
+        "a hidden enemy",
+        "an unreliable person",
+        "low and the mean",
+        "cowardly"
+      ]
+    },
+    {
+      "question": "which of the following idiom means greasing the palm.",
+      "answer": "bribery",
+      "moreDetails": "",
+      "arr": ["bribery", "breakdown", "break away", "break the ice"]
+    },
+    {
+      "question": "which of the following idiom means  Got the axe",
+      "answer": "lose the job",
+      "moreDetails": "",
+      "arr": [
+        "lose the job",
+        "local politics",
+        "To lose one’ s temper",
+        "with all power"
+      ]
+    },
+    {
+      "question": "which of the following idiom means  Parish pumps",
+      "answer": "local politics",
+      "moreDetails": "",
+      "arr": [
+        "local politics",
+        "lose the job",
+        "with all power",
+        "To lose one’ s temper"
+      ]
+    },
+    {
+      "question": "which of the following idiom means  To fly off the handle",
+      "answer": "To lose one’ s temper",
+      "moreDetails": "",
+      "arr": [
+        "To lose one’ s temper",
+        "local politics",
+        "lose the job",
+        "with all power"
+      ]
+    },
+    {
+      "question": "which of the following idiom means  Tooth and nail",
+      "answer": "with all power",
+      "moreDetails": "",
+      "arr": [
+        "with all power",
+        "lose the job",
+        "local politics",
+        "To lose one’ s temper"
+      ]
+    },
+    {
+      "question": "which of the following idiom means  Wild goose chase",
+      "answer": "something pointless",
+      "moreDetails": "",
+      "arr": [
+        "something pointless",
+        " last performance",
+        "to understand the hidden  meaning of the writer",
+        "fake tear"
+      ]
+    },
+    {
+      "question": "which of the following idiom means  Swan song",
+      "answer": " last performance",
+      "moreDetails": "",
+      "arr": [
+        " last performance",
+        "to understand the hidden  meaning of the writer",
+        "fake tear",
+        "something pointless"
+      ]
+    },
+    {
+      "question": "which of the following idiom means  To read between the lines",
+      "answer": "to understand the hidden  meaning of the writer",
+      "moreDetails": "",
+      "arr": [
+        "to understand the hidden  meaning of the writer",
+        " last performance",
+        "something pointless",
+        "fake tear"
+      ]
+    },
+    {
+      "question": "which of the following idiom means  Crocodile tears",
+      "answer": "fake tear",
+      "moreDetails": "",
+      "arr": [
+        "fake tear",
+        "to understand the hidden  meaning of the writer",
+        "something pointless",
+        " last performance"
+      ]
+    },
+    {
+      "question": "which of the following idiom means  Snake in the grass",
+      "answer": "hidden enemy",
+      "moreDetails": "",
+      "arr": [
+        "hidden enemy",
+        "bribery",
+        "a pleasant or easy situation",
+        "at the last moment"
+      ]
+    },
+    {
+      "question": "which of the following idiom means  Greasing the palm",
+      "answer": "bribery",
+      "moreDetails": "",
+      "arr": [
+        "bribery",
+        "at the last moment",
+        "to understand the hidden  meaning of the writer",
+        " last performance"
+      ]
+    },
+    {
+      "question": "which of the following idiom means  A bed of roses",
+      "answer": "a pleasant or easy situation",
+      "moreDetails": "",
+      "arr": [
+        "a pleasant or easy situation",
+        "at the last moment",
+        "the beginning and the end",
+        "be born in very rich family"
+      ]
+    },
+    {
+      "question": "which of the following idiom means   At the eleventh hour",
+      "answer": "at the last moment",
+      "moreDetails": "",
+      "arr": [
+        "at the last moment",
+        "a pleasant or easy situation",
+        "be born in very rich family",
+        "the beginning and the end"
+      ]
+    },
+    {
+      "question": "which of the following idiom means  Alpha and Omega",
+      "answer": "the beginning and the end",
+      "moreDetails": "",
+      "arr": [
+        "the beginning and the end",
+        "at the last moment",
+        "a pleasant or easy situation",
+        "be born in very rich family"
+      ]
+    },
+    {
+      "question": "which of the following idiom means  Born with a silver spoon in ones mouth",
+      "answer": "be born in very rich family",
+      "moreDetails": "",
+      "arr": [
+        "be born in very rich family",
+        "a pleasant or easy situation",
+        "at the last moment",
+        "the beginning and the end"
+      ]
+    },
+    {
+      "question": "which of the following idiom means   At hand",
+      "answer": "near",
+      "moreDetails": "",
+      "arr": ["near", "from original source", "in jail", "same type person"]
+    },
+    {
+      "question": "which of the following idiom means  At first hand",
+      "answer": "from original source",
+      "moreDetails": "",
+      "arr": ["from original source", "near", "same type person", "in jail"]
+    },
+    {
+      "question": "which of the following idiom means   Behind the bars",
+      "answer": "in jail",
+      "moreDetails": "",
+      "arr": ["in jail", "from original source", "near", "same type person"]
+    },
+    {
+      "question": "which of the following idiom means   Birds of a feather",
+      "answer": "same type person",
+      "moreDetails": "",
+      "arr": ["same type person", "in jail", "from original source", "near"]
+    },
+    {
+      "question": "which of the following idiom means   Nip the bud",
+      "answer": "stop in the beginning",
+      "moreDetails": "",
+      "arr": [
+        "stop in the beginning",
+        "to get an unexpected fortune",
+        "same type person",
+        "near"
+      ]
+    },
+    {
+      "question": "which of the following idiom means  To get a windfall",
+      "answer": "to get an unexpected fortune",
+      "moreDetails": "",
+      "arr": [
+        "to get an unexpected fortune",
+        "stop in the beginning",
+        "near",
+        "from original source"
+      ]
+    }
+  ]
+}

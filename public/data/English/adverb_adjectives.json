@@ -1,0 +1,76 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "-------- money he had, was stolen away by thief.",
+      "answer": "a little",
+      "moreDetails": "TEST ADJ & ADV",
+      "arr": ["little", "a few", "the little", "a little"]
+    },
+    {
+      "question": "My uncle deposited ------ money he had in his hand.",
+      "answer": "the little",
+      "moreDetails": "",
+      "arr": ["little", "few", "the few", "the little"]
+    },
+    {
+      "question": "India team won the cricket match in a ------- manner.",
+      "answer": "creditable ",
+      "moreDetails": "",
+      "arr": ["credible", "credulous", "credince", "creditable "]
+    },
+    {
+      "question": "The principal appreciated me -------- in my studies.",
+      "answer": "regularity",
+      "moreDetails": "",
+      "arr": ["regular", "regularly", "regularize", "regularity"]
+    },
+    {
+      "question": "Pick the adjective form 'play' ",
+      "answer": "playful",
+      "moreDetails": "",
+      "arr": ["playing", "played", "plays", "playful"]
+    },
+    {
+      "question": "Be careful when you cross the road. The word 'careful",
+      "answer": "adjective",
+      "moreDetails": "",
+      "arr": ["adverb", "noun", "verb", "adjective"]
+    },
+    {
+      "question": "The Adverb form of 'fast' is --------.",
+      "answer": "fast",
+      "moreDetails": "",
+      "arr": ["faster", "fastly", "fastest", "fast"]
+    },
+    {
+      "question": "What is the adverb form 'hard work'.",
+      "answer": "work hard",
+      "moreDetails": "",
+      "arr": ["hard working", "hard worked", "worked hard", "work hard"]
+    },
+    {
+      "question": "The thief is arrested from the ------ house of the street.",
+      "answer": "last",
+      "moreDetails": "",
+      "arr": ["later", "latest", "latter", "last"]
+    },
+    {
+      "question": "He taught his children to be ------ of elders.",
+      "answer": "respectful",
+      "moreDetails": "",
+      "arr": ["respective", "respectable", "respectably", "respectful"]
+    },
+    {
+      "question": "He couldn't spend the whole night 'there'. Here the word there is -------------.",
+      "answer": "adverb of place",
+      "moreDetails": "",
+      "arr": [
+        "adverb of time",
+        "adverb of degree",
+        "adverb of manner",
+        "adverb of place"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "Genocide' means--------",
+      "answer": "mass murder",
+      "moreDetails": "",
+      "arr": [
+        "mass murder",
+        "a type of parasites",
+        "musical instrument",
+        "systematic cultivation"
+      ]
+    },
+    {
+      "question": "Killing one self",
+      "answer": "suicide",
+      "moreDetails": "",
+      "arr": ["suicide", "Patricide", "Matricide", " Fratricide"]
+    },
+    {
+      "question": "Killing father",
+      "answer": "Patricide",
+      "moreDetails": "",
+      "arr": ["Patricide", "suicide", "Matricide", " Fratricide"]
+    },
+    {
+      "question": "Killing mother",
+      "answer": "Matricide",
+      "moreDetails": "",
+      "arr": ["Matricide", "Patricide", " Fratricide", "Matricide"]
+    },
+    {
+      "question": "Killing brother",
+      "answer": " Fratricide",
+      "moreDetails": "",
+      "arr": [" Fratricide", "Sororicide", "Parenticide", "Viricide"]
+    },
+    {
+      "question": "Killing  sister",
+      "answer": "Sororicide",
+      "moreDetails": "",
+      "arr": ["Sororicide", " Fratricide", "Viricide", "Parenticide"]
+    },
+    {
+      "question": "Killing Parents",
+      "answer": "Parenticide",
+      "moreDetails": "",
+      "arr": ["Parenticide", "Sororicide", " Fratricide", "Viricide"]
+    },
+    {
+      "question": "Killing husband",
+      "answer": "Viricide",
+      "moreDetails": "",
+      "arr": ["Viricide", "Parenticide", "Sororicide", " Fratricide"]
+    },
+    {
+      "question": "Killing wife",
+      "answer": "Uxoricide",
+      "moreDetails": "",
+      "arr": ["Uxoricide", "Filicide", "Prolicide", "Parricide"]
+    },
+    {
+      "question": "Killing son",
+      "answer": "Filicide",
+      "moreDetails": "",
+      "arr": ["Filicide", "Uxoricide", "Prolicide", "Parricide"]
+    },
+    {
+      "question": "Killing daughter",
+      "answer": "Prolicide",
+      "moreDetails": "",
+      "arr": ["Prolicide", "Filicide", "Uxoricide", "Parricide"]
+    },
+    {
+      "question": "Killing close relatives",
+      "answer": "Parricide",
+      "moreDetails": "",
+      "arr": ["Parricide", "Prolicide", "Filicide", "Uxoricide"]
+    },
+    {
+      "question": "Killing a man or any person",
+      "answer": "Homicide",
+      "moreDetails": "",
+      "arr": ["Homicide", "Killing a woman", "Infanticide", "Aborticide"]
+    },
+    {
+      "question": "Killing a woman",
+      "answer": "Killing a woman",
+      "moreDetails": "",
+      "arr": ["Killing a woman", "Homicide", "Aborticide", "Infanticide"]
+    },
+    {
+      "question": "Killing an infant",
+      "answer": "Infanticide",
+      "moreDetails": "",
+      "arr": ["Infanticide", "Killing a woman", "Homicide", "Aborticide"]
+    },
+    {
+      "question": "Killing a foetus",
+      "answer": "Aborticide",
+      "moreDetails": "",
+      "arr": ["Aborticide", "Senicide", "Regicide", "Philosophicide"]
+    },
+    {
+      "question": "Killing an oldmen",
+      "answer": "Senicide",
+      "moreDetails": "",
+      "arr": ["Senicide", "Aborticide", "Philosophicide", "Regicide"]
+    },
+    {
+      "question": "Killing a king",
+      "answer": "Regicide",
+      "moreDetails": "",
+      "arr": ["Regicide", "Senicide", "Aborticide", "Philosophicide"]
+    },
+    {
+      "question": "Killing Philosopher",
+      "answer": "Philosophicide",
+      "moreDetails": "",
+      "arr": ["Philosophicide", "Regicide", "Senicide", "Aborticide"]
+    },
+    {
+      "question": "Killing a poet",
+      "answer": "Vaticide",
+      "moreDetails": "",
+      "arr": ["Vaticide", "episcopicscide", "Brahminicide", "nepoticide"]
+    },
+    {
+      "question": "Killing of bishop",
+      "answer": "episcopicscide",
+      "moreDetails": "",
+      "arr": ["episcopicscide", "Vaticide", "nepoticide", "Brahminicide"]
+    },
+    {
+      "question": "Killing a Brahmin",
+      "answer": "Brahminicide",
+      "moreDetails": "",
+      "arr": ["Brahminicide", "nepoticide", "Ambicide", "Hosticide"]
+    },
+    {
+      "question": "Killing a favourite",
+      "answer": "nepoticide",
+      "moreDetails": "",
+      "arr": ["nepoticide", "Brahminicide", "Hosticide", "Ambicide"]
+    },
+    {
+      "question": "Killing a friend",
+      "answer": "Ambicide",
+      "moreDetails": "",
+      "arr": ["Ambicide", "nepoticide", "Brahminicide", "Hosticide"]
+    },
+    {
+      "question": "Killing an enemy",
+      "answer": "Hosticide",
+      "moreDetails": "",
+      "arr": ["Hosticide", "tyranticide", "Hospiticide", "Regicide"]
+    },
+    {
+      "question": "Killing tyrant",
+      "answer": "tyranticide",
+      "moreDetails": "",
+      "arr": ["tyranticide", "Hosticide", "Regicide", "Hospiticide"]
+    },
+    {
+      "question": "Killing a guest",
+      "answer": "Hospiticide",
+      "moreDetails": "",
+      "arr": ["Hospiticide", "tyranticide", "Hosticide", "Regicide"]
+    },
+    {
+      "question": "The one word substitute for an unmarried woman.",
+      "answer": "spinster",
+      "moreDetails": "",
+      "arr": ["spinster", "lady", "mistress", "bachelor"]
+    },
+    {
+      "question": "a woman just before her wedding day, a newly married women",
+      "answer": "bride",
+      "moreDetails": "",
+      "arr": ["bride", "bridegroom", "endogamy", "fiance"]
+    },
+    {
+      "question": "a man just before his wedding day, a newly married man",
+      "answer": "bridegroom",
+      "moreDetails": "",
+      "arr": ["bridegroom", "bride", "fiance", "endogamy"]
+    },
+    {
+      "question": "marrying only within the tribe",
+      "answer": "endogamy",
+      "moreDetails": "",
+      "arr": ["endogamy", "bridegroom", "bride", "fiance"]
+    },
+    {
+      "question": "a man to whom a girl is engaged to be married",
+      "answer": "fiance",
+      "moreDetails": "",
+      "arr": ["fiance", "endogamy", "bridegroom", "bride"]
+    },
+    {
+      "question": "a girl to whom a man is engaged to be married",
+      "answer": "Fiancee",
+      "moreDetails": "",
+      "arr": ["Fiancee", "Polyandry", "Polygami", "Celibacy"]
+    },
+    {
+      "question": "The practice of having more than one husband at the same time",
+      "answer": "Polyandry",
+      "moreDetails": "",
+      "arr": ["Polyandry", "Fiancee", "Celibacy", "Polygami"]
+    },
+    {
+      "question": "The practice of having more than one wives at the same time",
+      "answer": "Polygami",
+      "moreDetails": "",
+      "arr": ["Polygami", "Celibacy", "Bigami", "Monogamy"]
+    },
+    {
+      "question": "the state of being umarried",
+      "answer": "Celibacy",
+      "moreDetails": "",
+      "arr": ["Celibacy", "Polygami", "Monogamy", "Bigami"]
+    },
+    {
+      "question": "The state of having two wives or husbands at the same time",
+      "answer": "Bigami",
+      "moreDetails": "",
+      "arr": ["Bigami", "Monogamy", "Celibacy", "Polygami"]
+    },
+    {
+      "question": "only one wife",
+      "answer": "Monogamy",
+      "moreDetails": "",
+      "arr": ["Monogamy", "Bigami", "Polygami", "Celibacy"]
+    },
+    {
+      "question": "The property which women bring at marriage.",
+      "answer": "Dowry",
+      "moreDetails": "",
+      "arr": ["Dowry", "Widow", "Widower", "Diagamy"]
+    },
+    {
+      "question": "A woman whose husband is dead.",
+      "answer": "Widow",
+      "moreDetails": "",
+      "arr": ["Widow", "Dowry", "Diagamy", "Widower"]
+    },
+    {
+      "question": "a man whose wife is dead",
+      "answer": "Widower",
+      "moreDetails": "",
+      "arr": ["Widower", "Diagamy", "Spouse", "Dowry"]
+    },
+    {
+      "question": "Second marriage",
+      "answer": "Diagamy",
+      "moreDetails": "",
+      "arr": ["Diagamy", "Widower", "Spouse", "Dowry"]
+    },
+    {
+      "question": "Husband/ wife",
+      "answer": "Spouse",
+      "moreDetails": "",
+      "arr": ["Spouse", "Diagamy", "Widower", "Dowry"]
+    },
+    {
+      "question": "The hundredth anniversary of a significant event is called ---------",
+      "answer": "centuary",
+      "moreDetails": "",
+      "arr": ["centuary", "centenary", "sanctuary", "sentuary"]
+    }
+  ]
+}

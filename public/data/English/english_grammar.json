@@ -1,0 +1,551 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "Convert the following sentence into complex/ He is poor, but he is happy.",
+      "answer": "Though he is poor, he is happy",
+      "arr": [
+        "He is poor so he is happy.",
+        "He is poor and he is happy.",
+        "If he is poor he was happy"
+      ]
+    },
+    {
+      "question": "What an idea' is an example of ------------- sentence.",
+      "answer": "Exclamatory",
+      "arr": ["Declarative", "Affirmative", "Interrogative"]
+    },
+    {
+      "question": "Barking dog seldom bites is a/ an ------------ sentence.",
+      "answer": "Simple",
+      "arr": ["Compound", "Complex", "Compound-Complex"]
+    },
+    {
+      "question": "The children looked at ------------- when surprise gifts were given.",
+      "answer": "one another",
+      "arr": ["either", "each", "neither"]
+    },
+    {
+      "question": "Pick the adjective form of 'boy'",
+      "answer": "boyish",
+      "arr": ["boyhood", "boyous", " boys"]
+    },
+    {
+      "question": "The harder you work, ----------- you will do.",
+      "answer": "the better",
+      "arr": ["the good", "better", "the best"]
+    },
+    {
+      "question": "---------- of my classmates came to meet me when I was not well.",
+      "answer": "Each",
+      "arr": ["Either", "Any", "little"]
+    },
+    {
+      "question": "The teacher gave sweets to the children. Pick the direct object from above sentence.",
+      "answer": "Sweets",
+      "arr": ["The teacher", "The children", "None of these"]
+    },
+    {
+      "question": "The innocence of a child attract me. Hear the word 'innocence' is -------.",
+      "answer": "Abstract noun",
+      "arr": ["Proper noun", "Material noun", "Common Noun"]
+    },
+    {
+      "question": "Among the two plans, I would prefer the former to the ---------.",
+      "answer": "latter",
+      "arr": ["later", "latest", "last"]
+    },
+    {
+      "question": "My brother is not ------------- than me.",
+      "answer": "older ",
+      "arr": ["old", "elder ", "oldest"]
+    },
+    {
+      "question": "Without any ----------- delay the guide helped us reach out hotel.",
+      "answer": "further",
+      "arr": ["far ", "farther", "furthest"]
+    },
+    {
+      "question": "She is as smart as ----------.",
+      "answer": "I am",
+      "arr": ["me ", "mine ", "I"]
+    },
+    {
+      "question": "Lead is the heaviest of all metals. Change it into coparative degree.",
+      "answer": "Lead is heavier than all other metals.",
+      "arr": [
+        "All other metals are heavier than lead.",
+        "Lead is heavier metal",
+        "Lead is as heavy as all other metals."
+      ]
+    },
+    {
+      "question": "There are millions of stars in ------- space.",
+      "answer": "no article needed",
+      "arr": ["a ", "an", "the"]
+    },
+    {
+      "question": "She speaks ---------- Hindi language fluently.",
+      "answer": "the",
+      "arr": ["a", "an", "no article needed"]
+    },
+    {
+      "question": "Don't fight each other, ------------?",
+      "answer": "wiil you",
+      "arr": ["do you", "won't you", "can't you"]
+    },
+    {
+      "question": "It is high time they ------ here.",
+      "answer": "reached",
+      "arr": ["are reaching", "have reached", "reach"]
+    },
+    {
+      "question": "They dislike ------------- time.",
+      "answer": "wasting",
+      "arr": ["to waste", "wasteing ", "wasted"]
+    },
+    {
+      "question": "Do you mind -------------- me your pen to sign this document?",
+      "answer": "giving",
+      "arr": ["gave ", "given ", "will give"]
+    },
+    {
+      "question": "You/ had better/ to stay at home./ no error",
+      "answer": "to stay at home",
+      "arr": ["You", "had better", "no error"]
+    },
+    {
+      "question": "More than one attempt --------- been made to break the lock.",
+      "answer": "has",
+      "arr": ["have ", "were", "are"]
+    },
+    {
+      "question": "One of my relatives ----------- been selected to the cricket team.",
+      "answer": "has",
+      "arr": ["were", "are", "have"]
+    },
+    {
+      "question": "One of my firends who --------- been selected to the cricket team",
+      "answer": "have",
+      "arr": ["is ", "has", "was"]
+    },
+    {
+      "question": "Everyboy and every girl --------- given a packet of sweets.",
+      "answer": "was ",
+      "arr": ["are", "were", "have"]
+    },
+    {
+      "question": "I/ did not seen/ her for two weeks./ no error",
+      "answer": "did not seen",
+      "arr": ["I", "her for two weeks", "no error"]
+    },
+    {
+      "question": "There ---------- a large number of weak boys in the class.",
+      "answer": "is ",
+      "arr": ["are", "were", "have"]
+    },
+    {
+      "question": "The minister was accompanied ---------- his private secretary",
+      "answer": "by",
+      "arr": ["with", "to ", "on"]
+    },
+    {
+      "question": "I cannot ----------- his nonsense.",
+      "answer": "put up with",
+      "arr": ["put on", "put off", "put up"]
+    },
+    {
+      "question": "She is suspicious ----------- everyone who comes to her house.",
+      "answer": "of ",
+      "arr": ["on", "in ", "for"]
+    },
+    {
+      "question": "They have been working here ---------- last year.",
+      "answer": "since",
+      "arr": ["for ", "from", "to"]
+    },
+    {
+      "question": "It is time you --------- office.",
+      "answer": "went",
+      "arr": ["go", "come", "reach"]
+    },
+    {
+      "question": "There will be a rush for seats when the train --------.",
+      "answer": "arrives",
+      "arr": ["will arrive", "arrived", "is arriving"]
+    },
+    {
+      "question": "The old man was too weak to travel ------------- himself.",
+      "answer": "by ",
+      "arr": ["with", "for ", "Interrogative"]
+    },
+    {
+      "question": "He died -------- his own hands.",
+      "answer": "by",
+      "arr": ["of ", "with", "in"]
+    },
+    {
+      "question": "Sachin is very good player. In this sentence the wrod 'very' is ------.",
+      "answer": "adjective",
+      "arr": ["noun", "verb", "adverb"]
+    },
+    {
+      "question": "Nobody knows ----- it really means.",
+      "answer": "what",
+      "arr": ["why", "if ", "how"]
+    },
+    {
+      "question": "Phrasal verb with meaning 'visited",
+      "answer": "called at",
+      "arr": ["called up", "called by", "called for"]
+    },
+    {
+      "question": "He used to play hockey, ----------?",
+      "answer": "didn't he",
+      "arr": ["don't he", "usedn't he", "doesn't he"]
+    },
+    {
+      "question": "They ----------- Chennai last week.",
+      "answer": "visited",
+      "arr": ["have visited", "were visited", "visit"]
+    },
+    {
+      "question": "I usually ---------- to temple every Sunday.",
+      "answer": "go",
+      "arr": ["goes", "went", "going"]
+    },
+    {
+      "question": "Nobody ----------- permitted to enter the hospital so far.",
+      "answer": "has been",
+      "arr": ["have been", "were", "are"]
+    },
+    {
+      "question": "Everybody has got a pass mark ------------?",
+      "answer": "haven't they",
+      "arr": ["hasn't they", "do they", "have they"]
+    },
+    {
+      "question": "Practise --------- man perfect.",
+      "answer": "makes",
+      "arr": ["does", "is making", "made"]
+    },
+    {
+      "question": "He is a man -------- everyone respects",
+      "answer": "whom",
+      "arr": ["who ", "whose", "which"]
+    },
+    {
+      "question": "The pandemic condition has turned from bad to ----------------.",
+      "answer": "worse",
+      "arr": ["bad", "worst", "well"]
+    },
+    {
+      "question": "If you hadn't come, I ------ angry with you.",
+      "answer": "would have been",
+      "arr": ["would be", "will be", "had seen"]
+    },
+    {
+      "question": "\"Your memory surprises me\" change into passive voice.",
+      "answer": "I am surprised at your memory",
+      "arr": [
+        "I am surprised by your memory.",
+        "I was surprised by your memory",
+        "I had been surprised by your memory"
+      ]
+    },
+    {
+      "question": "Arun said \"where can I get an application form? Chose the right indirect speech",
+      "answer": "Arun enquired where he could get an application form",
+      "arr": [
+        "Arun enquired whether he could get an application form",
+        "Arun enquired where he got an application form",
+        "Arun enquired where could he get an applicatin form"
+      ]
+    },
+    {
+      "question": " ' I know him' convert into passive voice",
+      "answer": "He is known to me",
+      "arr": ["He is known by me", "He was known by me", "He was know to me"]
+    },
+    {
+      "question": "He has good command --------------- English.",
+      "answer": "of ",
+      "arr": ["over", "in ", "on"]
+    },
+    {
+      "question": "He take pride -------- his son.",
+      "answer": "in",
+      "arr": ["of ", "about", "for"]
+    },
+    {
+      "question": " He gave me a gift' change into passive voice",
+      "answer": "I was given a gift by him",
+      "arr": [
+        "A gift is given to me by him",
+        "A gift was given to me by him",
+        "I was given him a gift"
+      ]
+    },
+    {
+      "question": "She said, \"did you finish the wrok?\" convert the above sentence into direct speech",
+      "answer": "She asked me if I had finished the work",
+      "arr": [
+        "She asked me did I finished the work.",
+        "She asked me that I did finish the work.",
+        "She asked if I had finish the work"
+      ]
+    },
+    {
+      "question": "The Teacher said that -------------",
+      "answer": "The sun rises in the east",
+      "arr": [
+        "The sun rose in the east",
+        "The sun has risen in the east",
+        "The sun rise in the East"
+      ]
+    },
+    {
+      "question": "This is the matter ----------- I am  proud.",
+      "answer": "of which",
+      "arr": ["which", "that", "who"]
+    },
+    {
+      "question": "Adjective form of 'man' is ----",
+      "answer": "manly",
+      "arr": ["manhood", "man", "men"]
+    },
+    {
+      "question": "Neither principal  ---------- teachers will attend the meeting",
+      "answer": "nor",
+      "arr": ["or", "either", "and"]
+    },
+    {
+      "question": "I have been waiting at the bus stop for the past 15 minutes",
+      "answer": "How long have you been waiting?",
+      "arr": [
+        "Why are you standing here?",
+        "How far you have been waiting?",
+        "When you are waiting here?"
+      ]
+    },
+    {
+      "question": "Scarcely had we got home --------------- it began to rain.",
+      "answer": "when",
+      "arr": ["then", "than", "but"]
+    },
+    {
+      "question": "He is such an honest man ------------ everybody likes him",
+      "answer": "that",
+      "arr": ["as", "so", "and"]
+    },
+    {
+      "question": "---------- you please tell me the truth!",
+      "answer": "Would",
+      "arr": ["will", "can", "should"]
+    },
+    {
+      "question": "We -------- painting before it started raining",
+      "answer": "had finished",
+      "arr": ["finished", "finish", "have finished"]
+    },
+    {
+      "question": "He is used to______ by metro",
+      "answer": "travelling",
+      "arr": ["travel", "travelled", "travels"]
+    },
+    {
+      "question": "They visit Taj Mahal. change the sentence into past perfect",
+      "answer": "They had visited Taj Mahal",
+      "arr": [
+        "They have visited Taj Mahal",
+        "They have been visited Taj Mahal",
+        "They visited Taj Mahal"
+      ]
+    },
+    {
+      "question": "No one was there,______? add tag",
+      "answer": "were they",
+      "arr": ["wasn’t they", "was they", "weren’t they"]
+    },
+    {
+      "question": "He /wrote a letter/ in English language/ no error (choose the error part)",
+      "answer": "in english language",
+      "arr": ["he", "wrote a letter", "no error"]
+    },
+    {
+      "question": "They/ are knowing /me/ no error  (choose the error part)",
+      "answer": "are knowing",
+      "arr": ["they", "me", "no error"]
+    },
+    {
+      "question": "He/ forbade me to /not go there /no error  (choose the error part)",
+      "answer": "not go there",
+      "arr": ["he", "forbade me to", "no error"]
+    },
+    {
+      "question": "A good man and useful citizen_____ passed away",
+      "answer": "has",
+      "arr": ["have", "are", "is"]
+    },
+    {
+      "question": "Abhijeet Banerjee won_____ Nobel Prize in Economics",
+      "answer": "the",
+      "arr": ["an", "a", "no article needed"]
+    },
+    {
+      "question": "Fortune______ The Brave",
+      "answer": "favours",
+      "arr": ["is favouring", "will favour", "favour"]
+    },
+    {
+      "question": "_____You say so, I must believe it",
+      "answer": "since",
+      "arr": ["as", "so", "when"]
+    },
+    {
+      "question": "The new secretary started work_____ last week",
+      "answer": "from",
+      "arr": ["since", "till", "to"]
+    },
+    {
+      "question": "Only____ children like thrillers",
+      "answer": "a few",
+      "arr": ["the few", "a little", "few"]
+    },
+    {
+      "question": "She was quite overcome______ emotion",
+      "answer": "with",
+      "arr": ["from", "of", "in"]
+    },
+    {
+      "question": "______ of them Rose from their seats to protest",
+      "answer": "all",
+      "arr": ["each", "every one", "None of these"]
+    },
+    {
+      "question": "It Looks ________ it is going to rain",
+      "answer": "as if",
+      "arr": ["if", "whether", "when"]
+    },
+    {
+      "question": "We have to stay here_____ he comes",
+      "answer": "until",
+      "arr": ["when", "while", "during"]
+    },
+    {
+      "question": "Noun form of ‘create’ is:",
+      "answer": "creation",
+      "arr": ["created", "creating", "creatory"]
+    },
+    {
+      "question": "He Asked me....",
+      "answer": "where my book was",
+      "arr": ["where my book is", "where was my book", "where is my book"]
+    },
+    {
+      "question": "The adjective form of ‘riches’ is",
+      "answer": "rich",
+      "arr": ["Richness", "Richly", "Richy"]
+    },
+    {
+      "question": "Usha runs_____",
+      "answer": "fast",
+      "arr": ["fastly", "faster", "quick"]
+    },
+    {
+      "question": "My father asked whether anyone — his purse? (Choose the correct verb form.)",
+      "answer": "had seen",
+      "arr": ["seen", "have been", "saw"]
+    },
+    {
+      "question": "The rule is applicable — everyone.",
+      "answer": "for",
+      "arr": ["with", "to ", "of"]
+    },
+    {
+      "question": "They speak English very good.Correct the sentence",
+      "answer": "They speak English very well",
+      "arr": [
+        "They speak English well.",
+        "They speak the English very good.",
+        "They speak English very good"
+      ]
+    },
+    {
+      "question": "My uncle is working in a large office, —— my aunt is working at her home.",
+      "answer": "whereas",
+      "arr": ["actually", "firstly", "where"]
+    },
+    {
+      "question": "Had I known this, ——.",
+      "answer": "I would have kept him at a distance.",
+      "arr": [
+        "I would keep him at a distance",
+        "I would have kept him at a distance.",
+        "I will have kept him at a distance."
+      ]
+    },
+    {
+      "question": "The old man —— lives in my neighbourhood is a University professor.",
+      "answer": "who",
+      "arr": ["whose", "whom", "which"]
+    },
+    {
+      "question": "I was sitting —— an arm chair.",
+      "answer": "in",
+      "arr": ["on", "with", "at"]
+    },
+    {
+      "question": "(Choose the right verb.) They —— down every afternoon after lunch.",
+      "answer": "lie",
+      "arr": ["lied", "lay", "am lying"]
+    },
+    {
+      "question": "Many a cup and saucer —— been broken.",
+      "answer": "has",
+      "arr": ["have", "is making", "are"]
+    },
+    {
+      "question": "They should be grateful if we ——— send them money.",
+      "answer": "would",
+      "arr": ["will", "may", "can"]
+    },
+    {
+      "question": "There are plans to rebuild the town hall, but it ——— not happen for another five years.",
+      "answer": "may",
+      "arr": ["should", "do", "has"]
+    },
+    {
+      "question": "He said, “I am leaving for Mumbai tomorrow”. (Report the sentence.)",
+      "answer": "He said that he was leaving for Mumbai the next day.",
+      "arr": [
+        "He said he was leaving for Mumbai on the next day.",
+        "He said that he is leaving for Mumbai the next day.",
+        "He said that he is leaving for Mumbai on tomorrow."
+      ]
+    },
+    {
+      "question": "Write the verb form of ‘courage’.",
+      "answer": "encourage",
+      "arr": ["courageous", "couragness", "couraging"]
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "answer": "Shama Passed the examination in 1980.",
+      "arr": [
+        "Shama was passed the examination in 1980.",
+        "Shama had been passing the examination in 1980.",
+        "Shama had passed the examination in 1980."
+      ]
+    },
+    {
+      "question": "Be quiet and listen to my words. (Report the sentence.)",
+      "answer": "He urged them to be quiet and listen to his words.",
+      "arr": [
+        "He urged them and said to quiet and listen to his words.",
+        "He urged that they should be quiet and listen to his words.",
+        "He asked them to be quiet and listen to his words."
+      ]
+    }
+  ]
+}

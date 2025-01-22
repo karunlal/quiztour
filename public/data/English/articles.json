@@ -1,0 +1,89 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "He is also ---- heir of that property.",
+      "answer": "an",
+      "moreDetails": "test",
+      "arr": ["a", "the", "no article", "an"]
+    },
+    {
+      "question": "We can meet ------ hour later",
+      "answer": "an",
+      "moreDetails": "",
+      "arr": ["a", "the", "no article", "an"]
+    },
+    {
+      "question": "I met him ------- year ago",
+      "answer": "a",
+      "moreDetails": "",
+      "arr": ["an", "the", "no article", "a"]
+    },
+    {
+      "question": "This is------ F.C.I building",
+      "answer": "an",
+      "moreDetails": "",
+      "arr": ["a", "the", "no article", "an"]
+    },
+    {
+      "question": "She bought ----- ewe last week",
+      "answer": "a",
+      "moreDetails": "",
+      "arr": ["an", "the", "no article", "a"]
+    },
+    {
+      "question": "It was  ---------  unanimous decision ",
+      "answer": "a",
+      "moreDetails": "",
+      "arr": ["an", "the", "no article", "a"]
+    },
+    {
+      "question": "----------- lion is a wild animal ",
+      "answer": "the",
+      "moreDetails": "",
+      "arr": ["a", "an", "no article", "the"]
+    },
+    {
+      "question": "The man / cannot live /by bread alone / no errors---choose the error part ",
+      "answer": "the man",
+      "moreDetails": "don't use the with the wordsman,gold.iron,to represent a whole group",
+      "arr": ["cannot live", "by bread alone", "no error", "the man"]
+    },
+    {
+      "question": "-------- Ganga is a holy river",
+      "answer": "the",
+      "moreDetails": "",
+      "arr": ["a", "an", "no article", "the"]
+    },
+    {
+      "question": "------------ Queen victoria is a famous ship",
+      "answer": "the",
+      "moreDetails": "",
+      "arr": ["a", "an", "no article", "the"]
+    },
+    {
+      "question": "----- Mount Everest is the highest mountain peak",
+      "answer": "no article",
+      "moreDetails": "We can use 'the' with mountain ranges and Island groups.but don't use with single name of mountain / Island",
+      "arr": ["a", "an", "the", "no article"]
+    },
+    {
+      "question": "The spanish refers ----",
+      "answer": "people ",
+      "moreDetails": "(We never use any article with the name of language but the world LANGUAGE comes with it 'the' should be used)\neg :/She  speaks ----- English - no articles/\n /She speaks ---- English language fluently - the/\n/(If the article 'the' comes with language is refers the nation/people)/\n/eg:There were several battles between---- English and --- French [ans:the--the]/\n",
+      "arr": ["language", "culture", "manner", "people "]
+    },
+    {
+      "question": "The carpender is going to ----- school now",
+      "answer": "the",
+      "moreDetails": "(If we go any place for any particular purpose \"the\" should be used)",
+      "arr": ["a", "an", "no article", "the"]
+    },
+    {
+      "question": "My uncle works in ---- Calicut University",
+      "answer": "no article",
+      "moreDetails": "(Don't use article with institution named withperson / place)",
+      "arr": ["a", "an", "the", "no article"]
+    }
+  ]
+}

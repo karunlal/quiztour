@@ -1,0 +1,65 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "Time and Tide _____ for no man.",
+      "answer": "waits",
+      "moreDetails": "",
+      "arr": ["waits", "wait", "is waiting", "have waited"]
+    },
+    {
+      "question": "Slow and steady _____ the race.",
+      "answer": "wins",
+      "moreDetails": "",
+      "arr": ["wins", "decides", "ends", "follow"]
+    },
+    {
+      "question": "A friend in need is a friend",
+      "answer": "indeed",
+      "moreDetails": "",
+      "arr": ["indeed", "in fact", "in action", "in truth"]
+    },
+    {
+      "question": "_____ stitch in time saves nine.",
+      "answer": "a",
+      "moreDetails": "",
+      "arr": ["a", "the", "a few", "the few"]
+    },
+    {
+      "question": "An idle brain is the devils ______",
+      "answer": "work shop",
+      "moreDetails": "",
+      "arr": ["work shop", "work room", "work place", "work house"]
+    },
+    {
+      "question": "Caesar’s wife must be above ______",
+      "answer": "suspicion",
+      "moreDetails": "",
+      "arr": ["suspicion", "average", "doubtful", "the law"]
+    },
+    {
+      "question": "As you sow, _____ you reap.",
+      "answer": "so",
+      "moreDetails": "",
+      "arr": ["so", "as", "the", "or"]
+    },
+    {
+      "question": "a blind man ́s wife _____ no colour.",
+      "answer": "need",
+      "moreDetails": "",
+      "arr": ["need", "necessary", "advantage", "used"]
+    },
+    {
+      "question": "A dead _____ has no fear of wolves.",
+      "answer": "donkey",
+      "moreDetails": "",
+      "arr": ["donkey", "monkey", "vow", "tiger"]
+    },
+    {
+      "question": "A fool at _____is a fool forever.",
+      "answer": "forty",
+      "moreDetails": "",
+      "arr": ["forty", "fifty", "sixty", "seventy"]
+    }
+  ]
+}

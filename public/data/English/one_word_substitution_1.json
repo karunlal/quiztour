@@ -1,0 +1,146 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "Fear of dogs:",
+      "answer": "Cynophobia",
+      "moreDetails": "fears of darkness - nyctophobi\nfears of alone -  Auto phobia\nfear of fog - Nebula phobia",
+      "arr": ["Cynophobia", "Gynofobia ", "Auto phobia ", "Nebula phobia "]
+    },
+    {
+      "question": "Bibliophobia means:",
+      "answer": "fears of books",
+      "moreDetails": "fear of religion or god - theophobia\nfear of thunder and lightning - brontophobia \nfear of speaking in public - glossophobia",
+      "arr": [
+        "fears of books",
+        "fear of thunder and lightning",
+        "fear of speaking in public ",
+        "fear of religion or god "
+      ]
+    },
+    {
+      "question": "Gerontophobia means:",
+      "answer": "fears of growing old",
+      "moreDetails": "fear of strangers - Xenophobia\nfear of insects - entomophobia\nfears of darkness - nyctophobia",
+      "arr": [
+        "fears of growing old",
+        "fear of strangers ",
+        "fear of insects ",
+        "fears of darkness "
+      ]
+    },
+    {
+      "question": "Ailurophobia means:",
+      "answer": "fears of cats",
+      "moreDetails": "fears of travelling - Hodophobia\nfear of water - Hydrophobia\nfears of a lakes and canals - limno phobia",
+      "arr": [
+        "fears of cats",
+        "fears of travelling",
+        "fear of water",
+        "fears of a lakes and canals"
+      ]
+    },
+    {
+      "question": "Photophobia means:",
+      "answer": "fear of light",
+      "moreDetails": "fear of fire - Pyrophobia\nfear of snake - Ophidiophobia\nfear of moon - Selenophobia",
+      "arr": ["fear of light", "fear of fire", "fear of snake", "fear of moon"]
+    },
+    {
+      "question": "Fear of death:",
+      "answer": "Thanutophobia",
+      "moreDetails": "Bathophobia - fear of depth\nBathmophobia - fear of stairs or slopes\nLimnophobia - fear of lakes",
+      "arr": ["Thanutophobia", "Bathophobia", "Bathmophobia", "Limnophobia"]
+    },
+    {
+      "question": "Haemophobia : fear of blood :: melanophobia : ———",
+      "answer": "fear of the colour of black",
+      "moreDetails": "fear of rain - Pluvio phobia",
+      "arr": [
+        "fear of the colour of black",
+        "fear of cats",
+        "fear of books",
+        "fear of rain"
+      ]
+    },
+    {
+      "question": "Gynophobia :",
+      "answer": "Fear of women",
+      "moreDetails": "fear of Foreigners - Xenophobia\nfear of music and dance - melophobia, chorophobia",
+      "arr": [
+        "Fear of women",
+        "fear of Foreigners",
+        "fear of music and dance",
+        "fear of cat and dog"
+      ]
+    },
+    {
+      "question": "Aurophobia",
+      "answer": "fear of gold",
+      "moreDetails": "fear of religion or god - Theophobia\nfear of colour yellow - Xanthophobia\nfear of death - Thanutophobia",
+      "arr": [
+        "fear of gold",
+        "fear of religion or god",
+        "fear of colour yellow",
+        "fear of death"
+      ]
+    },
+    {
+      "question": "Oneiorophobia means:",
+      "answer": "fear of dreams",
+      "moreDetails": "fear of snakes - ophidiophobia\nFear of birds - Ornithophobia\nfear of mice - Musophobia",
+      "arr": [
+        "fear of dreams",
+        "fear of snakes",
+        "Fear of birds",
+        "fear of mice"
+      ]
+    },
+    {
+      "question": "Fear of blood is:",
+      "answer": "haemophobia",
+      "moreDetails": "androphobia - fear of men\nambulophobia - walking\nglossophobia - speaking in public",
+      "arr": ["haemophobia", "androphobia", "ambulophobia", "glossophobia"]
+    },
+    {
+      "question": "Pyrophobia means:",
+      "answer": "fire",
+      "moreDetails": "darkness - nyctophobia\nnoise - acousticophobia\nwater - hydrophobia",
+      "arr": ["fire", "darkness", "noise", "water"]
+    },
+    {
+      "question": "Fear of anything new is:",
+      "answer": "Neophobia",
+      "moreDetails": "Nephobia - fear of clouds\nNoctiphobia - fear of night\nNebulaphobia - fear of fog",
+      "arr": ["Neophobia", "Nephobia", "Noctiphobia", "Nebulaphobia"]
+    },
+    {
+      "question": "Ochlophobia means:",
+      "answer": "fear of sea",
+      "moreDetails": "fear of crowds - Demophobia\nfear of step mother - Novercaphobia\nfear of mother in law - Pentheraphobia",
+      "arr": [
+        "fear of sea",
+        "fear of crowds",
+        "fear of step mother",
+        "fear of mother in law"
+      ]
+    },
+    {
+      "question": "Fear of bat is:",
+      "answer": "Chiroptophobia",
+      "moreDetails": "chrematophobia - fear of money\nHippophobia - fear of horse\nArchanophobia - fear of spiders",
+      "arr": [
+        "Chiroptophobia",
+        "chrematophobia",
+        "Hippophobia",
+        "Archanophobia"
+      ]
+    },
+    {
+      "question": "Fear of wind is:",
+      "answer": "AnemoPhobia",
+      "moreDetails": "Siderodromophobia - fear of trains\nLaliophobia - fear of talking\nOchophobia - fear of vehicles",
+      "arr": ["AnemoPhobia", "Siderodromophobia", "Laliophobia", "Ochophobia"]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "abhor",
+      "answer": "hate",
+      "moreDetails": "",
+      "arr": ["hate", "admire", "like", "adore"]
+    },
+    {
+      "question": "agitated",
+      "answer": "restless",
+      "moreDetails": "",
+      "arr": ["restless", "calm", "not bother", "quiet"]
+    },
+    {
+      "question": "Affiliate",
+      "answer": "Associate",
+      "moreDetails": "",
+      "arr": ["Associate", "separated", "attached", "united"]
+    },
+    {
+      "question": "Buff",
+      "answer": "Enthusiast",
+      "moreDetails": "",
+      "arr": ["Enthusiast", "screen", "fender", "sheild"]
+    },
+    {
+      "question": "Barbarian",
+      "answer": "Uncivilized",
+      "moreDetails": "",
+      "arr": ["Uncivilized", "calm", "kind", "nice"]
+    },
+    {
+      "question": "calm",
+      "answer": "exchange",
+      "moreDetails": "",
+      "arr": ["exchange", "angry", "harsh", "wild"]
+    },
+    {
+      "question": "Curiosity",
+      "answer": " inquisitiveness",
+      "moreDetails": "",
+      "arr": [" inquisitiveness", "disregard", "apathy", "indifference"]
+    },
+    {
+      "question": "The synonym of the word ‘guile’ is ———.",
+      "answer": "cunning",
+      "moreDetails": "",
+      "arr": ["cunning", "disability", "greedy", "annoy"]
+    },
+    {
+      "question": "The synonym for the word ‘disgust’ is ———.",
+      "answer": "dislike",
+      "moreDetails": "",
+      "arr": ["dislike", "discard", "disagree", "discourage"]
+    },
+    {
+      "question": "‘Recreation’ is similar to:",
+      "answer": "amusement",
+      "moreDetails": "",
+      "arr": ["amusement", "encouragement", "happiness", "enthusiasm"]
+    },
+    {
+      "question": "Give the synonym of ‘predict’ :",
+      "answer": "foretell",
+      "moreDetails": "",
+      "arr": ["foretell", "premonitation", "Aver", "pronounce"]
+    },
+    {
+      "question": "The synonym of ‘avaricious’ is ———.",
+      "answer": "Greedy",
+      "moreDetails": "",
+      "arr": ["Greedy", "Ready", "audacious", "NOT"]
+    },
+    {
+      "question": "The synonym for ‘chide’ is ———.",
+      "answer": "scold",
+      "moreDetails": "",
+      "arr": ["scold", "Mock at", "cheat", "scare"]
+    },
+    {
+      "question": "Synonym of ‘liberal’ is ———.",
+      "answer": "generous",
+      "moreDetails": "",
+      "arr": ["generous", "loving", "tolerant", "gentle"]
+    },
+    {
+      "question": "Find the synonym of the word ‘manifest’.",
+      "answer": "display",
+      "moreDetails": "",
+      "arr": ["display", "custom", "humble", "soft"]
+    },
+    {
+      "question": "Choose the right to synonym for the word ‘ephemeral’.",
+      "answer": "Momentary",
+      "moreDetails": "",
+      "arr": ["Momentary", "Lasting", "eternal", "durable"]
+    },
+    {
+      "question": "The synonym of of ‘plethora’ is ———.",
+      "answer": "Abundance",
+      "moreDetails": "",
+      "arr": ["Abundance", "Rare", "cheap", "Scare"]
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": " Feminine  gender of Bachelor",
+      "answer": "spinster",
+      "moreDetails": "",
+      "arr": ["spinster", "cow", "heifer", "filly"]
+    },
+    {
+      "question": " Feminine  gender of  Bull",
+      "answer": "cow ",
+      "moreDetails": "",
+      "arr": ["cow ", "baffalo", "hen", "sahiwal"]
+    },
+    {
+      "question": " Feminine  gender of  Bullock",
+      "answer": "heifer",
+      "moreDetails": "",
+      "arr": ["heifer", "cow ", "sahiwal", "gir "]
+    },
+    {
+      "question": " Feminine  gender of Cock (Rooster)",
+      "answer": "hen",
+      "moreDetails": "",
+      "arr": ["hen", "chicken", "bresse", "barnevelder"]
+    },
+    {
+      "question": " Feminine  gender of Colt",
+      "answer": "filly ",
+      "moreDetails": "",
+      "arr": ["filly ", "spinster", "heifer", "cow "]
+    },
+    {
+      "question": " Feminine  gender of Dog",
+      "answer": "bitch",
+      "moreDetails": "",
+      "arr": ["bitch", "baffalo", "hen", "chicken"]
+    },
+    {
+      "question": " Feminine  gender of  Drake",
+      "answer": "duck",
+      "moreDetails": "",
+      "arr": ["duck", "hen", "hen", "barnevelder"]
+    },
+    {
+      "question": " Feminine  gender of Drone",
+      "answer": "bee",
+      "moreDetails": "",
+      "arr": ["bee", "witch", "heifer", "gir "]
+    },
+    {
+      "question": " Feminine  gender of  Gander",
+      "answer": "goose",
+      "moreDetails": "",
+      "arr": ["goose", "lady", "bitch", "duck"]
+    },
+    {
+      "question": " Feminine  gender of Gantleman",
+      "answer": "lady",
+      "moreDetails": "",
+      "arr": ["lady", "bitch", "bee", "goose"]
+    },
+    {
+      "question": " Feminine  gender of Monk",
+      "answer": "nun",
+      "moreDetails": "",
+      "arr": ["nun", "mare", "niece", "witch"]
+    },
+    {
+      "question": " Feminine  gender of  Horse",
+      "answer": "mare",
+      "moreDetails": "",
+      "arr": ["mare", "nun", "vixen", "niece"]
+    },
+    {
+      "question": " Feminine  gender of  Nephew",
+      "answer": "niece",
+      "moreDetails": "",
+      "arr": ["niece", "nun", "mare", "vixen"]
+    },
+    {
+      "question": " Feminine  gender of  Wizard",
+      "answer": "witch",
+      "moreDetails": "",
+      "arr": ["witch", "nun", "niece", "mare"]
+    },
+    {
+      "question": " Feminine  gender of  Fox",
+      "answer": "vixen",
+      "moreDetails": "",
+      "arr": ["vixen", "witch", "niece", "nun"]
+    },
+    {
+      "question": " Feminine  gender of Tiger",
+      "answer": "tigress",
+      "moreDetails": "",
+      "arr": ["tigress", "lioness", "negress", "aunt"]
+    },
+    {
+      "question": " Feminine  gender of Lion",
+      "answer": "lioness",
+      "moreDetails": "",
+      "arr": ["lioness", "tigress", "negress", "heroine"]
+    },
+    {
+      "question": " Feminine  gender of Negro",
+      "answer": "negress",
+      "moreDetails": "",
+      "arr": ["negress", "aunt", "nun", "mare"]
+    },
+    {
+      "question": " Feminine  gender of  Uncle",
+      "answer": "aunt",
+      "moreDetails": "",
+      "arr": ["aunt", "negress", "mistress", "bride"]
+    },
+    {
+      "question": " Feminine  gender of  Hero",
+      "answer": "heroine",
+      "moreDetails": "",
+      "arr": ["heroine", "mistress", "bride", "hind"]
+    },
+    {
+      "question": " Feminine  gender of  Master",
+      "answer": "mistress",
+      "moreDetails": "",
+      "arr": ["mistress", "bride", "hind", "madam"]
+    },
+    {
+      "question": " Feminine  gender of  Bride groom",
+      "answer": "bride",
+      "moreDetails": "",
+      "arr": ["bride", "hind", "madam", "daughter"]
+    },
+    {
+      "question": " Feminine  gender of  Stag",
+      "answer": "hind",
+      "moreDetails": "",
+      "arr": ["hind", "madam", "daughter", "lass"]
+    },
+    {
+      "question": " Feminine  gender of  Sir",
+      "answer": "madam",
+      "moreDetails": "",
+      "arr": ["madam", "daughter", "lass", "jenny"]
+    },
+    {
+      "question": " Feminine  gender of  Son",
+      "answer": "daughter",
+      "moreDetails": "",
+      "arr": ["daughter", "lass", "queen", "ewe"]
+    },
+    {
+      "question": " Feminine  gender of   Lad",
+      "answer": "jenny",
+      "moreDetails": "",
+      "arr": ["jenny", "queen", "ewe", "sow"]
+    },
+    {
+      "question": " Feminine  gender of  jack",
+      "answer": "jenny",
+      "moreDetails": "",
+      "arr": ["jenny", "queen", "ewe", "sow"]
+    },
+    {
+      "question": " Feminine  gender of  Tom",
+      "answer": "queen",
+      "moreDetails": "",
+      "arr": ["queen", "ewe", "sow", "fiancee"]
+    },
+    {
+      "question": " Feminine  gender of   Ram",
+      "answer": "ewe",
+      "moreDetails": "",
+      "arr": ["ewe", "sow", "fiancee", "queen"]
+    },
+    {
+      "question": " Feminine  gender of   Boar",
+      "answer": "sow",
+      "moreDetails": "",
+      "arr": ["sow", "ewe", "fiancee", "jenny"]
+    },
+    {
+      "question": "Feminine gender of Fiance",
+      "answer": "fiancee",
+      "moreDetails": "",
+      "arr": ["fiancee", "ewe", "sow", "lass"]
+    },
+    {
+      "question": "Masculine is to man as-------- is to women.",
+      "answer": "feminine",
+      "moreDetails": "",
+      "arr": ["feminine", "famine", "female", "famina"]
+    },
+    {
+      "question": "Which of the following is wrongly paired",
+      "answer": "warden  -wardress",
+      "moreDetails": "",
+      "arr": [
+        "warden  -wardress",
+        "master - mistress",
+        "widower - widom",
+        "fox - vixen"
+      ]
+    },
+    {
+      "question": "The feminine gender of dog is-------",
+      "answer": "bitch",
+      "moreDetails": "",
+      "arr": ["bitch", "colt", "mare", "witch"]
+    },
+    {
+      "question": "change the gender goose",
+      "answer": "gander",
+      "moreDetails": "",
+      "arr": ["gander", "geese", "geose", "gossen"]
+    },
+    {
+      "question": "A male duck is called--------",
+      "answer": "drake",
+      "moreDetails": "",
+      "arr": ["drake", "duckling", "dude", "duke"]
+    },
+    {
+      "question": "The feminine gender of  bachelor is -----------",
+      "answer": "maid",
+      "moreDetails": "",
+      "arr": ["maid", "lady", "madam", "singora"]
+    },
+    {
+      "question": "The feminine gender of  gentleman -------",
+      "answer": "lady",
+      "moreDetails": "",
+      "arr": ["lady", "women", "maid", "gentle woman"]
+    },
+    {
+      "question": "Prince - princess : Duke :-----",
+      "answer": "duchess",
+      "moreDetails": "",
+      "arr": ["duchess", "dukee", "she duke", "queen"]
+    },
+    {
+      "question": "The princess had a beautiful whilte ------ (Horse). fill in the blank with feminine form of word given in the bracket",
+      "answer": "mare",
+      "moreDetails": "",
+      "arr": ["mare", "bitch", "horses", "vixen"]
+    },
+    {
+      "question": "The masculine gender of traitress is ........",
+      "answer": "traitor",
+      "moreDetails": "",
+      "arr": ["traitor", "bachelor", "spinster", "nun"]
+    },
+    {
+      "question": "The feminine form of master is -----",
+      "answer": "mistress",
+      "moreDetails": "",
+      "arr": ["mistress", "miss", "mrs", "she- master"]
+    },
+    {
+      "question": "Which of the following  pair is wrong.",
+      "answer": "duck - dukess",
+      "moreDetails": "",
+      "arr": [
+        "duck - dukess",
+        "horse - mare",
+        "traitor - traitress",
+        "lion - lioness"
+      ]
+    },
+    {
+      "question": "The feminine gender of milkman is------",
+      "answer": "milk maid",
+      "moreDetails": "",
+      "arr": ["milk maid", "milk women", "milk lady", "milk  girl"]
+    },
+    {
+      "question": "The feminine gender of lady is -----",
+      "answer": "lass",
+      "moreDetails": "",
+      "arr": ["lass", "lady", "lazy", "lase"]
+    },
+    {
+      "question": "The feminine gender of nephew is ---- ",
+      "answer": "niece",
+      "moreDetails": "",
+      "arr": ["niece", "nephrite", "nephritic", "nephritis"]
+    },
+    {
+      "question": "A duke 's wife is knows as--------",
+      "answer": "duchess",
+      "moreDetails": "",
+      "arr": ["duchess", "queen", "lady duke", "lass"]
+    },
+    {
+      "question": "Which of the following words are wrongly paired?",
+      "answer": "bull - bully",
+      "moreDetails": "",
+      "arr": [
+        "bull - bully",
+        "hunder - huntress",
+        "bride groom  - bride",
+        "sultan - sultana"
+      ]
+    },
+    {
+      "question": "Nephew is to niece as bachelor is to------",
+      "answer": "spinster",
+      "moreDetails": "",
+      "arr": ["spinster", "wife", "widow", "NOT"]
+    },
+    {
+      "question": "Find the other gender of horse.",
+      "answer": "mare",
+      "moreDetails": "",
+      "arr": ["mare", "rooster", "mule", "doe"]
+    }
+  ]
+}

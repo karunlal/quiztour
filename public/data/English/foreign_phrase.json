@@ -1,0 +1,310 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "The phrase 'bonafida' means---------",
+      "answer": "good faith",
+      "moreDetails": "",
+      "arr": ["good faith", "from office", "to the end", "reminder"]
+    },
+    {
+      "question": "prima facie' means------",
+      "answer": "at first sight",
+      "moreDetails": "",
+      "arr": ["at first sight", "definetly", "in the absence", "unfortunately"]
+    },
+    {
+      "question": "ab initio means'----------",
+      "answer": "from the beginning",
+      "moreDetails": "",
+      "arr": [
+        "from the beginning",
+        "till the end",
+        "expansion of initials",
+        "NOT"
+      ]
+    },
+    {
+      "question": "Malafide' means-------",
+      "answer": "bad faith",
+      "moreDetails": "",
+      "arr": ["bad faith", "from office", "to the end", "reminder"]
+    },
+    {
+      "question": "Facsimile' means-------",
+      "answer": "exact copy",
+      "moreDetails": "",
+      "arr": ["exact copy", "dupilcate copy", "reversed", "beware"]
+    },
+    {
+      "question": "bon voyage' means",
+      "answer": "to wish good journey",
+      "moreDetails": "",
+      "arr": ["to wish good journey", "best day", "experience", "precious"]
+    },
+    {
+      "question": "enbloc' means-----------",
+      "answer": "all together ",
+      "moreDetails": "",
+      "arr": ["all together ", "all at same time", "sentimental", "in reality"]
+    },
+    {
+      "question": "sine die' means----------",
+      "answer": "indefinitely",
+      "moreDetails": "",
+      "arr": ["indefinitely", "greatful", "magnitude", "definitely"]
+    },
+    {
+      "question": "The latin word  'adhoc' means----------",
+      "answer": "for the special purpose",
+      "moreDetails": "",
+      "arr": [
+        "for the special purpose",
+        "to the end",
+        "for the mean time",
+        "from office"
+      ]
+    },
+    {
+      "question": "Tittle - tattle' means-------------",
+      "answer": "gossip",
+      "moreDetails": "",
+      "arr": ["gossip", "argument", "confusion", "sudden"]
+    },
+    {
+      "question": "what is the expression 'au fait' means:",
+      "answer": "familiar or acquainted",
+      "moreDetails": "",
+      "arr": [
+        "familiar or acquainted",
+        "actually existing but not legally",
+        "in the open air",
+        "Not"
+      ]
+    },
+    {
+      "question": "The latin word 'magnum opus' means:",
+      "answer": "a great work",
+      "moreDetails": "",
+      "arr": [
+        "a great work",
+        "with bad faith",
+        "with bad faith",
+        "at my own risk"
+      ]
+    },
+    {
+      "question": "Choose the correct meaning of the foreign word 'vis a vis':",
+      "answer": "Face to face",
+      "moreDetails": "",
+      "arr": [
+        "Face to face",
+        "back to back",
+        "side to side",
+        "looking at each other"
+      ]
+    },
+    {
+      "question": "Vice versa' means:",
+      "answer": "reversed",
+      "moreDetails": "",
+      "arr": ["reversed", "normally", "forwarded", "probably"]
+    },
+    {
+      "question": "The toy was very attractive , but nobody knew its mode of operation",
+      "answer": "modus operandi",
+      "moreDetails": "",
+      "arr": ["modus operandi", "locus standi", "in tuto", "modus vivendi"]
+    },
+    {
+      "question": "the meaning of 'status quo' -----------",
+      "answer": "existing condition",
+      "moreDetails": "",
+      "arr": [
+        "existing condition",
+        "ability to lead",
+        "responsibility",
+        "experience"
+      ]
+    },
+    {
+      "question": "The expression 'vox populi ' ---------",
+      "answer": "voice of the people",
+      "moreDetails": "",
+      "arr": ["voice of the people", "dutoral verdict", "opinion pol", "Not"]
+    },
+    {
+      "question": "Write the abbrevate of 'eg':",
+      "answer": "exempli gratia",
+      "moreDetails": "",
+      "arr": [
+        "exempli gratia",
+        "eastern egg",
+        "example given",
+        "existing gratia"
+      ]
+    },
+    {
+      "question": "Carpe diem' means------",
+      "answer": "enjoy the present day",
+      "moreDetails": "",
+      "arr": [
+        "enjoy the present day",
+        "unrestricted authority",
+        "hated thing",
+        "best day"
+      ]
+    },
+    {
+      "question": "choose the meaning of the Latin word 'viva voce'------",
+      "answer": "orally",
+      "moreDetails": "",
+      "arr": ["orally", "literally", "carefully", "legibly"]
+    },
+    {
+      "question": "At the end of the speech the leader wished ---------- to all.",
+      "answer": "au revoir",
+      "moreDetails": "",
+      "arr": ["au revoir", "obita dictum", "ad valorem", "amen"]
+    },
+    {
+      "question": "The president was specially happy to vist the school because it was his;",
+      "answer": "alma mater",
+      "moreDetails": "",
+      "arr": ["alma mater", "sin die", "bona-fide", "prima facie"]
+    },
+    {
+      "question": "The meaning of the term nota bene:",
+      "answer": "note carefully",
+      "moreDetails": "",
+      "arr": [
+        "note carefully",
+        "exceptional",
+        "for good cause",
+        "no need to be noted"
+      ]
+    },
+    {
+      "question": "Circa' means--------",
+      "answer": "about",
+      "moreDetails": "",
+      "arr": ["about", "correct", "sure", "alone"]
+    },
+    {
+      "question": "The appropriate meaning of the 'felo de se ' is --------",
+      "answer": "suicide",
+      "moreDetails": "",
+      "arr": ["suicide", "absent minded", "beloved", "in progress"]
+    },
+    {
+      "question": "ad rem ",
+      "answer": "correct reply",
+      "moreDetails": "",
+      "arr": [
+        "correct reply",
+        "common languge",
+        "confidential meeting",
+        "open and frank"
+      ]
+    },
+    {
+      "question": "Lingua franca",
+      "answer": "common languge",
+      "moreDetails": "",
+      "arr": [
+        "common languge",
+        "correct reply",
+        "open and frank",
+        "confidential meeting"
+      ]
+    },
+    {
+      "question": "Tete a Tete",
+      "answer": "confidential meeting",
+      "moreDetails": "",
+      "arr": [
+        "confidential meeting",
+        "common languge",
+        "correct reply",
+        "open and frank"
+      ]
+    },
+    {
+      "question": "glas nost",
+      "answer": "open and frank",
+      "moreDetails": "",
+      "arr": [
+        "open and frank",
+        "confidential meeting",
+        "common languge",
+        "correct reply"
+      ]
+    },
+    {
+      "question": "carte blanche",
+      "answer": "restricted power to act on one ' own",
+      "moreDetails": "",
+      "arr": [
+        "restricted power to act on one ' own",
+        "deadlock",
+        "an abrupt change of govt by force",
+        "correction made in a book after printing."
+      ]
+    },
+    {
+      "question": "impass",
+      "answer": "deadlock",
+      "moreDetails": "",
+      "arr": [
+        "deadlock",
+        "restricted power to act on one ' own",
+        "correction made in a book after printing.",
+        "an abrupt change of govt by force"
+      ]
+    },
+    {
+      "question": "coup d' etat",
+      "answer": "an abrupt change of govt by force",
+      "moreDetails": "",
+      "arr": [
+        "an abrupt change of govt by force",
+        "deadlock",
+        "restricted power to act on one ' own",
+        "correction made in a book after printing."
+      ]
+    },
+    {
+      "question": "corrigendum",
+      "answer": "correction made in a book after printing.",
+      "moreDetails": "",
+      "arr": [
+        "correction made in a book after printing.",
+        "an abrupt change of govt by force",
+        "deadlock",
+        "restricted power to act on one ' own"
+      ]
+    },
+    {
+      "question": "nom de piume",
+      "answer": "pen name",
+      "moreDetails": "",
+      "arr": [
+        "pen name",
+        "correction made in a book after printing.",
+        "an abrupt change of govt by force",
+        "deadlock"
+      ]
+    },
+    {
+      "question": "nom de guerre",
+      "answer": "pseudoname",
+      "moreDetails": "",
+      "arr": [
+        "pseudoname",
+        "pen name",
+        "deadlock",
+        "correction made in a book after printing."
+      ]
+    }
+  ]
+}

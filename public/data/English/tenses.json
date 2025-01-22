@@ -1,0 +1,93 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "He —— cricket daily.",
+      "answer": "plays",
+      "moreDetails": "",
+      "arr": ["plays", "play", "playing", "played"]
+    },
+    {
+      "question": "I —— him every week.",
+      "answer": "call",
+      "moreDetails": "(Hint words: Always, Often, regularly, generally, usually, daily, every etc)\r\nii) Present Continuous:\r\nsubject + is/ am/ are + ing + obj",
+      "arr": ["call", "calls", "called", "am calling"]
+    },
+    {
+      "question": "Still he —— there.",
+      "answer": "is working",
+      "moreDetails": "iii) Present Perfect:\r\nsubject + has/ have/ + V3 + obj",
+      "arr": ["is working", "was working", "worked", "work"]
+    },
+    {
+      "question": "She —— already —— the work.",
+      "answer": "has completed",
+      "moreDetails": "(Hind words: already, ever, never, just, recently, lately)\r\niv) present perfect continuous:\r\nsubject + has been/ have been + ing + obj + since/ for + time",
+      "arr": [
+        "has completed",
+        "is completed",
+        "was completed",
+        "have completed"
+      ]
+    },
+    {
+      "question": "They —— working there since 2005.",
+      "answer": "have been",
+      "moreDetails": "",
+      "arr": ["have been", "are", "has been", "were"]
+    },
+    {
+      "question": "It has been raining______ an hour",
+      "answer": "for",
+      "moreDetails": "",
+      "arr": ["for", "since", "from", "to"]
+    },
+    {
+      "question": "I —— waiting for you —— 10 o'clock.",
+      "answer": "have been since",
+      "moreDetails": "since - apX¬\r\nfor - Bbn\r\nv) Simple Past:\r\nsubject + v2 + object",
+      "arr": [
+        "have been since",
+        "has been for",
+        "has been since",
+        "have been for"
+      ]
+    },
+    {
+      "question": "I —— him yesterday.",
+      "answer": "met",
+      "moreDetails": "(Hind words: Yesterday, ago, last, previous year)\r\nvi) Past Continuous\r\nsubject + was/ were/ ing+ object",
+      "arr": ["met", "have met", "meet", "meets"]
+    },
+    {
+      "question": "when I called him, he —— ready to go.",
+      "answer": "was getting",
+      "moreDetails": "vii) Past Perfect:\r\nsubject + had + V3 object",
+      "arr": ["was getting", "is getting", "got", "were getting"]
+    },
+    {
+      "question": "Before we reached the railway station the train —— .",
+      "answer": "had left",
+      "moreDetails": "viii) Past Perfect continuous:\r\nsubject + had been + ing + obj + since/ for + time.\r\nix) Simple future:\r\nsubject + will/ shall + V1 + object",
+      "arr": ["had left", "have left", "has left", "left"]
+    },
+    {
+      "question": "The officer —— come his office tomorrow.",
+      "answer": "will",
+      "moreDetails": "x) Future Continuous:\r\nSubject + will be/ shall be + V1 + ing + obj",
+      "arr": ["will", "is", "was ", "has"]
+    },
+    {
+      "question": "They —— doing that work.",
+      "answer": "will be",
+      "moreDetails": "xi) Future perfect:\r\nsubject + will have/ shall have + v3 + object",
+      "arr": ["will be", "will", "shall", "would"]
+    },
+    {
+      "question": "By the next month they —— joined here.",
+      "answer": "will have",
+      "moreDetails": "",
+      "arr": ["will have", "will", "shall", "would"]
+    }
+  ]
+}

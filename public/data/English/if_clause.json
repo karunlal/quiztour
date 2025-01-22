@@ -1,0 +1,94 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "If you learn well, ——.",
+      "answer": "you will pass",
+      "moreDetails": "",
+      "arr": [
+        "you will pass",
+        "You would pass",
+        "you could pass",
+        "you would have passed"
+      ]
+    },
+    {
+      "question": "We can go to a movie if you —— interested.",
+      "answer": "are",
+      "moreDetails": "",
+      "arr": ["are", "were", "will be", "have"]
+    },
+    {
+      "question": "If you called me, I ——",
+      "answer": "would come",
+      "moreDetails": "",
+      "arr": ["would come", "will come", "would have come", "shall come"]
+    },
+    {
+      "question": "I would fly, if I —— bird.",
+      "answer": "were",
+      "moreDetails": "",
+      "arr": ["were", "was", "are", "am"]
+    },
+    {
+      "question": "If I had had money, I —— bought a new car.",
+      "answer": "would have",
+      "moreDetails": "",
+      "arr": ["would have", "will have", "will be", "would"]
+    },
+    {
+      "question": "If she played well, they —— win the match.",
+      "answer": "would",
+      "moreDetails": "",
+      "arr": ["would", "shall", "will", "can"]
+    },
+    {
+      "question": "He enjoys —— novels.",
+      "answer": "reading",
+      "moreDetails": "",
+      "arr": ["reading", "to read", "reads", "to reading"]
+    },
+    {
+      "question": "I look forward to —— you again.",
+      "answer": "seeing",
+      "moreDetails": "(would you mind, do you mind, look forward to, accustomed to, with a view to,\r\nenjoy, dislike, keep, busy, avoid, can't help, can't stand, Insist on, prefer, stop\r\n-> only use gerund (v1 + ing) form after these words.",
+      "arr": ["seeing", "seen", "see", "saw"]
+    },
+    {
+      "question": "Carry an umbrella lest it —— rain.",
+      "answer": "should",
+      "moreDetails": "* Lest - should",
+      "arr": ["should", "may", "will", "shall"]
+    },
+    {
+      "question": "She had nothing else to do —— cry.",
+      "answer": "but",
+      "moreDetails": "* else - but",
+      "arr": ["but", "when", "then", "than"]
+    },
+    {
+      "question": "They would rather —— at home than go out.",
+      "answer": "stay",
+      "moreDetails": "would rather + v1",
+      "arr": ["stay", "stayed", "staying", "stays"]
+    },
+    {
+      "question": "They came here —— a train.",
+      "answer": "on",
+      "moreDetails": "* Rules: Name of vehicles -> by\r\nAn article (a, an, the) or a possessive pronoun (my, our, your, their, his her\r\nits) comes with vehicle should be used in/ on.\r\n* bus, train, plane, ship -> on\r\n* car, Jeep -> in\r\n* Two wheeler, foot, animal, animal cart -> on\r\n* way of travelling (road/ land, air, water) -> by",
+      "arr": ["on", "by", "in", "from"]
+    },
+    {
+      "question": "I met him —— last Sunday.",
+      "answer": "no preposition needed",
+      "moreDetails": "",
+      "arr": ["no preposition needed", "on", "in", "by"]
+    },
+    {
+      "question": "He shared his property —— his wife his son and his daughter.",
+      "answer": "between",
+      "moreDetails": "",
+      "arr": ["between", "together", "with", "among"]
+    }
+  ]
+}
