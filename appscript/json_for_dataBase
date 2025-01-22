@@ -1,0 +1,25 @@
+function exportToJson() {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet()
+  const rows = sheet.getDataRange().getValues()
+  const data = []
+  const subjects = {}
+
+  for (let i = 1; i < rows.length; i++) {
+    const [subjectId, subjectName, subtopicId, subtopicName, jsonUrl] = rows[i]
+
+    if (!subjects[subjectId]) {
+      subjects[subjectId] = { id: subjectId, name: subjectName, subtopics: [] }
+      data.push(subjects[subjectId])
+    }
+
+    subjects[subjectId].subtopics.push({
+      id: subtopicId,
+      name: subtopicName,
+      jsonUrl: jsonUrl,
+    })
+  }
+
+  const json = JSON.stringify(data, null, 2)
+  Logger.log(json)
+  return json
+}

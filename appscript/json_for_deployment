@@ -1,0 +1,31 @@
+function doGet(e) {
+  const output = JSON.stringify({
+    status: 'success',
+    data: outputData(),
+  })
+  return ContentService.createTextOutput(output).setMimeType(
+    ContentService.MimeType.JSON
+  )
+}
+
+function outputData() {
+  const url =
+    'https://docs.google.com/spreadsheets/d/1KkDCyNR2QtQ3VJPHpIl500e8TCKQGoZIM0Ge4X-MjmI/edit#gid=0' // Replace with your own spreadsheet URL
+  const sheetData = SpreadsheetApp.openByUrl(url)
+    .getSheetByName('Sheet1')
+    .getDataRange()
+    .getValues()
+  const rows = sheetData.slice(1)
+  const data = rows.map((row) => {
+    const myObj = { question: row[0], answer: row[1], moreDetails: row[6] }
+    myObj.arr = []
+    for (let i = 2; i < 6; i++) {
+      const val = row[i]
+      if (val) {
+        myObj.arr.push(val)
+      }
+    }
+    return myObj
+  })
+  return data
+}

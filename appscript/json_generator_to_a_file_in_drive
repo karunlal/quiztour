@@ -1,0 +1,28 @@
+function generateJSONToFile() {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Sheet1')
+  const sheetData = sheet.getDataRange().getValues()
+  const rows = sheetData.slice(1)
+
+  const data = rows.map((row) => {
+    const myObj = {
+      question: row[0],
+      answer: row[1],
+      moreDetails: row[6],
+      arr: [],
+    }
+    for (let i = 2; i < 6; i++) {
+      const val = row[i]
+      if (val) {
+        myObj.arr.push(val)
+      }
+    }
+    return myObj
+  })
+
+  const output = JSON.stringify({ status: 'success', data: data }, null, 2)
+
+  // Create a file in Google Drive
+  const fileName = 'output.json'
+  const file = DriveApp.createFile(fileName, output, MimeType.PLAIN_TEXT) // Use PLAIN_TEXT instead of JSON
+  Logger.log(`JSON saved to Google Drive: ${file.getUrl()}`)
+}
