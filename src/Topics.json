@@ -5,8 +5,8 @@
     "subtopics": [
       {
         "id": "kerala-history",
-        "name": "Kerala History",
-        "jsonUrl": "data/KeralaHistory/history_kerala.json"
+        "name": "Aikya Kerala Movement",
+        "jsonUrl": "data/KeralaHistory/aikya_kerala_movement.json"
       }
     ]
   },
@@ -15,9 +15,109 @@
     "name": "English",
     "subtopics": [
       {
-        "id": "grammar",
+        "id": "adverb_adjectives",
+        "name": "Adverbs and Adjectives",
+        "jsonUrl": "data/English/adverb_adjectives.json"
+      },
+      {
+        "id": "antonyms",
+        "name": "Antonyms",
+        "jsonUrl": "data/English/antonyms.json"
+      },
+      {
+        "id": "articles",
+        "name": "Articles",
+        "jsonUrl": "data/English/articles.json"
+      },
+      {
+        "id": "collective_nouns",
+        "name": "Collective Nouns",
+        "jsonUrl": "data/English/collective_nouns.json"
+      },
+      {
+        "id": "concord_agreement",
+        "name": "Concord Agreement",
+        "jsonUrl": "data/English/concord_agreement.json"
+      },
+      {
+        "id": "confusion_words",
+        "name": "Commonly Confused Words",
+        "jsonUrl": "data/English/confusion_words.json"
+      },
+      {
+        "id": "degree_comparison",
+        "name": "Degrees of Comparison",
+        "jsonUrl": "data/English/degree_comparison.json"
+      },
+      {
+        "id": "english_grammar",
         "name": "English Grammar",
-        "jsonUrl": "english.json"
+        "jsonUrl": "data/English/english_grammar.json"
+      },
+      {
+        "id": "foreign_phrase",
+        "name": "Foreign Phrases",
+        "jsonUrl": "data/English/foreign_phrase.json"
+      },
+      {
+        "id": "gender",
+        "name": "Gender",
+        "jsonUrl": "data/English/gender.json"
+      },
+      {
+        "id": "idioms",
+        "name": "Idioms",
+        "jsonUrl": "data/English/idioms.json"
+      },
+      {
+        "id": "if_clause",
+        "name": "Conditional Clauses (If Clauses)",
+        "jsonUrl": "data/English/if_clause.json"
+      },
+      {
+        "id": "one_word_substitution_1",
+        "name": "One-Word Substitutions (Part 1)",
+        "jsonUrl": "data/English/one_word_substitution_1.json"
+      },
+      {
+        "id": "one_word",
+        "name": "One-Word Substitutions",
+        "jsonUrl": "data/English/one_word.json"
+      },
+      {
+        "id": "phrasal_verbs",
+        "name": "Phrasal Verbs",
+        "jsonUrl": "data/English/phrasal_verbs.json"
+      },
+      {
+        "id": "proverbs",
+        "name": "Proverbs",
+        "jsonUrl": "data/English/proverbs.json"
+      },
+      {
+        "id": "question_tag",
+        "name": "Question Tags",
+        "jsonUrl": "data/English/question_tag.json"
+      },
+      {
+        "id": "sentences_interchanges",
+        "name": "Sentence Interchanges",
+        "jsonUrl": "data/English/sentences_interchanges.json"
+      },
+      {
+        "id": "singular_plural",
+        "name": "Singular and Plural Forms",
+        "jsonUrl": "data/English/singular_plural.json"
+      },
+      {
+        "id": "synonyms",
+        "name": "Synonyms",
+        "jsonUrl": "data/English/synonyms.json"
+      },
+      {
+        "id": "tenses",
+        "name": "Tenses",
+        "jsonUrl": "data/English/tenses.json"
       }
     ]
   },
@@ -33,7 +133,7 @@
       {
         "id": "crown-rule-1858-1909",
         "name": "Crown Rule (1858-1909)",
-        "jsonUrl": "data/Constitution/crown_Rule_1858_1909.json"
+        "jsonUrl": "data/Constitution/Crown Rule_1858_1909.json"
       },
       {
         "id": "crown-rule-1919-1947",
