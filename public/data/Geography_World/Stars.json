@@ -1,0 +1,320 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "What is the primary energy-generating process in stars?",
+      "answer": "Fusion of hydrogen into helium",
+      "arr": [
+        "Fission of helium",
+        "Fusion of hydrogen into helium",
+        "Fission of uranium",
+        "Fusion of carbon"
+      ]
+    },
+    {
+      "question": "What is the initial phase of star formation called?",
+      "answer": "Protostar",
+      "arr": ["Red Giant", "White Dwarf", "Protostar", "Neutron Star"]
+    },
+    {
+      "question": "What happens when a massive star exhausts its hydrogen fuel?",
+      "answer": "It expands into a red giant",
+      "arr": [
+        "It becomes a white dwarf",
+        "It collapses into a protostar",
+        "It expands into a red giant",
+        "It explodes into a supernova"
+      ]
+    },
+    {
+      "question": "Which remnant is formed after a massive star undergoes a supernova?",
+      "answer": "Black Hole or Neutron Star",
+      "arr": [
+        "Protostar",
+        "Black Hole or Neutron Star",
+        "Red Giant",
+        "White Dwarf"
+      ]
+    },
+    {
+      "question": "What is the Chandrasekhar Limit?",
+      "answer": "The maximum mass of a white dwarf (~1.44 solar masses)",
+      "arr": [
+        "The minimum size of a star to form a black hole",
+        "The maximum mass of a white dwarf (~1.44 solar masses)",
+        "The radius of a neutron star",
+        "The distance from the Sun to the nearest star"
+      ]
+    },
+    {
+      "question": "What marks the death of a massive star?",
+      "answer": "A supernova explosion",
+      "arr": [
+        "Formation of a protostar",
+        "Collapse into a red giant",
+        "A supernova explosion",
+        "Becoming a white dwarf"
+      ]
+    },
+    {
+      "question": "Which star is closest to the Sun?",
+      "answer": "Proxima Centauri",
+      "arr": ["Sirius", "Alpha Centauri", "Proxima Centauri", "Betelgeuse"]
+    },
+    {
+      "question": "What is the maximum mass a neutron star can have, as described by the TOV Limit?",
+      "answer": "1.5 - 3 solar masses",
+      "arr": [
+        "0.5 - 1 solar mass",
+        "1.5 - 3 solar masses",
+        "3 - 5 solar masses",
+        "Greater than 5 solar masses"
+      ]
+    },
+    {
+      "question": "Which star is the brightest in Earth's night sky?",
+      "answer": "Sirius",
+      "arr": ["Proxima Centauri", "Sirius", "Polaris", "Betelgeuse"]
+    },
+    {
+      "question": "What is the result of the collapse of a massive star's core when its gravity becomes too strong?",
+      "answer": "Formation of a black hole",
+      "arr": [
+        "Formation of a white dwarf",
+        "Formation of a black hole",
+        "Creation of a comet",
+        "Expansion into a protostar"
+      ]
+    },
+    {
+      "question": "What is the primary reason stars become red giants in their later stages?",
+      "answer": "The core collapses while the outer layers expand",
+      "arr": [
+        "Hydrogen burning slows down",
+        "Helium fusion starts in the core",
+        "The core collapses while the outer layers expand",
+        "The star begins ejecting its outer layers"
+      ]
+    },
+    {
+      "question": "What process leads to the formation of a neutron star?",
+      "answer": "The gravitational collapse of a massive star’s core",
+      "arr": [
+        "The gravitational collapse of a massive star’s core",
+        "The fusion of carbon into heavier elements",
+        "The ejection of outer layers during the red giant phase",
+        "The collapse of a white dwarf"
+      ]
+    },
+    {
+      "question": "Why can a black hole form from the remnants of a massive star?",
+      "answer": "Its gravity surpasses the escape velocity of light",
+      "arr": [
+        "Its mass exceeds the Chandrasekhar Limit",
+        "Its gravity surpasses the escape velocity of light",
+        "The supernova creates a singularity",
+        "The star expands infinitely"
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a possible remnant of a star?",
+      "answer": "Protostar",
+      "arr": ["White Dwarf", "Protostar", "Neutron Star", "Black Hole"]
+    },
+    {
+      "question": "What distinguishes a pulsar from a regular neutron star?",
+      "answer": "Pulsars emit regular pulses of radiation",
+      "arr": [
+        "Pulsars are more massive",
+        "Pulsars emit regular pulses of radiation",
+        "Pulsars are rotating black holes",
+        "Pulsars exist only in binary systems"
+      ]
+    },
+    {
+      "question": "Which type of star is most likely to explode as a supernova?",
+      "answer": "High-mass stars",
+      "arr": [
+        "Low-mass stars",
+        "Medium-mass stars like the Sun",
+        "High-mass stars",
+        "Brown dwarfs"
+      ]
+    },
+    {
+      "question": "What element is primarily produced in the core of a star during its red giant phase?",
+      "answer": "Carbon",
+      "arr": ["Helium", "Carbon", "Iron", "Hydrogen"]
+    },
+    {
+      "question": "Why is iron considered the 'end point' of fusion in stars?",
+      "answer": "Fusion of iron absorbs energy instead of releasing it",
+      "arr": [
+        "Iron is radioactive and cannot undergo fusion",
+        "Fusion of iron absorbs energy instead of releasing it",
+        "Iron cores explode into supernovae",
+        "Iron prevents the collapse of stars"
+      ]
+    },
+    {
+      "question": "How many planets are in the Solar System?",
+      "answer": 8,
+      "arr": [7, 8, 9, 10]
+    },
+    {
+      "question": "Which planet is closest to the Sun?",
+      "answer": "Mercury",
+      "arr": ["Venus", "Earth", "Mercury", "Mars"]
+    },
+    {
+      "question": "What is the unit of distance equal to the average distance between the Earth and the Sun?",
+      "answer": "Astronomical Unit",
+      "arr": ["Light Year", "Astronomical Unit", "Parsec", "Cosmic Year"]
+    },
+    {
+      "question": "What is the approximate distance of the Solar System in astronomical units (AU)?",
+      "answer": "10^5",
+      "arr": [100, "10^5", 1000, "10^2"]
+    },
+    {
+      "question": "How many years does it take for the Solar System to orbit the Milky Way?",
+      "answer": "225 million years",
+      "arr": [
+        "225 million years",
+        "10 million years",
+        "500 million years",
+        "1 billion years"
+      ]
+    },
+    {
+      "question": "Which planet is known as the 'Red Planet'?",
+      "answer": "Mars",
+      "arr": ["Venus", "Mars", "Jupiter", "Mercury"]
+    },
+    {
+      "question": "What is the distance light travels in one year called?",
+      "answer": "Light Year",
+      "arr": ["Astronomical Unit", "Light Year", "Cosmic Year", "Parsecs"]
+    },
+    {
+      "question": "Which planet is known for having prominent rings?",
+      "answer": "Saturn",
+      "arr": ["Jupiter", "Uranus", "Saturn", "Neptune"]
+    },
+    {
+      "question": "Which planet has the shortest orbital period around the Sun?",
+      "answer": "Mercury",
+      "arr": ["Mercury", "Venus", "Earth", "Mars"]
+    },
+    {
+      "question": "Which planet’s axis is tilted almost parallel to its orbital plane?",
+      "answer": "Uranus",
+      "arr": ["Jupiter", "Uranus", "Saturn", "Neptune"]
+    },
+    {
+      "question": "Why is Pluto no longer considered a planet?",
+      "answer": "It does not dominate its orbit (fails to clear the neighborhood)",
+      "arr": [
+        "It is too small to be classified as a planet",
+        "It does not dominate its orbit (fails to clear the neighborhood)",
+        "It is located in the Asteroid Belt",
+        "It has no moons"
+      ]
+    },
+    {
+      "question": "What distinguishes terrestrial planets from gas giants?",
+      "answer": "Terrestrial planets have solid, rocky surfaces",
+      "arr": [
+        "Terrestrial planets have moons",
+        "Terrestrial planets have solid, rocky surfaces",
+        "Gas giants are closer to the Sun",
+        "Gas giants do not have atmospheres"
+      ]
+    },
+    {
+      "question": "What is the primary composition of the Sun?",
+      "answer": "Hydrogen and helium",
+      "arr": [
+        "Hydrogen and helium",
+        "Carbon and nitrogen",
+        "Oxygen and silicon",
+        "Iron and nickel"
+      ]
+    },
+    {
+      "question": "What is the largest known asteroid in the Solar System?",
+      "answer": "Ceres",
+      "arr": ["Ceres", "Vesta", "Pallas", "Hygiea"]
+    },
+    {
+      "question": "Which planet has the strongest magnetic field in the Solar System?",
+      "answer": "Jupiter",
+      "arr": ["Saturn", "Jupiter", "Earth", "Uranus"]
+    },
+    {
+      "question": "Which planet’s largest moon is named Titan?",
+      "answer": "Saturn",
+      "arr": ["Jupiter", "Saturn", "Neptune", "Uranus"]
+    },
+    {
+      "question": "What is the primary difference between meteoroids, meteors, and meteorites?",
+      "answer": "Meteors burn up in the atmosphere, while meteorites reach the ground",
+      "arr": [
+        "Meteoroids are larger than meteorites",
+        "Meteors burn up in the atmosphere, while meteorites reach the ground",
+        "Meteors are found in the Asteroid Belt",
+        "Meteoroids are icy, while meteorites are rocky"
+      ]
+    },
+    {
+      "question": "Where are short-period comets thought to originate?",
+      "answer": "Kuiper Belt",
+      "arr": [
+        "Kuiper Belt",
+        "Oort Cloud",
+        "Asteroid Belt",
+        "Interstellar Space"
+      ]
+    },
+    {
+      "question": "What causes a comet's tail to always point away from the Sun?",
+      "answer": "Solar winds and radiation pressure",
+      "arr": [
+        "Gravity of the Sun",
+        "Solar winds and radiation pressure",
+        "Gravitational pull of planets",
+        "Rotation of the comet"
+      ]
+    },
+    {
+      "question": "Which of the following is a distinguishing feature of a dwarf planet?",
+      "answer": "It is spherical but has not cleared its orbit",
+      "arr": [
+        "It is spherical and has cleared its orbit",
+        "It is not spherical and orbits the Sun",
+        "It is spherical but has not cleared its orbit",
+        "It orbits another planet"
+      ]
+    },
+    {
+      "question": "What region is considered the outer boundary of the Solar System?",
+      "answer": "Oort Cloud",
+      "arr": [
+        "Kuiper Belt",
+        "Oort Cloud",
+        "Asteroid Belt",
+        "Interstellar Medium"
+      ]
+    },
+    {
+      "question": "What is unique about Halley’s Comet?",
+      "answer": "It is visible every 76 years",
+      "arr": [
+        "It is a long-period comet",
+        "It is visible every 76 years",
+        "It originates in the Oort Cloud",
+        "It is the largest comet observed"
+      ]
+    }
+  ]
+}

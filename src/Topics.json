@@ -207,6 +207,16 @@
         "id": "OriginofUniverse",
         "name": "Origin Of Universe",
         "jsonUrl": "data/Geography_World/OriginofUniverse.json"
+      },
+      {
+        "id": "stars",
+        "name": "Stars",
+        "jsonUrl": "data/Geography_World/Stars.json"
+      },
+      {
+        "id": "Sun",
+        "name": "Sun",
+        "jsonUrl": "data/Geography_World/Sun.json"
       }
     ]
   }

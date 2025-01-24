@@ -1,0 +1,126 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "The Sun accounts for approximately what percentage of the mass of the Solar System?",
+      "answer": 99,
+      "moreDetails": "The Sun accounts for about 99% of the Solar System's mass due to its immense size and gravitational pull.",
+      "arr": [70, 80, 90, 99]
+    },
+    {
+      "question": "The core temperature of the Sun is approximately:",
+      "answer": "150 crore °C",
+      "moreDetails": "The core temperature of the Sun is about 150 crore °C, where nuclear fusion occurs.",
+      "arr": ["60 crore °C", "100 crore °C", "150 crore °C", "200 crore °C"]
+    },
+    {
+      "question": "The time taken by sunlight to reach Earth is approximately:",
+      "answer": "8 minutes 17 seconds",
+      "moreDetails": "Light takes about 8 minutes and 17 seconds to travel from the Sun to Earth at the speed of light.",
+      "arr": [
+        "8 minutes",
+        "8 minutes 17 seconds",
+        "7 minutes 15 seconds",
+        "10 minutes"
+      ]
+    },
+    {
+      "question": "Which of the following elements is the primary fuel for nuclear fusion in the Sun?",
+      "answer": "Hydrogen",
+      "moreDetails": "Hydrogen is the primary fuel for nuclear fusion, which powers the Sun.",
+      "arr": ["Helium", "Hydrogen", "Oxygen", "Carbon"]
+    },
+    {
+      "question": "What is the sequence of the Sun's interior layers from the innermost to outermost?",
+      "answer": "Core → Radiative Zone → Convective Zone",
+      "moreDetails": "The Sun's layers are Core → Radiative Zone → Convective Zone in that order from the center.",
+      "arr": [
+        "Core → Convective Zone → Radiative Zone",
+        "Core → Radiative Zone → Convective Zone",
+        "Radiative Zone → Core → Convective Zone",
+        "Convective Zone → Core → Radiative Zone"
+      ]
+    },
+    {
+      "question": "The visible surface of the Sun is called:",
+      "answer": "Photosphere",
+      "moreDetails": "The Photosphere is the Sun's visible surface, with a temperature of about 6000°C.",
+      "arr": ["Photosphere", "Chromosphere", "Corona", "Transition Zone"]
+    },
+    {
+      "question": "Which layer of the Sun's atmosphere appears reddish and lies just above the photosphere?",
+      "answer": "Chromosphere",
+      "moreDetails": "The Chromosphere, a reddish layer, is just above the photosphere and appears during solar eclipses.",
+      "arr": ["Corona", "Chromosphere", "Transition Zone", "Convective Zone"]
+    },
+    {
+      "question": "The uppermost atmospheric layer of the Sun, with very high temperatures, is:",
+      "answer": "Corona",
+      "moreDetails": "The Corona is the outermost layer of the Sun, with temperatures reaching millions of degrees Celsius.",
+      "arr": ["Photosphere", "Chromosphere", "Corona", "Radiative Zone"]
+    },
+    {
+      "question": "Sunspots are characterized by which of the following?\n1) They are cooler than the surrounding regions.\n2) They are darker in color.\n3) They exhibit periodicity of 11 years.",
+      "answer": "1, 2, and 3",
+      "moreDetails": "Sunspots are areas on the Sun’s surface that appear darker because they are cooler than the surrounding regions.\n\nThey follow an 11-year cycle of increasing and decreasing activity",
+      "arr": ["1 and 2 only", "2 and 3 only", "1, 2, and 3", "1 and 3 only"]
+    },
+    {
+      "question": "The darker central region of a sunspot is called:",
+      "answer": "Umbra",
+      "moreDetails": "The darker central region of a sunspot is called the Umbra, while the lighter outer region is the Penumbra.",
+      "arr": ["Plage", "Umbra", "Penumbra", "Granule"]
+    },
+    {
+      "question": "Which of the following are associated with solar winds?\n1) Plasma flow extended from the corona.\n2) Formation of auroras.\n3) Coronal mass ejections (CME).",
+      "answer": "1, 2, and 3",
+      "moreDetails": "Solar winds consist of plasma (charged particles) flowing outward from the Sun’s corona.\nWhen these interact with Earth’s magnetosphere, they cause auroras.\nCoronal mass ejections (CME) are bursts of solar plasma that often enhance the intensity of solar winds.",
+      "arr": ["1 only", "2 only", "1 and 2 only", "1, 2, and 3"]
+    },
+    {
+      "question": "Huge explosions of hot ionized gases from the Sun are known as:",
+      "answer": "Solar flares",
+      "moreDetails": "Solar flares are intense explosions caused by magnetic activity, ejecting hot ionized gases.",
+      "arr": ["Solar flares", "Granules", "Prominences", "Fraunhofer lines"]
+    },
+    {
+      "question": "Dense ionized gas clouds forming loop-like structures on the Sun are called:",
+      "answer": "Prominences",
+      "moreDetails": "Prominences are dense, loop-like structures of ionized gas anchored to the Sun's surface.",
+      "arr": ["Plages", "Solar flares", "Prominences", "Granules"]
+    },
+    {
+      "question": "The Fraunhofer lines observed in the solar spectrum help in:",
+      "answer": "Determining the Sun’s composition",
+      "moreDetails": "Fraunhofer lines are absorption lines in the solar spectrum that reveal the Sun's composition.",
+      "arr": [
+        "Measuring the Sun's temperature",
+        "Determining the Sun’s composition",
+        "Understanding the Sun’s core fusion process",
+        "Calculating the Sun’s rotation speed"
+      ]
+    },
+    {
+      "question": "Which of the following best describes an Aurora?",
+      "answer": "Plasma flow from the Sun interacting with Earth's magnetosphere",
+      "moreDetails": "Auroras occur when solar winds interact with Earth's magnetosphere, creating light displays.",
+      "arr": [
+        "Dense gas clouds on the Sun's surface",
+        "Plasma flow from the Sun interacting with Earth's magnetosphere",
+        "High-temperature explosions in the Sun's corona",
+        "Cooler regions in the Sun’s atmosphere"
+      ]
+    },
+    {
+      "question": "During the Solar Maximum period, which of the following phenomena are most active?",
+      "answer": "Coronal mass ejections (CME)",
+      "moreDetails": "During Solar Maximum, coronal mass ejections (CME) and solar flares are highly active.",
+      "arr": [
+        "Fraunhofer lines",
+        "Coronal mass ejections (CME)",
+        "Granules",
+        "Transition zones"
+      ]
+    }
+  ]
+}
