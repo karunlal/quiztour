@@ -217,6 +217,11 @@
         "id": "Sun",
         "name": "Sun",
         "jsonUrl": "data/Geography_World/Sun.json"
+      },
+      {
+        "id": "Planets",
+        "name": "Planets",
+        "jsonUrl": "data/Geography_World/Planets.json"
       }
     ]
   }

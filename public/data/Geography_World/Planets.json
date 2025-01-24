@@ -1,0 +1,425 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "question": "Which of the following is an inner planet (terrestrial planet)?",
+      "answer": "C) Mars",
+      "moreDetails": "Mars is an inner planet because it has a solid, rocky surface and is located closer to the Sun than Jupiter, Saturn, Uranus, or Neptune.",
+      "arr": ["A) Jupiter", "B) Saturn", "C) Mars", "D) Neptune"]
+    },
+    {
+      "question": "Which planet is closest to the Sun in the inner planets group?",
+      "answer": "C) Mercury",
+      "moreDetails": "Mercury is the closest planet to the Sun among the inner planets.",
+      "arr": ["A) Earth", "B) Venus", "C) Mercury", "D) Mars"]
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of inner (terrestrial) planets?",
+      "answer": "C) Made up of gas",
+      "moreDetails": "Inner planets are solid and rocky, whereas outer planets are made of gas.",
+      "arr": [
+        "A) Solid surfaces",
+        "B) Few natural satellites",
+        "C) Made up of gas",
+        "D) Molten metal cores"
+      ]
+    },
+    {
+      "question": "Which of the following is a characteristic of outer (Jovian) planets?",
+      "answer": "B) Many natural satellites and ring systems",
+      "moreDetails": "Outer planets are large, gaseous, and have many moons and ring systems.",
+      "arr": [
+        "A) Small size and rocky surfaces",
+        "B) Many natural satellites and ring systems",
+        "C) Fast orbital movements and nearly circular orbits",
+        "D) Molten metal cores"
+      ]
+    },
+    {
+      "question": "Which of the following planets is considered a gas giant?",
+      "answer": "C) Jupiter",
+      "moreDetails": "Jupiter is a gas giant with a thick atmosphere primarily composed of hydrogen and helium.",
+      "arr": ["A) Earth", "B) Mars", "C) Jupiter", "D) Venus"]
+    },
+    {
+      "question": "Which of the following planets is considered an ice giant?",
+      "answer": "A) Uranus",
+      "moreDetails": "Uranus is considered an ice giant because it has a mantle of icy materials (water, ammonia, and methane).",
+      "arr": ["A) Uranus", "B) Mercury", "C) Saturn", "D) Earth"]
+    },
+    {
+      "question": "What is the mass and density characteristic of outer planets (Jovian planets)?",
+      "answer": "B) Massive but less dense",
+      "moreDetails": "Outer planets are massive but have lower densities compared to inner planets due to their gaseous compositions.",
+      "arr": [
+        "A) Massive and dense",
+        "B) Massive but less dense",
+        "C) Small and dense",
+        "D) Small and less dense"
+      ]
+    },
+    {
+      "question": "Which region separates the inner planets from the outer planets?",
+      "answer": "B) The Asteroid Belt",
+      "moreDetails": "The Asteroid Belt separates the inner planets from the outer planets.",
+      "arr": [
+        "A) The Moon",
+        "B) The Asteroid Belt",
+        "C) The Kuiper Belt",
+        "D) The Oort Cloud"
+      ]
+    },
+    {
+      "question": "Which planet is located between Mars and Jupiter, in the asteroid belt region?",
+      "answer": "D) None (the asteroid belt is between Mars and Jupiter)",
+      "moreDetails": "The asteroid belt contains no planets, but it is located between Mars and Jupiter.",
+      "arr": [
+        "A) Saturn",
+        "B) Jupiter",
+        "C) Earth",
+        "D) None (the asteroid belt is between Mars and Jupiter)"
+      ]
+    },
+    {
+      "question": "Which of the following is a feature common to both gas giants (Jupiter, Saturn) and ice giants (Uranus, Neptune)?",
+      "answer": "C) Many natural satellites and ring systems",
+      "moreDetails": "Both gas giants and ice giants have many moons and ring systems.",
+      "arr": [
+        "A) Solid rocky surfaces",
+        "B) Few natural satellites",
+        "C) Many natural satellites and ring systems",
+        "D) Fast orbital movements"
+      ]
+    },
+    {
+      "question": "Which planet is the closest to the Sun?",
+      "answer": "B) Mercury",
+      "moreDetails": "Mercury is the closest planet to the Sun, located at an average distance of 57.91 million kilometers.",
+      "arr": ["A) Venus", "B) Mercury", "C) Earth", "D) Mars"]
+    },
+    {
+      "question": "Which planet is known for being the fastest revolving planet, completing one revolution in 88 days?",
+      "answer": "C) Mercury",
+      "moreDetails": "Mercury is the fastest revolving planet, completing one revolution around the Sun in just 88 days.",
+      "arr": ["A) Venus", "B) Earth", "C) Mercury", "D) Mars"]
+    },
+    {
+      "question": "Which planet has the thickest atmosphere, trapping heat and making it the hottest planet?",
+      "answer": "B) Venus",
+      "moreDetails": "Venus has a thick atmosphere primarily composed of carbon dioxide, trapping heat and making it the hottest planet.",
+      "arr": ["A) Mars", "B) Venus", "C) Jupiter", "D) Neptune"]
+    },
+    {
+      "question": "Which planet is referred to as 'Earth’s twin' because of its similar size and composition?",
+      "answer": "B) Venus",
+      "moreDetails": "Venus is often called 'Earth's twin' because it is similar in size, mass, and composition to Earth.",
+      "arr": ["A) Mars", "B) Venus", "C) Saturn", "D) Uranus"]
+    },
+    {
+      "question": "Which of the following features makes Earth the densest planet in the Solar System?",
+      "answer": "A) Its iron core",
+      "moreDetails": "Earth's high density is attributed to its iron core, which makes it the densest planet in the Solar System.",
+      "arr": [
+        "A) Its iron core",
+        "B) Its solid surface",
+        "C) Its high gravitational force",
+        "D) Its rocky composition"
+      ]
+    },
+    {
+      "question": "Which planet is known as the 'Red Planet' due to the presence of iron oxide on its surface?",
+      "answer": "B) Mars",
+      "moreDetails": "Mars is called the 'Red Planet' because its surface is covered with iron oxide, giving it a reddish appearance.",
+      "arr": ["A) Venus", "B) Mars", "C) Jupiter", "D) Mercury"]
+    },
+    {
+      "question": "What is the largest volcano in the Solar System, located on Mars?",
+      "answer": "B) Olympus Mons",
+      "moreDetails": "Olympus Mons is the largest volcano in the Solar System, located on Mars.",
+      "arr": [
+        "A) Mount Olympus",
+        "B) Olympus Mons",
+        "C) Mount Everest",
+        "D) Mount Fuji"
+      ]
+    },
+    {
+      "question": "Which of the following moons is the smallest satellite in the Solar System?",
+      "answer": "A) Phobos",
+      "moreDetails": "Phobos, a moon of Mars, is the smallest known satellite in the Solar System.",
+      "arr": ["A) Phobos", "B) Deimos", "C) Ganymede", "D) Titan"]
+    },
+    {
+      "question": "Which planet has the most moons in the Solar System?",
+      "answer": "C) Saturn",
+      "moreDetails": "Saturn has the most moons in the Solar System, with over 80 confirmed satellites.",
+      "arr": ["A) Earth", "B) Jupiter", "C) Saturn", "D) Uranus"]
+    },
+    {
+      "question": "Which planet is known for having the 'Great Red Spot,' a massive storm that has lasted for centuries?",
+      "answer": "B) Jupiter",
+      "moreDetails": "Jupiter's Great Red Spot is a massive storm that has been ongoing for at least 300 years.",
+      "arr": ["A) Saturn", "B) Jupiter", "C) Neptune", "D) Venus"]
+    },
+    {
+      "question": "Which planet is the least dense and could float on water?",
+      "answer": "A) Saturn",
+      "moreDetails": "Saturn is the least dense planet and has a density lower than water, meaning it could float on water.",
+      "arr": ["A) Saturn", "B) Neptune", "C) Jupiter", "D) Uranus"]
+    },
+    {
+      "question": "Which planet was the first to be discovered with a telescope?",
+      "answer": "B) Uranus",
+      "moreDetails": "Uranus was the first planet to be discovered with a telescope in 1781 by William Herschel.",
+      "arr": ["A) Venus", "B) Uranus", "C) Neptune", "D) Mars"]
+    },
+    {
+      "question": "What is the most famous moon of Neptune, known for its low temperatures?",
+      "answer": "B) Triton",
+      "moreDetails": "Triton is Neptune's largest moon and is known for its extremely low temperatures and retrograde orbit.",
+      "arr": ["A) Europa", "B) Triton", "C) Titan", "D) Ganymede"]
+    },
+    {
+      "question": "Which planet has an axial tilt of 98 degrees, causing it to appear to 'roll' around the Sun?",
+      "answer": "C) Uranus",
+      "moreDetails": "Uranus has an axial tilt of 98 degrees, making it appear to roll on its orbit around the Sun.",
+      "arr": ["A) Saturn", "B) Jupiter", "C) Uranus", "D) Neptune"]
+    },
+    {
+      "question": "Which space mission was the first to visit Pluto and send back detailed images?",
+      "answer": "C) New Horizons",
+      "moreDetails": "New Horizons was the first mission to visit Pluto in 2015, providing detailed images of its surface.",
+      "arr": ["A) Voyager", "B) Cassini", "C) New Horizons", "D) Pioneer 10"]
+    },
+    {
+      "question": "Which planet is known as the 'King of Roman Gods'?",
+      "answer": "C) Jupiter",
+      "moreDetails": "Jupiter is named after the king of Roman gods due to its massive size and dominance in the Solar System.",
+      "arr": ["A) Saturn", "B) Mars", "C) Jupiter", "D) Venus"]
+    },
+    {
+      "question": "Which of the following planets has a retrograde rotation, meaning it rotates in the opposite direction of most planets?",
+      "answer": "A) Venus",
+      "moreDetails": "Venus rotates in a retrograde direction, meaning it rotates opposite to its orbital direction.",
+      "arr": ["A) Venus", "B) Uranus", "C) Mars", "D) Jupiter"]
+    },
+    {
+      "question": "Which planet has the longest revolution period, taking 165 Earth years to complete one revolution?",
+      "answer": "B) Neptune",
+      "moreDetails": "Neptune has the longest orbital period, taking 165 Earth years to complete one revolution around the Sun.",
+      "arr": ["A) Uranus", "B) Neptune", "C) Saturn", "D) Jupiter"]
+    },
+    {
+      "question": "Which planet was reclassified as a dwarf planet in 2006 by the IAU?",
+      "answer": "A) Pluto",
+      "moreDetails": "Pluto was reclassified as a dwarf planet in 2006 by the International Astronomical Union (IAU).",
+      "arr": ["A) Pluto", "B) Mars", "C) Venus", "D) Mercury"]
+    },
+    {
+      "question": "Which mission was responsible for the successful landing on Venus in 1982?",
+      "answer": "B) Venera 13",
+      "moreDetails": "The Venera 13 mission successfully landed on Venus in 1982 and sent back valuable data.",
+      "arr": ["A) Mariner 2", "B) Venera 13", "C) Cassini", "D) Pathfinder"]
+    },
+    {
+      "question": "Which planet is considered the 'coldest' in the Solar System?",
+      "answer": "A) Neptune",
+      "moreDetails": "Neptune is the coldest planet in the Solar System due to its distance from the Sun and its composition.",
+      "arr": ["A) Neptune", "B) Uranus", "C) Mars", "D) Venus"]
+    },
+    {
+      "question": "Which of the following missions studied Jupiter’s atmosphere?",
+      "answer": "A) Juno",
+      "moreDetails": "The Juno mission was designed to study Jupiter’s atmosphere, magnetic field, and formation history.",
+      "arr": ["A) Juno", "B) Voyager", "C) Pioneer 10", "D) New Horizons"]
+    },
+    {
+      "question": "Which planet has the largest moon in the Solar System, called Ganymede?",
+      "answer": "B) Jupiter",
+      "moreDetails": "Ganymede, a moon of Jupiter, is the largest moon in the Solar System.",
+      "arr": ["A) Saturn", "B) Jupiter", "C) Mars", "D) Neptune"]
+    },
+    {
+      "question": "Which planet is the second-largest moon, Titan, located on?",
+      "answer": "B) Saturn",
+      "moreDetails": "Titan, Saturn's largest moon, is the second-largest moon in the Solar System and has a dense atmosphere.",
+      "arr": ["A) Mars", "B) Saturn", "C) Jupiter", "D) Uranus"]
+    },
+    {
+      "question": "Which planet has mysterious white spots on its atmosphere, possibly linked to storms?",
+      "answer": "B) Neptune",
+      "moreDetails": "Neptune has mysterious white spots that are believed to be storms in its atmosphere.",
+      "arr": ["A) Uranus", "B) Neptune", "C) Jupiter", "D) Saturn"]
+    },
+    {
+      "question": "What is the scientific study of the Moon called?",
+      "answer": "Selenology",
+      "moreDetails": "Selenology is the scientific study of the Moon's physical and geological characteristics.",
+      "arr": ["Astronomy", "Selenology", "Geology", "Cosmology"]
+    },
+    {
+      "question": "What is the time it takes for the Moon to complete both its rotation and revolution?",
+      "answer": "27 days, 7 hours, 43 minutes",
+      "moreDetails": "The Moon's rotation and revolution are synchronized, taking about 27.3 days.",
+      "arr": ["24 hours", "365 days", "27 days, 7 hours, 43 minutes", "30 days"]
+    },
+    {
+      "question": "Why do we always see the same side of the Moon from Earth?",
+      "answer": "The Moon's rotation and revolution are synchronized",
+      "moreDetails": "The Moon is tidally locked, meaning its rotation period matches its orbital period.",
+      "arr": [
+        "The Moon rotates faster than it orbits Earth",
+        "The Moon has no atmosphere",
+        "The Moon's rotation and revolution are synchronized",
+        "The Moon's surface is always illuminated by the Sun"
+      ]
+    },
+    {
+      "question": "Which historic mission was the first to land humans on the Moon?",
+      "answer": "Apollo 11",
+      "moreDetails": "Apollo 11 landed humans on the Moon on July 20, 1969.",
+      "arr": ["Apollo 10", "Apollo 12", "Apollo 11", "Apollo 13"]
+    },
+    {
+      "question": "What is one of the key characteristics of the Moon’s atmosphere?",
+      "answer": "It has no significant atmosphere",
+      "moreDetails": "The Moon's lack of atmosphere makes it incapable of supporting life as we know it.",
+      "arr": [
+        "It has a dense atmosphere with oxygen",
+        "It has no significant atmosphere",
+        "It has a strong wind system",
+        "It has an atmosphere similar to Mars"
+      ]
+    },
+    {
+      "question": "How long does it take for light from the Moon to reach Earth?",
+      "answer": "1.3 seconds",
+      "moreDetails": "Light travels from the Moon to Earth in approximately 1.3 seconds.",
+      "arr": ["1 second", "1.3 seconds", "3 minutes", "5 seconds"]
+    },
+    {
+      "question": "Which Indian mission aimed to explore the Moon's surface, including its south pole?",
+      "answer": "Chandrayaan 2",
+      "moreDetails": "Chandrayaan 2 was India’s second lunar exploration mission.",
+      "arr": [
+        "Chandrayaan 1",
+        "Chandrayaan 2",
+        "Mars Orbiter Mission",
+        "Gaganyaan"
+      ]
+    },
+    {
+      "question": "What was the name of the lander component of India's Chandrayaan 2 mission?",
+      "answer": "Vikram",
+      "moreDetails": "The Vikram lander was named after Dr. Vikram Sarabhai, the father of India’s space program.",
+      "arr": ["Pragyan", "Vikram", "Curiosity", "Opportunity"]
+    },
+    {
+      "question": "What was the primary goal of the Chandrayaan 2 mission's rover, Pragyan?",
+      "answer": "To explore the Moon’s surface and conduct experiments",
+      "moreDetails": "The rover was designed to explore the lunar surface and analyze soil samples.",
+      "arr": [
+        "To orbit Mars",
+        "To land on the Moon’s north pole",
+        "To explore the Moon’s surface and conduct experiments",
+        "To carry astronauts to the Moon"
+      ]
+    },
+    {
+      "question": "Which rocket was used to launch Chandrayaan 2 into space?",
+      "answer": "GSLV Mark III - M1",
+      "moreDetails": "GSLV Mark III is India’s heaviest launch vehicle.",
+      "arr": ["Falcon Heavy", "GSLV Mark III - M1", "SpaceX Dragon", "Saturn V"]
+    },
+    {
+      "question": "What region of the Moon did Chandrayaan 2 aim to explore?",
+      "answer": "South Pole",
+      "moreDetails": "The South Pole of the Moon is of interest due to its potential water ice deposits.",
+      "arr": ["North Pole", "Equator", "South Pole", "Far side"]
+    },
+    {
+      "question": "Which NASA program aims to establish a sustainable presence on the Moon?",
+      "answer": "Artemis Program",
+      "moreDetails": "The Artemis program focuses on sustainable lunar exploration.",
+      "arr": [
+        "Apollo Program",
+        "Artemis Program",
+        "Voyager Program",
+        "Gemini Program"
+      ]
+    },
+    {
+      "question": "What is the primary goal of NASA’s Artemis program?",
+      "answer": "To send astronauts to the Moon's south pole",
+      "moreDetails": "The Artemis program plans to return humans to the Moon by exploring its south pole.",
+      "arr": [
+        "To establish a human base on Mars",
+        "To send astronauts to the Moon's south pole",
+        "To explore the Sun",
+        "To study the outer planets"
+      ]
+    },
+    {
+      "question": "Which rocket is designed for crewed missions to the Moon and Mars in the Artemis program?",
+      "answer": "Space Launch System (SLS)",
+      "moreDetails": "SLS is NASA’s most powerful rocket for deep space missions.",
+      "arr": [
+        "Space Launch System (SLS)",
+        "Falcon 9",
+        "Delta IV",
+        "Soyuz Rocket"
+      ]
+    },
+    {
+      "question": "Which spacecraft will carry astronauts during NASA’s Artemis missions?",
+      "answer": "Orion Crew Capsule",
+      "moreDetails": "The Orion spacecraft is specially designed for lunar missions.",
+      "arr": [
+        "Apollo 11",
+        "Orion Crew Capsule",
+        "Gemini Capsule",
+        "Dragon Capsule"
+      ]
+    },
+    {
+      "question": "What historic firsts will the Artemis program accomplish?",
+      "answer": "First woman and first person of color on the Moon",
+      "moreDetails": "Artemis will make history with its diverse astronaut crew.",
+      "arr": [
+        "First mission to Mars",
+        "First woman and first person of color on the Moon",
+        "First landing on the Sun",
+        "First mission to Jupiter"
+      ]
+    },
+    {
+      "question": "What will Artemis help lay the foundation for in the future?",
+      "answer": "Deep space exploration",
+      "moreDetails": "Artemis will support future missions to Mars and beyond.",
+      "arr": [
+        "Mars base",
+        "Deep space exploration",
+        "Colonization of the Moon",
+        "Space tourism"
+      ]
+    },
+    {
+      "question": "What is the point in the Moon's orbit called when it is closest to Earth, making it appear slightly larger?",
+      "answer": "Perigee",
+      "moreDetails": "Perigee is the Moon's closest approach to Earth in its orbit.",
+      "arr": ["Apogee", "Perigee", "Eclipse", "Perihelion"]
+    },
+    {
+      "question": "What is the point in the Moon's orbit called when it is farthest from Earth, making it appear slightly smaller?",
+      "answer": "Apogee",
+      "moreDetails": "Apogee is the Moon's farthest distance from Earth.",
+      "arr": ["Apogee", "Perigee", "Perihelion", "Periapsis"]
+    },
+    {
+      "question": "Which space mission was responsible for the first successful landing of humans on the Moon?",
+      "answer": "Apollo 11",
+      "moreDetails": "Apollo 11 successfully landed on the Moon on July 20, 1969.",
+      "arr": ["Apollo 10", "Apollo 13", "Apollo 11", "Gemini 12"]
+    }
+  ]
+}
