@@ -283,7 +283,7 @@
       "question": "Which members were not present till the end of Drafting Committee?\n\n1) Gopalaswamy Iyengar\r\n2) B. L. Mitter\r\n3) Alladi Krishnaswamy Iyer\r\n4) D. P. Khetan",
       "answer": "2,4",
       "moreDetails": "Dr. B. R. Ambedkar, Alladi Krishnaswamy Iyer, N. Gopala Swami Iyengar, K. M. Munshi, Muhammad Sadullah, B. L. Mitter, and D. P. Khetan were members of the drafting committee. However, B. L. Mitter resigned, and D. P. Khetan passed away, leading to changes in the committee's composition. N. Madhavarao and T. T. Krishnamachari became members after their departures.",
-      "arr": ["1,2,3", "2, 3,4", "1, 3", "2, 4"]
+      "arr": ["1,2,3", "2, 3,4", "1, 3", "2,4"]
     },
     {
       "question": "Who chaired the Fundamental Rights and Minority Committee?",

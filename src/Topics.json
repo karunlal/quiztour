@@ -224,5 +224,16 @@
         "jsonUrl": "data/Geography_World/Planets.json"
       }
     ]
+  },
+  {
+    "id": "ModelQuestions",
+    "name": "ModelQuestions",
+    "subtopics": [
+      {
+        "id": "model",
+        "name": "model",
+        "jsonUrl": "data/ModelQuestions/model.json"
+      }
+    ]
   }
 ]
